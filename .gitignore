@@ -1,2 +1,6 @@
 Data/
+1_filtered/
 2_annotation/
+filtered_copy.genome
+removeScaffold_copy.py
+3_fasta/

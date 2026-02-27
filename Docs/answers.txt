@@ -1,2 +1,4 @@
 1. Do you think that in a phylogenetic tree the parasites that use
 similar hosts will group together?
+    Yes and no, because some might have diverged after zoonotics
+
