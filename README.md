@@ -50,8 +50,10 @@ we want to clean the gtf file, so it fits in this template:
 ````bash
 cat Haemoproteus_tartakovskyi.gtf | sed "s/ GC.*\tGeneMark.hmm/\tGenemark.hmm/" > clean_Haemoproteus_tartakovskyi.gtf
 ````
-## get fasta files from gtf
+## get fasta and protein sequence files from gtf
 ````bash
 perl ../../Scripts/gffParse.pl -c -p -g ../2_annotation/clean_Haemop
 roteus_tartakovskyi.gtf -i ../1_filtered/filtered_Haemoproteus_tartakovskyi.genome 
 ````
+
+## now we blast to find out which of our protein sequences

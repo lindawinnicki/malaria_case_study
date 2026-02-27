@@ -2,3 +2,4 @@
 similar hosts will group together?
     Yes and no, because some might have diverged after zoonotics
 
+2. Why?
