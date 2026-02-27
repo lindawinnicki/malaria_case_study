@@ -4,4 +4,5 @@ Data/
 filtered_copy.genome
 removeScaffold_copy.py
 3_fasta/
-4_blastp/
+4_blastp/  
+filtered_copy.genome

@@ -26,21 +26,21 @@ Linda Winnicki
 #%%
 import sys
 
-# try: 
-#     if len(sys.argv) < 3 or len(sys.argv) > 4:
-#         raise Exception("\nMake sure you wrote the arguments correctly!\n"
-#                         "'python lindawinnicki_blastParser.py input.blastp output.txt'\n")
-# except Exception as arg_message:
-#     print(arg_message)
-# #     sys.exit()
+try: 
+    if len(sys.argv) < 3 or len(sys.argv) > 4:
+        raise Exception("\nMake sure you wrote the arguments correctly!\n"
+                        "'python lindawinnicki_blastParser.py input.blastp output.txt'\n")
+except Exception as arg_message:
+    print(arg_message)
+#     sys.exit()
 
-# path_blast = sys.argv[1]
-# path_output = sys.argv[2]
+path_blast = sys.argv[1]
+path_output = sys.argv[2]
 #%%
 
-########tmp
-path_blast="tmp.blastp"
-path_output="tmp_result.txt"
+# ########tmp
+# path_blast="tmp.blastp"
+# path_output="tmp_result.txt"
 
 """
 --------------------------------------------- Reading Blast File --------------------------------------------
@@ -82,8 +82,8 @@ try:
                 tmp_list.append([query, organism, protein, evalue, identity, score]) # FINALLY, add it all in nested list
 
 #-------------------------------------------- quality controls
-    if not path_blast.endswith(".blastp"):
-        raise Exception("\nError: file provided not supported. Please provide a .blastp file\n")
+    # if not path_blast.endswith(".blastp"):
+    #     raise Exception("\nError: file provided not supported. Please provide a .blastp file\n")
 
 except ValueError as V_message:
     print(V_message)
@@ -107,7 +107,7 @@ except Exception as E_message:
 Creating headers, and writing the output onto a text file.
 
 """
-headers = ["#Query", "Organism", "Protein", "e-value", "Identity [%]", "Score"]
+headers = ["#Query", "Organism", "Proteincd ", "e-value", "Identity [%]", "Score"]
 
 with open(path_output, "w") as file_output:
     file_output.write("\t".join(headers) + "\n") # headers

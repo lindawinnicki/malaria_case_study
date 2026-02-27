@@ -60,9 +60,20 @@ roteus_tartakovskyi.gtf -i ../1_filtered/filtered_Haemoproteus_tartakovskyi.geno
 ## now we blast to find out which of our protein sequences remain to be avian
 ````bash
 # Protein-Protein BLAST 2.11.0+
-blastp -query 3_fasta/gffParse.fna -db SwissProt -num_descriptions 10 -out 4_blastp/Haemoproteus_tartakovskyi_blast_results.txt -num_threads 10 -num_alignments 10
+blastp -query 3_fasta/gffParse.fna -db SwissProt -num_descriptions 10 -out 4_blastp/Haemoproteus_tartakovskyi.blastp -num_threads 10 -num_alignments 10
 
 # Translated Query-Protein Subject BLAST 2.11.0+
-blastx -query 3_fasta/gffParse.faa -db SwissProt -num_descriptions 10 -out 4_blastp/Haemoproteus_tartakovskyi_blastx_result.txt -num_threads 10 -num_alignments 10
-
+blastx -query 3_fasta/gffParse.faa -db SwissProt -num_descriptions 10 -out 4_blastp/Haemoproteus_tartakovskyi.blastx -num_threads 10 -num_alignments 10
 ````
+
+## i made a table out of the results
+```bash
+# blastx
+python lindawinnicki_blastParser_SwissProt.py Haemoproteus_tartakovskyi.blastx blastx_table.txt
+# blastp
+python lindawinnicki_blastParser_SwissProt.py Haemoproteus_tartakovskyi.blastp blastp_table.txt
+```
+
+output:
+- blastp_table.txt
+- blastx_table.txt
