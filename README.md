@@ -77,3 +77,14 @@ python lindawinnicki_blastParser_SwissProt.py Haemoproteus_tartakovskyi.blastp b
 output:
 - blastp_table.txt
 - blastx_table.txt
+
+## we use a python script that finds out all different bird matches
+when browsing through the blast results ([https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt]), a very broad phylogenetic range could be matched. this could propose very conserved regions. therefor, the sequences were instead browsed for our specific host (siskin bird). no matches were found here neither, so i stepped down the tree to 'birds (Aves)' and found out those matches:
+
+````bash
+python swissProtUniProt.py # input should be changed in script (blastp/blastx_table.txt)
+````
+all matches where then filtered for a lower e value than 0.05
+````bash
+awk '$4 < 0.05' blast_birds.txt > blast_birds_005.txt
+````

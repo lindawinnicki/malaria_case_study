@@ -3,14 +3,15 @@ import time
 
 # Read your abbreviations
 with open("blastp_unique.txt") as f:
-    abbrevs = [line.split()[1] for line in f if line.strip()]
+    for line in f if line.strip():
+        abbrev = [line.split()[1]]
 
 birds = []
 
 for abbrev in abbrevs:
     url = f"https://rest.uniprot.org/taxonomy/search?query=mnemonic:{abbrev}&fields=lineage,mnemonic"
     response = requests.get(url)
-    data = response.json()
+    data = response.json() # this converts to python dictionary
     
     if data.get("results"):
         lineage = str(data["results"][0])
