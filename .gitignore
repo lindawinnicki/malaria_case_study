@@ -4,5 +4,6 @@ Data/
 filtered_copy.genome
 removeScaffold_copy.py
 3_fasta/
-4_blastp/  
+Haemoproteus_tartakovskyi_blastp_results.txt
+Haemoproteus_tartakovskyi_blastx_results.txt
 filtered_copy.genome
