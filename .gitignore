@@ -5,5 +5,5 @@ filtered_copy.genome
 removeScaffold_copy.py
 3_fasta/
 Haemoproteus_tartakovskyi_blastp_results.txt
-Haemoproteus_tartakovskyi_blastx_results.txt
+Haemoproteus_tartakovskyi_blastx_result.txt
 filtered_copy.genome
