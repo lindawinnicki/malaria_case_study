@@ -87,4 +87,18 @@ python swissProtUniProt.py # input should be changed in script (blastp/blastx_ta
 all matches where then filtered for a lower e value than 0.05
 ````bash
 awk '$4 < 0.05' blast_birds.txt > blast_birds_005.txt
+chmod -w blast_birds_005.txt \\ # make unwritable
+    ../Results/3_fasta/gffParse.faa \\
+    ../Results/3_fasta/gffParse.fna \\
+    ../Results/4_blastp/blastp_table.txt \\
+    ../Results/4_blastp/blastx_table.txt \\
+    ../Results/4_blastp/Haemoproteus_tartakovskyi_blastp_results.txt \\
+    ../Results/4_blastp/Haemoproteus_tartakovskyi_blastx_result.txt
 ````
+
+run script to remove bird matches
+````bash
+ python3 remove_birds.py blast_birds_005.txt ../Results/3_fasta/gffParse.faa ../Results/3_fasta/no_bird.faa # amino acid
+
+  python3 remove_birds.py blast_birds_005.txt ../Results/3_fasta/gffParse.fna ../Results/3_fasta/no_bird.fna # DNA
+ ````
