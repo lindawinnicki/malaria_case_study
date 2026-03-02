@@ -9,11 +9,9 @@ Usage: remove_birds.py blastp_birds.txt <faa or fna> <output_name>
 
 import sys
 
-sys.argv[1] = query_path
-sys.argv[2] = fasta_path
-sys.argv[3] = output_path
-
-# query_path = "/Users/lindawinnicki/Documents/Lu_binp29/Malaria/blastp_birds.txt"
+query_path = sys.argv[1]
+fasta_path = sys.argv[2]
+output_path = sys.argv[3]
 
 query_list = []
 
@@ -24,8 +22,6 @@ with open(query_path, "r") as queries:
         query = line.partition(" ")[0] # only get the query
         query_list.append(query)
 
-
-# fasta_path = "/Users/lindawinnicki/Documents/Lu_binp29/Malaria/gff.faa"
 
 contig_list = {}
 
@@ -55,7 +51,7 @@ output = ""
 # output_path = "/Users/lindawinnicki/Documents/Lu_binp29/Malaria/gff_no_birds.faa"
 
 print_next = False # flag to print sequence too
-with open(contig_path, "r") as contigs:
+with open(fasta_path, "r") as contigs:
     for line in contigs:
         if line.startswith(">"):
             contig = line.split("\t")[2].partition("=")[2] # only get contig
