@@ -1,3 +1,6 @@
+# made by AI !
+# script that finds out if e.g. the organism from swissformat: Q42290|MPPB_ARATH, belong to a certain phylum
+
 import requests
 import time
 
@@ -15,7 +18,7 @@ for abbrev in abbrevs:
     
     if data.get("results"):
         lineage = str(data["results"][0])
-        if "Aves" in lineage: # change for lineage
+        if "Aves" in lineage: # change for lineage (Aves for birds right now)
             birds.append(abbrev)
             print(f"{abbrev} is a bird!")
     

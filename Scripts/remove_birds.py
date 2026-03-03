@@ -48,7 +48,6 @@ for k, v in contig_list.items():
 # make a new file with non_bird contigs
 
 output = ""
-# output_path = "/Users/lindawinnicki/Documents/Lu_binp29/Malaria/gff_no_birds.faa"
 
 print_next = False # flag to print sequence too
 with open(fasta_path, "r") as contigs:
