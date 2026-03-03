@@ -106,7 +106,7 @@ output:
 
 ### python script that outputs out all bird matches
 when browsing through the blast results ([https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt]), a very broad phylogenetic range could be matched. this could propose very conserved regions. therefor, the sequences were instead browsed for our specific host (siskin bird). no matches were found here neither, so i stepped down the tree to 'birds (Aves)' and found out those matches:
-````bashgit status
+````bash
 python swissProtUniProt.py # input should be changed in script (blastp/blastx_table.txt)
 ````
 filtered for e-value<0.05

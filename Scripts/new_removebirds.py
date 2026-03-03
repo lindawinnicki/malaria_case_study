@@ -40,36 +40,38 @@ with open(faa_path, "r") as contigs:
             c_query = line.split("\t")[0].strip(">") # get the query
             contig_list[c_query] = contig
 
-bird_contigs = []
+print(contig_list)
 
-for k, v in contig_list.items():
-    if k in query_list:
-        bird_contigs.append(v)
+# bird_contigs = []
 
-non_bird_contigs = {}
+# for k, v in contig_list.items():
+#     if k in query_list:
+#         bird_contigs.append(v)
 
-for k, v in contig_list.items():
-    if v not in bird_contigs:
-        non_bird_contigs[k] = v
+# non_bird_contigs = {}
+
+# for k, v in contig_list.items():
+#     if v not in bird_contigs:
+#         non_bird_contigs[k] = v
 
 
-# make a new file with non_bird contigs
+# # make a new file with non_bird contigs
 
-output = ""
-# output_path = "/Users/lindawinnicki/Documents/Lu_binp29/Malaria/gff_no_birds.genome"
+# output = ""
+# # output_path = "/Users/lindawinnicki/Documents/Lu_binp29/Malaria/gff_no_birds.genome"
 
-print_next = False # flag to print sequence too
-with open(genome_path, "r") as contigs:
-    for line in contigs:
-        if line.startswith(">"):
-            contig = line.partition(" ")[0].strip(">") # only get contig
-            if contig in non_bird_contigs.values():
-                output += line
-                print_next = True
-            else:
-                print_next = False
-        elif print_next: # is true
-            output += line
+# print_next = False # flag to print sequence too
+# with open(genome_path, "r") as contigs:
+#     for line in contigs:
+#         if line.startswith(">"):
+#             contig = line.partition(" ")[0].strip(">") # only get contig
+#             if contig in non_bird_contigs.values():
+#                 output += line
+#                 print_next = True
+#             else:
+#                 print_next = False
+#         elif print_next: # is true
+#             output += line
 
-with open(output_path, "w") as nobird:
-    nobird.write(output)
+# with open(output_path, "w") as nobird:
+#     nobird.write(output)

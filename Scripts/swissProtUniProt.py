@@ -5,9 +5,8 @@ import requests
 import time
 
 # Read your abbreviations
-with open("blastp_unique.txt") as f:
-    for line in f if line.strip():
-        abbrev = [line.split()[1]]
+with open("output/new_blastp_table.txt") as f:
+    abbrevs = list(set(line.split()[1] for line in f if line.strip() and not line.startswith("#") and len(line.split()) > 1))
 
 birds = []
 
