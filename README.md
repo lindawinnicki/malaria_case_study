@@ -169,4 +169,21 @@ awk ' BEGIN {print 4257744/17954629} '
 
 #### run gene prediction again (done to be used for creating a phylogenetic tree)
 ------stop
-### at this time point i realise that i have accidently screwed up my blast searches, where ive used fna with blastp and faa with blastx. so i am rerunning things, and i have corrected this readmefile. and now I realise that the xscript removing bird contigs should have been doing that on the filtered genome file....
+### at this time point i realise that i have accidently screwed up my blast searches, where ive used fna with blastp and faa with blastx. so i am rerunning things, and i have corrected this readmefile. 
+### and now I realise that the xscript removing bird contigs should have been doing that on the filtered genome file....
+
+#### filter the genome from bird-matching contigs
+````bash
+python new_removebirds.py \\
+output/blast_birds_005.txt \\ # queries
+../Results/3_fasta/gffParse.fna \\ # match queries w contig
+../Results/1_filtered/filtered_Haemoproteus_tartakovskyi.genome \\ # genome fasta
+../Results/5_nobird_genome/no_bird.genome # output
+````
+- output: no_bird.genome
+````bash
+grep "^>" no_bird.genome | wc -l
+````
+- output: 
+- removed 86 sequences 
+- 924 remaining sequences
