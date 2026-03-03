@@ -106,7 +106,7 @@ output:
 
 ### python script that outputs out all bird matches
 when browsing through the blast results ([https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt]), a very broad phylogenetic range could be matched. this could propose very conserved regions. therefor, the sequences were instead browsed for our specific host (siskin bird). no matches were found here neither, so i stepped down the tree to 'birds (Aves)' and found out those matches:
-````bash
+````bashgit status
 python swissProtUniProt.py # input should be changed in script (blastp/blastx_table.txt)
 ````
 filtered for e-value<0.05
@@ -169,4 +169,4 @@ awk ' BEGIN {print 4257744/17954629} '
 
 #### run gene prediction again (done to be used for creating a phylogenetic tree)
 ------stop
-### at this time point i realise that i have accidently screwed up my blast searches, where ive used fna with blastp and faa with blastx. so i am rerunning things, and i have corrected this readmefile. 
+### at this time point i realise that i have accidently screwed up my blast searches, where ive used fna with blastp and faa with blastx. so i am rerunning things, and i have corrected this readmefile. and now I realise that the xscript removing bird contigs should have been doing that on the filtered genome file....
