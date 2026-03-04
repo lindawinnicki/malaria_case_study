@@ -1,0 +1,67 @@
+# myproject.proteinortho.tsv statistics:
+# number of groups that contains at least p% species:
+# p	species	groups	genes in groups
+0%	0	4883 (100%)	23070 (100%)	
+20%	1	4883 (100%)	23070 (100%)	
+30%	2	4883 (100%)	23070 (100%)	
+40%	3	3789 (77.59%)	20785 (90.09%)	
+50%	4	3210 (65.73%)	18987 (82.3%)	
+70%	5	2719 (55.68%)	16977 (73.58%)	
+80%	6	1795 (36.76%)	12267 (53.17%)	
+90%	7	697 (14.27%)	5446 (23.6%)	
+100%	8	88 (1.8%)	799 (3.46%)	
+# NOTE: p=100% correspond to the core proteome and p=0% to all groups
+# number of groups for each input species:
+P_vivax.faa	3773	77.26%
+P_cynomolgi.faa	3751	76.81%
+P_yoelii.faa	3533	72.35%
+P_faciparum.faa	3445	70.55%
+P_berghei.faa	3013	61.7%
+P_knowlesi.faa	2769	56.7%
+H_tartakovskyi.faa	927	18.98%
+T_gondii.faa	853	17.46%
+
+# ----------------------------------
+# graph file statistics:
+
+# The adjacency matrix, the number of edges between 2 species
+# file	H_tartakovskyi.faa	P_berghei.faa	P_cynomolgi.faa	P_faciparum.faa	P_knowlesi.faa	P_vivax.faa	P_yoelii.faa	T_gondii.faa	
+H_tartakovskyi.faa	0	554	648	685	472	634	652	267
+P_berghei.faa	554	0	1603	1681	1308	1693	1823	1028
+P_cynomolgi.faa	648	1603	0	1713	1441	1786	1667	1190
+P_faciparum.faa	685	1681	1713	0	1436	1784	1723	1246
+P_knowlesi.faa	472	1308	1441	1436	0	1453	1418	916
+P_vivax.faa	634	1693	1786	1784	1453	0	1674	1304
+P_yoelii.faa	652	1823	1667	1723	1418	1674	0	1220
+T_gondii.faa	267	1028	1190	1246	916	1304	1220	0
+
+# file	average number of edges
+H_tartakovskyi.faa	489	
+P_berghei.faa	1211.25	
+P_cynomolgi.faa	1256	
+P_faciparum.faa	1283.5	
+P_knowlesi.faa	1055.5	
+P_vivax.faa	1291	
+P_yoelii.faa	1272.125	
+T_gondii.faa	896.375	
+
+# The 2-path matrix, the number of paths between 2 species of length 2
+# file	H_tartakovskyi.faa	P_berghei.faa	P_cynomolgi.faa	P_faciparum.faa	P_knowlesi.faa	P_vivax.faa	P_yoelii.faa	T_gondii.faa	
+H_tartakovskyi.faa(0)	2317178	5344039	5278557	5306224	4732370	5442722	5326765	4248670
+P_berghei.faa(1)	10688078	14659512	12409332	12445946	10971918	12505836	11872758	9779874
+P_cynomolgi.faa(2)	10557114	24818664	15385148	12749004	10911352	12616794	12781166	9637938
+P_faciparum.faa(3)	10612448	24891892	25498008	15995352	11167203	12935235	12909438	9693205
+P_knowlesi.faa(4)	9464740	21943836	21822704	22334406	11033214	11217338	11118445	8599366
+P_vivax.faa(5)	10885444	25011672	25233588	25870470	22434676	16254558	13202035	9631114
+P_yoelii.faa(6)	10653530	23745516	25562332	25818876	22236890	26404070	15797451	9660500
+T_gondii.faa(7)	8497340	19559748	19275876	19386410	17198732	19262228	19321000	8124561
+
+# file	average number of 2-paths
+H_tartakovskyi.faa(0)	9209484
+P_berghei.faa(1)	20664864.75
+P_cynomolgi.faa(2)	21019179.25
+P_faciparum.faa(3)	21300982.75
+P_knowlesi.faa(4)	18558649.75
+P_vivax.faa(5)	21419588.25
+P_yoelii.faa(6)	21192458.125
+T_gondii.faa(7)	16328236.875

@@ -3,6 +3,7 @@
  - Protein-Protein BLAST 2.11.0+
  - GeneMark-ES Suite version 4.* (2021)
  - gffParse.pl version 1.1
+ - Proteinortho with PoFF version 6.3.6 - An orthology detection tool
 
 
 # Workflow
@@ -201,10 +202,40 @@ gmes_petap.pl --ES  # eukaroyitc self training
 --sequence ../5_nobird_genome/no_bird.genome
 ````
 
+### protein and nuclear files
 ````bash
-perl Scripts/gffParse.pl -c -p -g Data/PutGenomeHere/Tg.gff -i Data/Toxoplasma_gondii.genome -b Results/6_nobird_annotation/T_gondii
+perl Scripts/gffParse.pl \\
+-c \\
+-p \\
+-g Data/PutGenomeHere/Tg.gff \\
+-i Data/Toxoplasma_gondii.genome \\
+-b Results/6_nobird_annotation/T_gondii
 
-perl Scripts/gffParse.pl -c -p -g Results/2_annotation/clean_Haemoproteus_tartakovskyi.gtf -i Results/5_nobird_genome/no_bird.genome -b Results/6_nobird_annotation/H_tartakovskyi
+perl Scripts/gffParse.pl \\
+-c \\
+-p \\
+-g Results/2_annotation/clean_Haemoproteus_tartakovskyi.gtf \\
+-i Results/5_nobird_genome/no_bird.genome \\
+-b Results/6_nobird_annotation/H_tartakovskyi
 
 bash Scripts/runall_gffParse.sh
+
+cd Results/6_nobird_annotation
+chmod -w *.faa
+````
+#### create conda env and install proteinortho, finally run it
+````bash
+conda create -n proteinortho
+conda activate proteinortho 
+conda install bioconda::proteinortho
+
+:~/Malaria/Results$ mkdir 7_proteinortho
+cd 7_proteinortho
+
+for f in *.faa; do
+    sed -i -E '/^>/! s/[^XOUBZACDEFGHIKLMNPQRSTVWYxoubzacdefghiklmnpqrstvwy]//g; /^$/d' "$f"
+done
+
+nohup proteinortho6.pl \\ #version 6.3.6
+../6_nobird_annotation/*.faa -project=myproject &
 ````

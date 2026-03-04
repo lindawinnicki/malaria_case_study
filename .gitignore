@@ -10,3 +10,5 @@ filtered_copy.genome
 5_nobird_genome/
 *.fna
 *.faa
+*.dmnd
+*.html
