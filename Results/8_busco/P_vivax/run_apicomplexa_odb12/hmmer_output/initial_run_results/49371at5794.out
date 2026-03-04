@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1163_g               -            660 49371                -            318  8.1e-118  391.4  50.6   1   4   6.9e-05      0.39    8.1  14.9     2    67    19   102    18   111 0.69 length=661	scaffold=chromosome12	strand=+
+1163_g               -            660 49371                -            318  8.1e-118  391.4  50.6   2   4  2.9e-118  1.7e-114  380.6  11.0    30   278    99   354    95   359 0.92 length=661	scaffold=chromosome12	strand=+
+1163_g               -            660 49371                -            318  8.1e-118  391.4  50.6   3   4   5.2e-09   2.9e-05   21.6   1.5   270   318   368   422   351   425 0.72 length=661	scaffold=chromosome12	strand=+
+1163_g               -            660 49371                -            318  8.1e-118  391.4  50.6   4   4      0.53     3e+03   -4.7   3.6    29    73   612   656   601   659 0.56 length=661	scaffold=chromosome12	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/49371at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_vivax/run_apicomplexa_odb12/hmmer_output/initial_run_results/49371at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/49371at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:11 2026
+# [ok]

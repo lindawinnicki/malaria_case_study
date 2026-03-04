@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1787_g               -            162 69187                -            136   4.9e-75  247.9   1.7   1   1   1.2e-78   6.4e-75  247.5   1.7     4   134    30   160    27   162 0.97 length=163	scaffold=chromosome14	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69187at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/69187at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69187at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:23 2026
+# [ok]

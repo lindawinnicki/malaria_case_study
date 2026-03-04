@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+955_g                -           1100 43215                -            773   1.1e-25   86.2   0.5   1   7         2   1.4e+03   -8.9  13.5   718   767     4    55     1    61 0.53 length=1101	scaffold=contig01522	strand=-
+955_g                -           1100 43215                -            773   1.1e-25   86.2   0.5   2   7   2.3e-10   1.6e-07   26.2   0.0   104   163   117   180   110   186 0.89 length=1101	scaffold=contig01522	strand=-
+955_g                -           1100 43215                -            773   1.1e-25   86.2   0.5   3   7   2.6e-08   1.8e-05   19.4   0.0   240   287   189   236   186   251 0.89 length=1101	scaffold=contig01522	strand=-
+955_g                -           1100 43215                -            773   1.1e-25   86.2   0.5   4   7      0.51   3.6e+02   -4.7   5.2   702   770   496   566   454   569 0.56 length=1101	scaffold=contig01522	strand=-
+955_g                -           1100 43215                -            773   1.1e-25   86.2   0.5   5   7      0.19   1.4e+02   -3.3   1.5   731   759   612   640   583   657 0.45 length=1101	scaffold=contig01522	strand=-
+955_g                -           1100 43215                -            773   1.1e-25   86.2   0.5   6   7   1.7e-08   1.2e-05   20.0   0.1   440   583   768   911   723   931 0.84 length=1101	scaffold=contig01522	strand=-
+955_g                -           1100 43215                -            773   1.1e-25   86.2   0.5   7   7   2.3e-15   1.7e-12   42.7   0.0   544   643   951  1050   938  1055 0.95 length=1101	scaffold=contig01522	strand=-
+160_g                -            392 43215                -            773    0.0008   14.0   0.3   1   2      0.11        79   -2.5   0.1   641   664    35    58    19    65 0.74 length=393	scaffold=contig00240	strand=-
+160_g                -            392 43215                -            773    0.0008   14.0   0.3   2   2   2.4e-06    0.0017   12.9   0.0    39    84   147   193   137   205 0.82 length=393	scaffold=contig00240	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/43215at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/H_tartakovskyi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/H_tartakovskyi/run_apicomplexa_odb12/hmmer_output/initial_run_results/43215at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/43215at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/H_tartakovskyi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:07 2026
+# [ok]

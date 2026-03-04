@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4501_g               -            343 32794                -            315  3.1e-142  471.6  27.3   1   1  1.2e-145  3.6e-142  471.4  27.3     2   314    22   338    21   339 0.97 length=344	scaffold=chromosome9	strand=+
+230_g                -            344 32794                -            315    0.0013   16.1   1.8   1   2    0.0015       4.5    4.6  15.7    39   234    70   261    36   267 0.71 length=345	scaffold=chromosome10	strand=-
+230_g                -            344 32794                -            315    0.0013   16.1   1.8   2   2   4.6e-07    0.0013   16.1   1.8    67   131   258   322   255   340 0.91 length=345	scaffold=chromosome10	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32794at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_cynomolgi/run_apicomplexa_odb12/hmmer_output/initial_run_results/32794at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32794at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:45 2026
+# [ok]

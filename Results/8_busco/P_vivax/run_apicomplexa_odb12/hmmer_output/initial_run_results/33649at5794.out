@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4619_g               -           1559 33649                -            122   8.6e-49  163.3  18.8   1   2         2   5.7e+03   -4.3   0.8    51    68   258   276   240   294 0.47 length=1560	scaffold=chromosome9	strand=+
+4619_g               -           1559 33649                -            122   8.6e-49  163.3  18.8   2   2     3e-52   8.6e-49  163.3  18.8     2   121  1437  1556  1436  1557 0.99 length=1560	scaffold=chromosome9	strand=+
+1475_g               -            165 33649                -            122    0.0045   15.7   2.3   1   1   2.9e-06    0.0081   14.9   2.3     2    67    54   120    53   134 0.81 length=166	scaffold=chromosome13	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/33649at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_vivax/run_apicomplexa_odb12/hmmer_output/initial_run_results/33649at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/33649at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:03 2026
+# [ok]

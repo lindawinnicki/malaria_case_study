@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2542_g               -            404 8399                 -            295  3.2e-150  497.5   6.7   1   1  2.4e-153    4e-150  497.2   6.7     2   294    33   332    32   333 0.97 length=405	scaffold=gi564277886	strand=+
+1544_g               -            473 8399                 -            295   2.3e-28   97.5   1.5   1   2   0.00014      0.22    8.9   0.1    14    46   152   184   139   188 0.87 length=474	scaffold=gi564279795	strand=-
+1544_g               -            473 8399                 -            295   2.3e-28   97.5   1.5   2   2   1.7e-28   2.7e-25   87.4   0.2    43   233   231   424   225   435 0.86 length=474	scaffold=gi564279795	strand=-
+1377_g               -            376 8399                 -            295     0.015   12.8   0.0   1   1   2.3e-05     0.038   11.4   0.0    39   114   197   277   185   284 0.82 length=377	scaffold=gi564279795	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/8399at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_yoelii/run_apicomplexa_odb12/hmmer_output/initial_run_results/8399at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/8399at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:40 2026
+# [ok]

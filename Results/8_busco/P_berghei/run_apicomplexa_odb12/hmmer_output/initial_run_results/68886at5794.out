@@ -1,0 +1,34 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+715_g                -            859 68886                -            690  1.6e-219  729.5  89.1   1   5      0.05        90   -0.1   1.4   498   530    54    86    37    95 0.83 length=859	scaffold=gi56498739	strand=+
+715_g                -            859 68886                -            690  1.6e-219  729.5  89.1   2   5   1.9e-79   3.5e-76  255.7  27.9    24   286   131   405   113   416 0.91 length=859	scaffold=gi56498739	strand=+
+715_g                -            859 68886                -            690  1.6e-219  729.5  89.1   3   5   1.3e-48   2.3e-45  153.9  10.1   280   426   427   577   420   592 0.92 length=859	scaffold=gi56498739	strand=+
+715_g                -            859 68886                -            690  1.6e-219  729.5  89.1   4   5   1.1e-91     2e-88  296.2  21.1   418   627   604   820   601   821 0.95 length=859	scaffold=gi56498739	strand=+
+715_g                -            859 68886                -            690  1.6e-219  729.5  89.1   5   5   4.8e-16   8.6e-13   46.2   0.2   650   685   821   856   820   859 0.93 length=859	scaffold=gi56498739	strand=+
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   1   8   2.4e-07   0.00044   17.4   2.8   355   416    86   146    39   154 0.67 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   2   8   4.5e-07   0.00082   16.5   7.1    62   156    93   186    84   191 0.81 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   3   8   0.00012      0.22    8.5   2.3   356   413   155   210   150   216 0.63 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   4   8   7.9e-13   1.4e-09   35.6   9.0   538   662   188   310   183   322 0.91 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   5   8   4.4e-08     8e-05   19.8   1.2    36    85   323   372   307   385 0.86 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   6   8   7.6e-15   1.4e-11   42.2   9.5   515   633   355   481   353   493 0.83 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   7   8   8.4e-07    0.0015   15.6   1.3   355   428   491   565   485   569 0.90 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+53_g                 -            693 68886                -            690   2.2e-28   97.8  63.3   8   8     0.039        70    0.2   3.2   235   342   570   670   561   684 0.63 length=693	scaffold=gi56499776	strand=+	adjustedToFrame=2
+6041_g               -            270 68886                -            690   1.2e-14   52.3  22.0   1   3   2.9e-14   5.3e-11   40.3  10.9   518   633     3   126     1   138 0.83 length=270	scaffold=gi56490069	strand=+	adjustedToFrame=2
+6041_g               -            270 68886                -            690   1.2e-14   52.3  22.0   2   3   3.6e-07   0.00066   16.8   2.4   355   429   136   211   133   220 0.87 length=270	scaffold=gi56490069	strand=+	adjustedToFrame=2
+6041_g               -            270 68886                -            690   1.2e-14   52.3  22.0   3   3     0.069   1.3e+02   -0.6   0.0   236   257   216   237   212   243 0.78 length=270	scaffold=gi56490069	strand=+	adjustedToFrame=2
+3281_g               -            432 68886                -            690   6.2e-08   30.1  21.0   1   5   1.8e-09   3.3e-06   24.4   3.5    76   182   147   254   128   256 0.81 length=433	scaffold=gi56501106	strand=+
+3281_g               -            432 68886                -            690   6.2e-08   30.1  21.0   2   5   2.2e-06     0.004   14.3   1.8    72   136   214   276   208   301 0.87 length=433	scaffold=gi56501106	strand=+
+3281_g               -            432 68886                -            690   6.2e-08   30.1  21.0   3   5     8e-05      0.14    9.1   3.4    35   132   251   343   237   346 0.77 length=433	scaffold=gi56501106	strand=+
+3281_g               -            432 68886                -            690   6.2e-08   30.1  21.0   4   5   0.00084       1.5    5.7   2.4    36   111   323   398   310   403 0.84 length=433	scaffold=gi56501106	strand=+
+3281_g               -            432 68886                -            690   6.2e-08   30.1  21.0   5   5    0.0025       4.6    4.1   0.6   512   567   368   425   361   431 0.63 length=433	scaffold=gi56501106	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68886at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_berghei/run_apicomplexa_odb12/hmmer_output/initial_run_results/68886at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68886at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:27 2026
+# [ok]

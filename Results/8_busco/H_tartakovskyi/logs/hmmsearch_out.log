@@ -1,0 +1,275 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69164at5794.hmm
+# target sequence database:        /home/inf-20-2025/Malaria/Results/6_nobird_annotation/H_tartakovskyi.faa
+# per-dom hits tabular output:     Results/8_busco/H_tartakovskyi/run_apicomplexa_odb12/hmmer_output/initial_run_results/69164at5794.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       69164  [M=1175]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.6e-40  134.3 114.6    3.4e-28   94.2 107.5    3.9  2  855_g     length=1186	scaffold=contig01325	strand=-	adjustedT
+    4.2e-25   84.0  41.7    4.2e-25   84.0  41.7    6.2  6  698_g     length=1275	scaffold=contig01033	strand=-
+    4.7e-05   17.6 115.0    0.00012   16.2  55.5    3.1  3  778_g     length=665	scaffold=contig01182	strand=-	adjustedTo
+
+
+Domain annotation for each sequence (and alignments):
+>> 855_g  length=1186	scaffold=contig01325	strand=-	adjustedToFrame=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2 107.5     7e-31   3.4e-28      42    1035 ..       6    1015 ..       2    1025 .. 0.81
+   2 !   40.0   0.1   1.7e-14     8e-12    1071    1147 ..    1078    1155 ..    1074    1164 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 7e-31
+  69164   42 FhkrftaIvGPngsgksnvidamLFvFGrrAkqiRlkklseLIHnSkayssakVsvhFkeiidkdedsdeyevvegse...............lvisRevsr 128 
+             F +   +IvG ngsgksn++ a+ Fv     +  R+     + H  k+     + v+F +  dk++d+ + ++  + +               ++i + v+ 
+  855_g    6 FTQGINCIVGFNGSGKSNILKALEFVLSDTKEWGRMYMHEGIGHDVKN---GYIEVIFDKANDKTNDKTNDKTNDKANdkandkrthmldkdiITIRKIVHG 104 
+             667789**********************99999998876667787776...567889999998877764333221111011111122222222567777888 PP
+
+  69164  129 dnsskYringkvatqkevvelLkskGlDLenNRFLILQGEVEqiaqmkpKakkneeGLLEyLEdiiGtnryiedIekaqeeyeelqeqyqeklnrlkvaekE 230 
+             dn+   ++ngkv+t+++ ve+L+  G+ ++n   LI QGE  +++ m+      ++ +L  L +i+G++++ e  e+a + +++   q++++   ++ +++ 
+  855_g  105 DNKYIIMVNGKVVTKEQYVEILEGYGICINNLYNLIRQGELVKMSNME------DQTILLHLKNILGAKKFEERKEDALRMLTSYDCQVHKSEKDFDDLSQR 200 
+             99888899********************************99999885......5567779***************************************** PP
+
+  69164  231 lkeLegpkkeAkeylelekellkaklllakkelrelskeleekeeeleklekekeeleeelkalekkrkelekelkelekelkklqkkkk.kleeefk...k 328 
+             +++L++ +++ k y +le e + +++ ++k  l++l k+ e+ +++++ l+++ e++ +el++  +k+ +l++e+++l+ e++++++  + +++ee +   +
+  855_g  201 IDQLKKDNQRYKMYEKLEGERKYLEYNITKLRLKQLLKDSEKAKKKVAILNERAEAADTELCNYIDKKTDLMEEIRKLKLEIDSSENALAvQMSEEVQnerN 302 
+             ******************************************************************************999988776543234444431115 PP
+
+  69164  329 lvakdeelrkellrevkkleektkkikelkkkk...eelekkikekeeeieekkkklPklekelek....aeeeleklqeelkdeleelnkelskaekelap 423 
+             +v +   l++++ +++k+++e+++++ e ++ +   +  ++ki    + i+ k++ +++ + e++k     +++ ++ ++e+ +++++l+   ++++ e++ 
+  855_g  303 IVHTQILLEEKKEEKQKAVNEDKQRFAERQQINefiSVVNEKISLFRRAIAAKETIMKSKKDEIDKmlatNKNRENTNKQEIISNINKLEVMVKDMDVEIEG 404 
+             777666666666666666666666655443322000233333333344444444444444444444111044455555678999999999999999999999 PP
+
+  69164  424 lqkkldelkkeiseleselellekkkkekeeelkslkeelkklskeledkralleekkkkleeiekeleekekklakkkveleslkkelekksksklaelim 525 
+             + +++ ++ + ++ le+  + l  + +++     +  +++k l++++e+  ++++ek+++++++ ++l++ + +++++k ++e+l k+ +k+ k+ l  ++ 
+  855_g  405 VENEIIKTLQLLERLEEVYNSLLAESRRNAALSGKCDDRIKVLNDQVEEYVEKKREKQQEIASLTTRLNSIKGQRIEAKEKYEELLKSSQKEIKRLLEMILE 506 
+             9999999999999999988887777778888888899999999999******************************************99999998999999 PP
+
+  69164  526 klkkkikgihgrLgdLgsidekyekAllaggafld.vlVvetpedatevfeelrken.....................LGrvsvlaLsvlekdlkklmelle 605 
+             + + ++++++g L d +++d++y  A  a  +    vl+v++ + a++v++++ k+                       Gr+s++ +++++k  + +  +++
+  855_g  507 EPSINKENVYGLLIDNVKVDKQYITAVDAILEHHYfVLIVRDVQTAKDVINFIDKKReekpiekeddvikpaycknfiFGRISIVPMDRIKKYKSYYYPEDD 608 
+             9999***********************9987665516789999********9854321233333344444444455657*********************** PP
+
+  69164  606 kvkrLidlvkvkeekykvafykavrdtlvaenldeAskiayeqrkrVvtleGelIekdGrmtGGGlkkskkkgkkeedeedleklekeleelekelkelkee 707 
+             +v  Lid +   +ek+   + +++  t++++ ld  +   y+++   v l+G+ I  +G ++GG  k++ +             ++ ++++l++e  ++k++
+  855_g  609 DVVPLIDCIDY-DEKISNYIKQILYKTILVKSLDFCE-CYYNEKYTCVDLDGDYISGTGYVSGGYKKRKYSM----------YGMNAKVKNLKEEEDNIKKQ 698 
+             *********98.578999999*************975.78*********************99876666654..........44566666777777777777 PP
+
+  69164  708 kkeleeeikelkkeieelevkienaekqlkeleeklkslekeeltseeekelkklkkeiekleeekekleekvkeqekkvdelyeelenvGgeelkkakekv 809 
+              +e  + i++l+ +i+e+  k      q +  +++l sle++ +  ++e+ ++  + +++ l+++k+ le   k+ + +++ l+ee +n G++ +++ ke  
+  855_g  699 IEECYDYIEKLEDQIRENYDKRAIVLAQKNGCDTRLGSLENTGK--SNEEYIRVTDVKLTGLKTKKRGLEDYKKKIKDQIAALKEEWDNNGKKGKNQMKEG- 797 
+             77777777777778888777777777788889999999999884..555667777888999999999999999999999***********99888777764. PP
+
+  69164  810 aelekelnklkeeieklrkevalleakaeklkkdieklekeieehkerekeleeelkeleeeaakvleekeeveeeleeleeeikelkekleeveeeikeld 911 
+              + e++++k +ee     ++ + l  +++klk++i  l+++++e+k++++ l ++   le+++  ++   ++ + +++e+e+++ke +e  e ++e+ k ++
+  855_g  798 -KGENNVEKENEE----DDHLNILTDEVKKLKDEILYLQHKQDEYKNKLELLYNKK--LESDSY-IY-FSDTGDADIKEYEKRLKEKEELREVIKEQKKSIE 890 
+             .566777666554....45567789999*********************9999877..666554.44.4456688999************************ PP
+
+  69164  912 lkevdlknkieelekkieqleakv.kkkekkleelkkqellskleeldvkklekkieklkvpnlkvieeykeklkefkkkkkevekaqkkrdeakkaldaLk 1012
+              ++ d+  k e+l++++e++ + + ++ +  ++ +++++  ++  +   k++ +++++ +  n kv +++++ ++++ + k    +++++ + +k+ + ++ 
+  855_g  891 KHTQDIITKKEKLKQEVEKILKSNlEEGKPDSNTMQHRHFNIAQLSARLKAVTSQLKQYMNVNSKVGTKLHQLVTDYTNLKTRNADLKESYQGIKNMIANIE 992 
+             ******************9766550555666677777777778888899***************************************************** PP
+
+  69164 1013 akrkkeFlagFaiiaaklkeiYq 1035
+              k+++ +  +F+ i +   ei+ 
+  855_g  993 RKKNELLECNFNKINNYFSEIFS 1015
+             ***************99999986 PP
+
+  == domain 2  score: 40.0 bits;  conditional E-value: 1.7e-14
+  69164 1071 qIqnLSGGEkTLSSLaLvFALHhykPnpvYFlDEiDAALDfrNVsiiaqfike.ktkdAQFiviSLRnqmFelanrlv 1147
+             ++q+LSGGE+ +  L L  AL +    + +F DE+DAALD+     ++  +k+  +k  QFi+   R+++ e ++ l 
+  855_g 1078 KVQELSGGERSIVVLCLFLALNKIDNCSFFFFDEVDAALDTVHRTNLSMLLKDfASKGTQFIINTFRKELLEYCDNLY 1155
+             589*************************************9766677777777235789****************986 PP
+
+>> 698_g  length=1275	scaffold=contig01033	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.8  35.2      0.56   2.7e+02     339     510 ..      35     201 ..       9     204 .. 0.50
+   2 !   10.0  47.2   1.9e-05    0.0092     267     599 ..     123     453 ..     109     464 .. 0.59
+   3 ?  -10.8  20.1         3   1.4e+03     696     777 ..     465     546 ..     452     557 .. 0.49
+   4 !   10.1  60.0   1.7e-05    0.0083     616    1021 ..     555     949 ..     543     950 .. 0.79
+   5 ?   -4.6  38.8      0.48   2.3e+02     256     508 ..     836    1094 ..     835    1099 .. 0.72
+   6 !   84.0  41.7   8.7e-28   4.2e-25     834    1170 ..     927    1272 ..     924    1273 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: -4.8 bits;  conditional E-value: 0.56
+  69164 339 ellrevkkleektkkik..elkkkkeelekkikekeeeieekkkklPklekelekaeeeleklqeelkdeleelnkelskaekelaplqkkldelkkeiseles 440
+            + + +++ l+ k +k++  + kkkk  ++k+  + e+ei++ +kkl +++ el++++e+le +++ l + l   +k +++ ek+ a     ld+l+++++e ++
+  698_g  35 KDKFKEDYLSYKDAKMEfeQTKKKKLTKKKEHMKIEDEIKKENKKLNNIKIELNTVNEKLEYYENALVKVLA-NEKIKKNVEKHCASF---LDNLNTQMKEQNK 134
+            333334444444444430044444444445555566677777777777777777777777777777665443.334444444444432...4445555555555 PP
+
+  69164 441 elellekkkkekeeelkslkeelkklskeledkralleekkkkleeiekeleekekklakkkveleslkk 510
+            +l++  k+k +     +++ +++k l++ ++++++++ e+ k+ ++i+k + +++ + ++k+ + e+ +k
+  698_g 135 KLQMEYKSKMKI---FSKILNKNKGLREFIQTNHSNIWEILKEDKQIDKFIANSNIEQQEKEHKKEKERK 201
+            554433333322...2333344444455555555555555555555555555444444444444444443 PP
+
+  == domain 2  score: 10.0 bits;  conditional E-value: 1.9e-05
+  69164 267 skeleekeeeleklekekeeleeelkalekkrkelekelkelekelkklqkkkkkleeefkklvakdeelrkellrevkkleektkki.kelkkkkeelekkik 369
+            ++  ++++e+ +kl+ e +++ +  +++ +k k l + ++++++++ ++ k+ k++++ + +   + +e  ke ++e+++ e k+ k  ke+kk+ke +e++ +
+  698_g 123 DNLNTQMKEQNKKLQMEYKSKMKIFSKILNKNKGLREFIQTNHSNIWEILKEDKQIDKFIANSNIEQQE--KEHKKEKERKEGKEGKEeKEEKKEKEGEENENE 224
+            333445555566666667777777777777777777777777777777766666666555543333333..333333333333333330333344444455555 PP
+
+  69164 370 ekeeeieekkkklPkle..kelekaeeeleklqeelkdeleelnkelskaekelaplqkkldelkkeiseleselellekkkkekeeelkslkeelkklskele 471
+            ++e++i +k + l+ +e  ke+ +++e+   l  + + ++++ ++  ++  + l++lq+++d++k++ ++   +le  + + +e +e++ +l++ +++ ++++e
+  698_g 225 NEEDSIFQKYNILKIIEemKEYRECKEAYLYLCADRNININNYANIADTLRQDLKELQEECDNYKRKKQKELLDLESEKISLDELTERTFKLEKLITEGKESIE 328
+            55555556555555444113455566666666666666777777777777777777777777777766555445444444455555555556666666666666 PP
+
+  69164 472 dkralleekkkkleeiekeleekekklakkkveleslkkelekksksklaelimklkkk.ikgihgrLgdLgside.kyekAl.laggafldvlVvetpedate 572
+            d++ +l+e ++ + e ek++e+ e+ ++  +v+    k+el   + +k +e+i  lk+  +  ++++L  L  i +  y +A  +   +f +++Vv+  e   +
+  698_g 329 DSKGKLKEYHTTIIEKEKKIEQLEEDINMLNVH----KNEL--INFEKRKEIIRSLKTIfVDEVYDELSSLYEIPNpAYYEAVsNLFHKFNNFVVVKRVETCMK 426
+            666666665555555555555555544443333....3333..2223334455555443247899******9996435555551667899999*********** PP
+
+  69164 573 vfeelrkenLGrvsvlaLsvlekdlkk 599
+             +++lr + L ++  + L+ l k+++ 
+  698_g 427 CIKYLRDNKLSKMDFIPLDNLLKNIQI 453
+            *******************99998875 PP
+
+  == domain 3  score: -10.8 bits;  conditional E-value: 3
+  69164 696 elekelkelkeekkeleeeikelkkeieelevkienaekqlkeleeklkslekeeltseeekelkklkkeiekleeekekle 777
+            + +++ k++k + k+l++  +  ++e+ee e + e +e ++++ e++ + ++++e++++e+++ ++ ++++e+++++ +k +
+  698_g 465 KRARQKKKMKFHLKDLTNGNEIEEQEEEEEEENEEDDEDEYDDAETETETETEDETEEDEKEQQRETNDMLEQIRNTFSKKN 546
+            3344444444444554444444444444444444555555555555555555555555555555555555555555444444 PP
+
+  == domain 4  score: 10.1 bits;  conditional E-value: 1.7e-05
+  69164  616 vkeekykvaf.ykavrdtlvaenldeAskiayeq...rkrVvtleGelIekdGrmtGGGlkkskkkgkkeedeedleklekeleelekelkelkeekkelee 713 
+             v+e ++k+ + y++ r+tl+++++d+A+ i  +       +vtl+G +  k+   +   ++k   k+k ++++              +++++l +e++   +
+  698_g  555 VSESQFKPLIdYYIGRNTLIVDTVDDADDIKKKFpqfEINIVTLKGHVYTKNNHFVIDISSKFADKEKFHSKKV-----------HVNQYSKLVNEREVCRK 645 
+             6777888777477779**************87651125689999999999999987554444444433322222...........23456677778888888 PP
+
+  69164  714 eikelkkeieelevkienaekqlkeleeklkslekeeltseeekelkklkkeiekleeekekle.ekvkeqekkvdelyeelenvGgeelkkakekvaelek 814 
+              i+e++k+i e++  i+++ ++++  ++k++s   +  +   eke+++ k  i++ ee++e le e++k+++  +++++ el n  ++    +k+ +++++k
+  698_g  646 IINECNKNIIETNEYINKQTSEMELNKKKVASIYIK--KDIFEKEIEAKKVVIRNYEENIERLEnEEIKKKKDALEKYETELLNERKGLSSYQKKAFEKINK 745 
+             888888888888888888888884444444444333..355567888888889999888888873579****************9999999*********** PP
+
+  69164  815 elnklk..eeieklrkevalleakaeklkkdieklekeieehkerekeleeelkeleeeaakvleekeeveeeleeleeeikelkekleeveeeikeldlke 914 
+             +l++ +  e +e++ ke+++ + + +k k++++k++++i e++ + k++ ++ +     +++ +++ e+v ++l+el+e+ ++l+e++e++ e++k l+ ++
+  698_g  746 KLKTDNifEIVEHSTKEIETIADNIRKIKNNMKKIKDDIIELQDKKKQMCQRQN----VGEEKYDTEETVRSKLKELNETKQKLTEDTEHIIEQMKLLEKEK 843 
+             99875433899999***************************9999998888875....555559999*********************************** PP
+
+  69164  915 vdlknkieelekkieqleakvkkkekkleelkkq.ellskleeldvkklekkieklkvpnlkvieeykeklkefkkkkkevekaqkkrdeakkaldaLkakr 1015
+             ++  + + ++++++++l++ ++   +k e + ++ e+ +k  e+  + +++ +++    +++++ + +    +  +  + v++ qk++++  k+ ++ + kr
+  698_g  844 LEYVQDLGQINQELHSLRECISGDFEKYEIIVNElEEARKKIEIYRNFIKDLVNECDINSVNIFLSSNYL--KDAAPDDVVRQKQKNKKKNSKNKKTTCSKR 943 
+             *********************9999999876553156667777888999999999999999999764433..33445666777778888888888999**** PP
+
+  69164 1016 kkeFla 1021
+             k+++++
+  698_g  944 KSKLME 949 
+             **9986 PP
+
+  == domain 5  score: -4.6 bits;  conditional E-value: 0.48
+  69164  256 lllakkelrelskeleekeeeleklekekeeleeelkalekkrkelekelkelekelkklqkkkkk......leeefkklvakdeelrkellrevkkleekt 351 
+             ++l +ke+ e++++l + ++el++l + ++ + e+++ + ++ +e+ k+++   + +k l ++++       l+++  k  a d+ +r+++++++k+ ++k+
+  698_g  836 MKLLEKEKLEYVQDLGQINQELHSLRECISGDFEKYEIIVNELEEARKKIEIYRNFIKDLVNECDInsvnifLSSNYLKDAAPDDVVRQKQKNKKKNSKNKK 937 
+             56788999999999999999999988887777777776666666666666666666666655554311111134444455678999**************** PP
+
+  69164  352 kkikelkkkkeelekkikekeee.ieekkkklPklekelekaeeeleklqeelkdeleelnkelskaek.elaplqkkldelkkeiseleselellekkkke 451 
+              ++ + k+k  e ek++++++e  + + + +  ++e + ek +e+ +++  + ++e ee  ++ +++e+ + ++    +   + + ++l ++l+ +e++++ 
+  698_g  938 TTCSKRKSKLMESEKETETETETgTGTGTGTGTETETDTEKEREKEKEIYINSENESEEEDSKSDNSEEeRKNEEYDDYLLSNIDFEILPNSLKTIEDEEEI 1039
+             **********999999987666514455556677788888888877777777777777666666655440455566777778889999********998877 PP
+
+  69164  452 keeelkslkeelkklskeledkralleekkkkleeiekeleekekklakkkvelesl 508 
+             +  +++++++e++++++ l++k+ + +  +++  +++ +l++ e+ l++++ ++  +
+  698_g 1040 NM-QKEQMEKEIEHKKNLLQKKNVNSN-AEEEHDKLQLDLKQIESLLTEERNKCTLF 1094
+             76.557788888888888877776665.66777889999999999999988887655 PP
+
+  == domain 6  score: 84.0 bits;  conditional E-value: 8.7e-28
+  69164  834 eakaeklkkdieklekeieehkerekeleeelkeleeeaakvleeke.....eveeeleeleeeikelkekleeveeeikeldlkevdlknkieelekkieq 930 
+             ++k+++ k++ +  +k  +++ e+eke+e+e ++   +++    e e     e e+e e + ++ +e +e+ ++ +++ +e + +e d ++ ++++  +i  
+  698_g  927 KNKKKNSKNKKTTCSKRKSKLMESEKETETETETGTGTGTGTGTETEtdtekEREKEKEIYINSENESEEEDSKSDNSEEERKNEEYD-DYLLSNIDFEILP 1027
+             2222222223333333333333333444433333333333222222200000222222222222222222222222222333333332.3344444444444 PP
+
+  69164  931 leakvkkkekkleelkkqellskleeldvkklekkieklkvpnlkvieeykeklkefkkkkkevekaqkkrdeakkaldaLkakrkkeFlagFaiiaaklke 1032
+              + k+ + e++++  k+q+        +  + +k++ ++k  n ++ ee  + + ++k+ ++ +++ ++k+   +k++  L+ kr   Fl+ F+ i + +  
+  698_g 1028 NSLKTIEDEEEINMQKEQM-------EKEIEHKKNLLQKKNVNSNAEEEHDKLQLDLKQIESLLTEERNKCTLFEKNFRLLQRKRSFRFLHCFNYIKNVIDN 1122
+             4444444444443333322.......22223345555666778889999999999*********************************************** PP
+
+  69164 1033 iYqmit......lGGDAELElvDs......tdpFteGilfSVRPpkKSWkqIqnLSGGEkTLSSLaLvFALHhykPnpvYFlDEiDAALDfrNVsiiaqfik 1122
+             +Y  +t      +GG A L l         ++pF  Gi +   Pp K + +I +LSGGEkT+S LaL+F + +y  n+   lDE+DA LD+  +  +a+++k
+  698_g 1123 VYNNLTfnsqhkIGGQAYLDLYNVkeyskdDEPFYCGIKYNNMPPMKRYFEISELSGGEKTISALALIFSIQKYINNSFIILDEVDANLDHLKIHSLARYLK 1224
+             *****95555556******8876522222257********************************************************************98 PP
+
+  69164 1123 ektkdAQFiviSLRnqmFelanrlvGiyk..tfdvTKsvtidPsrysske 1170
+             +   + Q iviSL++++F   + l+G+yk    ++ K+vt+d s+y+s++
+  698_g 1225 S--LNSQVIVISLKDKFFSKSQTLIGVYKnkAKNASKTVTLDLSKYHSED 1272
+             6..799**********************8225789**********99876 PP
+
+>> 778_g  length=665	scaffold=contig01182	strand=-	adjustedToFrame=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2  55.5   2.6e-07   0.00012     720     995 ..       4     273 ..       1     276 [. 0.87
+   2 !    1.3  42.0    0.0081       3.9     684     929 ..     241     479 ..     230     491 .. 0.70
+   3 !    4.5  29.1   0.00086      0.41     318     552 ..     429     655 ..     424     661 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 2.6e-07
+  69164 720 keieelevkienaekqlkeleeklkslekeeltseeekelkklkkeiekleeekekleekvkeqekkvdelyeelenvGgeelkkakekvaelekelnklkeei 823
+             ei++++ +i+ +e+     +e++++++ e++ +ee++el+ l+ke + + ++++   +++k+++++++e++ +++++  +   ++++    le+e    +e+ 
+  778_g   4 YEINKTQNTINLNEELC--RNEEIQNENFEKSLREEKEELTILQKEHKTIIKNINDSINQMKTRDTVIKEINMKMDEMKRH-IFDLEKDNLLLEQETVLGNEQK 104
+            45555555555444443..3577888888888899******************************************9655.5555666667888888999999 PP
+
+  69164 824 eklrkevalleakaeklkkdieklekeieehkerekeleeelkeleeeaakvleekeeveeeleeleeeikelkekleeveeeikeldlkevdlknkieelekk 927
+            ekl+++ + le++ +k +k+ e ++k+i + +++ +++++++++ +e+ +++ +e+++++++++  e++ik++k+++++  e+i ++ + e+ ++   ++++k 
+  778_g 105 EKLHSDLKYLEKEIKKINKKQEDVDKNILNVEKSKEQIQRNIHKEKEQYENLCNEIKNINKDIQLKENNIKKVKQDINKSIESILNIYIDEIKINSFSSRIKKD 208
+            ******************************************************************************************************** PP
+
+  69164 928 ieqleakvkkkekkleelkkqellskleeldvkklekkieklkvpnlkvieeykeklkefkkkkkeve 995
+            +++++++++kke ++e++k+  +  k++e+     ++kie++k+   k+ +ey+e  + +++ ++ v+
+  778_g 209 VSSVNENITKKEMEIENYKNAISRLKIQEM---LENSKIENMKKTFHKLTSEYNENNTTLSHLESIVD 273
+            *******************96666665555...44689999999999999999999888887777665 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.0081
+  69164 684 eedleklekeleelekelkelkeekkeleeeikelkkeieelevkienaekqlkeleeklkslekeeltsee.....ekelkklkkeiekleeekekleekvke 782
+            +       +++e+++k++++l +e +e ++++++l++ ++++++ ien++++++ l+++l +++k +++ ++     e +++kl+k+i+++ ++++ le++   
+  778_g 241 N-------SKIENMKKTFHKLTSEYNENNTTLSHLESIVDKNHCLIENRQLDVSRLNKELDKQKKGTEDIDTipltlEIKIQKLHKQIDDMLKQCRCLEKEWFL 337
+            3.......456666666677777777777777777776677777777777777666666666666555544322222678899999999999999999998776 PP
+
+  69164 783 qekkvdelyeelenvGgeelkkakekvaelekelnklkeeieklrkevalleakaeklkkdieklekeieehkerekeleeelkeleeeaakvleekeeveeel 886
+            +++++ ++++e  ++  +e  k+++ +  l+k+  +l++++++ +   + ++++ ++ + ++e+++++++e  e++k le  l    + a++v+ + e+ +++ 
+  778_g 338 KQSELVKMQNENLKI-HDEIVKNRDICVILNKKKCELQDNLKNEELMKKRRNKNISQIRLQLERFSSKTNETIEKVKYLEGDL---LKWAENVNVKTETEKRKK 437
+            666655555554445.4566667777888888888899999988888888999999999999999999998888888888877...777888888888888889 PP
+
+  69164 887 eeleeeikelkekleeveeeikeldlkevdlknkieelekkie 929
+            e+l++ei+elk+++ + ++++  ++ +   l+nki e  kk++
+  778_g 438 EHLKNEINELKKEKMQCQQDLLYYENQLFILENKIIEE-KKLQ 479
+            99999999999999999999988888888888887553.2333 PP
+
+  == domain 3  score: 4.5 bits;  conditional E-value: 0.00086
+  69164 318 kkkkleeefkklvakdeelrkellrevkkleektkkikelkkkkeelekkikekeeeieekkk..klPklekelekaeeeleklqeelkdeleelnkelskaek 419
+            k++  +++ ++l ++ +el+ke+++ ++ l   ++++  l++k+ e+ kk++e  +e +e k+  +l kl ++ + + e+l+k q+++  +++ + ++ ++ ++
+  778_g 429 KTETEKRKKEHLKNEINELKKEKMQCQQDLLYYENQLFILENKIIEE-KKLQELIKEYSENKDiiNLRKLIQQKNAVIENLKKQQNTILANIKMALNKRNDLDN 531
+            44444555556777777788888888887777777777777777654.555666666665555336778889999999999999999*****999999****** PP
+
+  69164 420 elaplqkkldelkkeiseleselellekkkkekeeelkslkeelkklskeledkralleekkkkleeiekeleekekklakkkveleslkkelekksksklael 523
+            e   +q+++d+  +  s+++ e++l++k+  +++++++   e+l++     +    +++ k++k ++ ++ l+ +++   k+   +e+lk ++     s+++e 
+  778_g 532 EKDIVQRNYDKGVNISSKIQYEISLIKKNFVCNRKQQQIYIENLNEEFFIFDG-IIKIQ-KSEKNQRFQELLRFQRA--PKNLPFYENLKVSY-----SDIKEK 626
+            ****************************9999998888887777665444333.22222.33333444444433333..33334455444433.....566666 PP
+
+  69164 524 imklkkkikgihgrLgdLgsidekyekAl 552
+               +k+ki+ i g+L ++  i++ky +++
+  778_g 627 CSTYKNKISVIVGKLEEFNNINKKYIRCI 655
+            67777777777777777777777776665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1175 nodes)
+Target sequences:                       1437  (869874 residues searched)
+Passed MSV filter:                      1074  (0.74739); expected 28.7 (0.02)
+Passed bias filter:                      336  (0.23382); expected 28.7 (0.02)
+Passed Vit filter:                       326  (0.226862); expected 1.4 (0.001)
+Passed Fwd filter:                         7  (0.00487126); expected 0.0 (1e-05)
+Initial search space (Z):               1437  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 2.40u 0.07s 00:00:02.46 Elapsed: 00:00:02.50
+# Mc/sec: 408.41
+//
+[ok]

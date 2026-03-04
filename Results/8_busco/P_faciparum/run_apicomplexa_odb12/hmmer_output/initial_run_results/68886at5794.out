@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2362_g               -           1009 68886                -            690  8.4e-192  637.4  92.1   1   5      0.12   2.1e+02   -1.9   1.1   485   526    69   110    57   118 0.62 length=1010	scaffold=chromosome12	strand=-
+2362_g               -           1009 68886                -            690  8.4e-192  637.4  92.1   2   5   9.4e-68   1.6e-64  216.7  32.7    10   287   168   456   159   484 0.89 length=1010	scaffold=chromosome12	strand=-
+2362_g               -           1009 68886                -            690  8.4e-192  637.4  92.1   3   5   1.1e-42   1.9e-39  133.8  10.2   284   429   543   695   533   709 0.88 length=1010	scaffold=chromosome12	strand=-
+2362_g               -           1009 68886                -            690  8.4e-192  637.4  92.1   4   5   3.5e-83   6.1e-80  267.7  18.8   419   627   716   931   708   932 0.95 length=1010	scaffold=chromosome12	strand=-
+2362_g               -           1009 68886                -            690  8.4e-192  637.4  92.1   5   5   2.7e-15   4.6e-12   43.3   0.4   650   687   932   969   931   972 0.93 length=1010	scaffold=chromosome12	strand=-
+4991_g               -            780 68886                -            690   1.7e-30  104.3  60.1   1   7   0.00027      0.47    6.9   0.2    66   116    48    99    31   100 0.77 length=781	scaffold=chromosome4	strand=-
+4991_g               -            780 68886                -            690   1.7e-30  104.3  60.1   2   7   4.2e-08   7.3e-05   19.5   9.1    66   171    82   186    67   187 0.89 length=781	scaffold=chromosome4	strand=-
+4991_g               -            780 68886                -            690   1.7e-30  104.3  60.1   3   7     1e-14   1.7e-11   41.4   9.8   540   674   175   307   172   310 0.94 length=781	scaffold=chromosome4	strand=-
+4991_g               -            780 68886                -            690   1.7e-30  104.3  60.1   4   7   3.2e-06    0.0055   13.3   1.3    37    94   309   369   307   370 0.82 length=781	scaffold=chromosome4	strand=-
+4991_g               -            780 68886                -            690   1.7e-30  104.3  60.1   5   7   4.3e-17   7.4e-14   49.2  12.2   485   656   349   523   347   524 0.88 length=781	scaffold=chromosome4	strand=-
+4991_g               -            780 68886                -            690   1.7e-30  104.3  60.1   6   7     9e-14   1.6e-10   38.3   5.0   515   658   422   558   421   561 0.87 length=781	scaffold=chromosome4	strand=-
+4991_g               -            780 68886                -            690   1.7e-30  104.3  60.1   7   7     0.018        31    0.9   0.3   235   609   555   582   546   659 0.58 length=781	scaffold=chromosome4	strand=-
+1324_g               -            468 68886                -            690   2.6e-09   34.2  23.0   1   3   1.3e-08   2.3e-05   21.2   1.0    85   399   202   253   174   257 0.57 length=469	scaffold=chromosome14	strand=+
+1324_g               -            468 68886                -            690   2.6e-09   34.2  23.0   2   3   3.2e-07   0.00055   16.6   1.8    72   134   259   319   253   333 0.90 length=469	scaffold=chromosome14	strand=+
+1324_g               -            468 68886                -            690   2.6e-09   34.2  23.0   3   3   0.00071       1.2    5.5   6.2   465   568   348   462   341   467 0.66 length=469	scaffold=chromosome14	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68886at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/68886at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68886at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:20 2026
+# [ok]

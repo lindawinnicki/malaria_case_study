@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4020_g               -            429 9903                 -            284   2.7e-84  280.8  19.4   1   1     1e-84   1.7e-81  271.6  19.4     2   279    64   391    63   396 0.79 length=430	scaffold=chromosome9	strand=-
+1399_g               -            320 9903                 -            284     4e-06   24.3   0.9   1   1   9.4e-09   1.6e-05   22.3   0.5    86   235   151   314   102   316 0.72 length=321	scaffold=chromosome14	strand=+
+1398_g               -            327 9903                 -            284    0.0025   15.1   1.6   1   3    0.0022       3.8    4.7   0.0    86   105   153   172   125   205 0.76 length=328	scaffold=chromosome14	strand=+
+1398_g               -            327 9903                 -            284    0.0025   15.1   1.6   2   3      0.21   3.6e+02   -1.8   0.0   162   212   208   258   198   266 0.73 length=328	scaffold=chromosome14	strand=+
+1398_g               -            327 9903                 -            284    0.0025   15.1   1.6   3   3   0.00013      0.22    8.7   0.1   195   235   277   317   248   325 0.82 length=328	scaffold=chromosome14	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/9903at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/9903at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/9903at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:27 2026
+# [ok]

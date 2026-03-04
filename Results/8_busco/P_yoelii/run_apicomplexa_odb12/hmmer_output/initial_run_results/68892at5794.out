@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1855_g               -           1097 68892                -           1071         0 1797.1  27.7   1   1         0         0 1796.8  27.7     2  1071    25  1097    24  1097 0.97 length=1098	scaffold=gi564279367	strand=-
+3383_g               -           1713 68892                -           1071   1.5e-50  170.0  36.0   1   4      0.88   2.2e+03   -6.0   2.0    16    70   181   237   172   253 0.64 length=1714	scaffold=gi564276791	strand=-
+3383_g               -           1713 68892                -           1071   1.5e-50  170.0  36.0   2   4      0.74   1.8e+03   -5.7   7.7    51   248   312   512   256   537 0.57 length=1714	scaffold=gi564276791	strand=-
+3383_g               -           1713 68892                -           1071   1.5e-50  170.0  36.0   3   4   1.6e-17     4e-14   49.4   4.3   335   455   649   775   625   817 0.78 length=1714	scaffold=gi564276791	strand=-
+3383_g               -           1713 68892                -           1071   1.5e-50  170.0  36.0   4   4   8.9e-44   2.2e-40  136.4  23.8   530   942   892  1370   884  1442 0.71 length=1714	scaffold=gi564276791	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68892at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_yoelii/run_apicomplexa_odb12/hmmer_output/initial_run_results/68892at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68892at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:38 2026
+# [ok]

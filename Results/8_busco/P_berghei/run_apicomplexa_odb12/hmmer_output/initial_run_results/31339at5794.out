@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2523_g               -           1474 31339                -           1133         0 1554.3  58.2   1   5  6.9e-125  8.3e-122  406.3  21.1     2   410    79   490    78   510 0.97 length=1475	scaffold=gi56500893	strand=-
+2523_g               -           1474 31339                -           1133         0 1554.3  58.2   2   5     5e-08   6.1e-05   19.3   0.3   369   432   527   591   489   595 0.85 length=1475	scaffold=gi56500893	strand=-
+2523_g               -           1474 31339                -           1133         0 1554.3  58.2   3   5   5.1e-80   6.2e-77  257.7   0.6   431   634   626   830   618   846 0.93 length=1475	scaffold=gi56500893	strand=-
+2523_g               -           1474 31339                -           1133         0 1554.3  58.2   4   5  3.9e-166  4.8e-163  542.9   3.5   612   944   900  1238   882  1246 0.91 length=1475	scaffold=gi56500893	strand=-
+2523_g               -           1474 31339                -           1133         0 1554.3  58.2   5   5  1.6e-107  1.9e-104  348.8   5.1   945  1131  1274  1470  1262  1472 0.92 length=1475	scaffold=gi56500893	strand=-
+1234_g               -            438 31339                -           1133  4.4e-103  344.3   2.1   1   1  7.9e-104  9.5e-101  336.5   2.1   708  1073     1   396     1   418 0.80 length=439	scaffold=gi56500985	strand=+
+1033_g               -            199 31339                -           1133   1.8e-57  193.3   4.2   1   1   4.7e-60   5.7e-57  191.6   4.2   912  1126     2   197     1   199 0.91 length=200	scaffold=gi56498671	strand=+	adjustedToFrame=3
+4225_g               -            516 31339                -           1133   3.5e-57  192.3   0.1   1   1   3.8e-60   4.6e-57  191.9   0.1   440   810     5   362     1   384 0.85 length=516	scaffold=gi56491256	strand=-	adjustedToFrame=3
+4489_g               -            744 31339                -           1133   3.5e-38  129.3  20.9   1   3      0.22   2.7e+02   -2.7   0.5   271   344    55   130    17   135 0.65 length=744	scaffold=gi56493404	strand=+
+4489_g               -            744 31339                -           1133   3.5e-38  129.3  20.9   2   3   1.2e-34   1.5e-31  107.4  11.7     8   391   210   590   206   643 0.76 length=744	scaffold=gi56493404	strand=+
+4489_g               -            744 31339                -           1133   3.5e-38  129.3  20.9   3   3   5.6e-11   6.8e-08   29.0   0.0   398   480   636   724   632   738 0.83 length=744	scaffold=gi56493404	strand=+
+2486_g               -            459 31339                -           1133   1.1e-23   81.3   0.2   1   2     2e-25   2.4e-22   76.9   0.1    11   171    51   224    47   258 0.83 length=459	scaffold=gi56500097	strand=-
+2486_g               -            459 31339                -           1133   1.1e-23   81.3   0.2   2   2    0.0059       7.1    2.5   0.0   300   373   361   438   285   450 0.81 length=459	scaffold=gi56500097	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/31339at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_berghei/run_apicomplexa_odb12/hmmer_output/initial_run_results/31339at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/31339at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:18 2026
+# [ok]

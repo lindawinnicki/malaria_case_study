@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1725_g               -           3436 14591                -            193   1.6e-27   94.9  21.3   1   5      0.11   6.6e+02   -1.7   0.5   111   154    43    89    37    96 0.68 length=3437	scaffold=chromosome13	strand=-
+1725_g               -           3436 14591                -            193   1.6e-27   94.9  21.3   2   5   3.5e-23     2e-19   68.5  13.4     1   140   218   350   218   359 0.79 length=3437	scaffold=chromosome13	strand=-
+1725_g               -           3436 14591                -            193   1.6e-27   94.9  21.3   3   5   3.8e-15   2.2e-11   42.3   0.9   136   192   388   444   373   445 0.91 length=3437	scaffold=chromosome13	strand=-
+1725_g               -           3436 14591                -            193   1.6e-27   94.9  21.3   4   5         1   5.8e+03  -23.1  22.3   107   177   729   798   698   817 0.42 length=3437	scaffold=chromosome13	strand=-
+1725_g               -           3436 14591                -            193   1.6e-27   94.9  21.3   5   5      0.23   1.3e+03   -2.7   0.1    65   101  2316  2353  2311  2376 0.80 length=3437	scaffold=chromosome13	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/14591at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_cynomolgi/run_apicomplexa_odb12/hmmer_output/initial_run_results/14591at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/14591at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:43 2026
+# [ok]

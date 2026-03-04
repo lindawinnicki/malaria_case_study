@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4686_g               -            430 50010                -            184   6.8e-90  297.9   3.3   1   1   4.5e-93   8.6e-90  297.6   3.3     2   172    23   193    22   206 0.95 length=431	scaffold=chromosome9	strand=-
+1825_g               -            694 50010                -            184   5.4e-11   40.7   1.0   1   1   4.8e-14   9.2e-11   40.0   1.0     8   159   170   321   163   348 0.87 length=695	scaffold=chromosome13	strand=-
+3314_g               -            509 50010                -            184    0.0025   15.7   2.2   1   2      0.17   3.3e+02   -0.9   0.4    77   146   241   312   234   318 0.66 length=510	scaffold=chromosome5	strand=-
+3314_g               -            509 50010                -            184    0.0025   15.7   2.2   2   2   1.3e-06    0.0025   15.7   2.2    79   157   344   426   327   449 0.81 length=510	scaffold=chromosome5	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/50010at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_cynomolgi/run_apicomplexa_odb12/hmmer_output/initial_run_results/50010at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/50010at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:51 2026
+# [ok]

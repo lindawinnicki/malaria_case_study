@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+13068_g              -           3847 33233                -            199   6.7e-57  192.5  21.7   1   2   1.3e-60   6.7e-57  192.5  21.7     3   189   812  1025   810  1029 0.86 length=3848	scaffold=gi527309735	strand=-
+13068_g              -           3847 33233                -            199   6.7e-57  192.5  21.7   2   2         3   1.6e+04  -10.6   9.4    14    49  3228  3255  3217  3267 0.35 length=3848	scaffold=gi527309735	strand=-
+9598_g               -           3922 33233                -            199   6.9e-57  192.5  21.7   1   2   1.3e-60   6.9e-57  192.5  21.7     3   189   918  1131   916  1135 0.86 length=3923	scaffold=gi528858385	strand=+
+9598_g               -           3922 33233                -            199   6.9e-57  192.5  21.7   2   2         3   1.6e+04  -10.6   9.4    14    49  3334  3361  3323  3373 0.35 length=3923	scaffold=gi528858385	strand=+
+9256_g               -           1135 33233                -            199       4.6    7.0  12.5   1   1    0.0017       9.1    6.0  12.5    24    72   974  1023   971  1058 0.80 length=1136	scaffold=gi528858385	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/33233at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/T_gondii.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/T_gondii/run_apicomplexa_odb12/hmmer_output/initial_run_results/33233at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/33233at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/T_gondii.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:33:06 2026
+# [ok]

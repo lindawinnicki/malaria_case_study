@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1771_g               -            476 68807                -            387  2.2e-234  775.6   0.3   1   1  1.1e-237  2.7e-234  775.3   0.3     1   383    27   409    27   413 0.99 length=476	scaffold=chromosome13	strand=+
+3598_g               -            478 68807                -            387   2.9e-11   41.1   0.3   1   2   2.5e-08   6.1e-05   20.3   0.0    33   114   225   317   218   340 0.78 length=478	scaffold=chromosome6	strand=+	adjustedToFrame=3
+3598_g               -            478 68807                -            387   2.9e-11   41.1   0.3   2   2   4.8e-08   0.00012   19.3   0.1    86   208   319   459   313   471 0.73 length=478	scaffold=chromosome6	strand=+	adjustedToFrame=3
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68807at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_knowlesi/run_apicomplexa_odb12/hmmer_output/initial_run_results/68807at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68807at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:47 2026
+# [ok]

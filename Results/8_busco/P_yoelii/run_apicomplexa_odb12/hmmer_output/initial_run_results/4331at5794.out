@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+786_g                -           1062 4331                 -            485  2.7e-116  387.0  99.5   1   6         1   4.9e+03   -8.2  12.6   247   366    22   138    10   139 0.64 length=1063	scaffold=gi564280748	strand=-
+786_g                -           1062 4331                 -            485  2.7e-116  387.0  99.5   2   6     0.011        54    0.2   4.6     9   115   127   225   123   275 0.69 length=1063	scaffold=gi564280748	strand=-
+786_g                -           1062 4331                 -            485  2.7e-116  387.0  99.5   3   6     0.033   1.6e+02   -1.4   0.2    89   150   381   438   373   466 0.66 length=1063	scaffold=gi564280748	strand=-
+786_g                -           1062 4331                 -            485  2.7e-116  387.0  99.5   4   6   1.1e-14   5.3e-11   39.8   3.4   104   190   462   566   433   576 0.76 length=1063	scaffold=gi564280748	strand=-
+786_g                -           1062 4331                 -            485  2.7e-116  387.0  99.5   5   6   6.5e-38   3.2e-34  116.4  14.6   189   286   596   693   583   735 0.93 length=1063	scaffold=gi564280748	strand=-
+786_g                -           1062 4331                 -            485  2.7e-116  387.0  99.5   6   6   4.5e-81   2.2e-77  258.7  31.1   275   482   802  1028   741  1030 0.88 length=1063	scaffold=gi564280748	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/4331at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_yoelii/run_apicomplexa_odb12/hmmer_output/initial_run_results/4331at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/4331at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:35 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2427_g               -            459 68797                -            450  4.7e-249  824.7   2.7   1   1  2.1e-252  5.4e-249  824.5   2.7     1   448     1   450     1   452 0.99 length=460	scaffold=chromosome12	strand=-
+3362_g               -            980 68797                -            450   3.2e-12   44.1  18.6   1   2   3.8e-08   9.9e-05   19.4   7.2     5   105    11   134     7   232 0.74 length=981	scaffold=chromosome10	strand=-
+3362_g               -            980 68797                -            450   3.2e-12   44.1  18.6   2   2   8.8e-11   2.3e-07   28.1   0.3   212   271   401   465   389   519 0.72 length=981	scaffold=chromosome10	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68797at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/68797at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68797at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:19 2026
+# [ok]

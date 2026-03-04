@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4557_g               -            703 32487                -            438    7e-135  450.2  33.6   1   3     3e-43   1.2e-39  136.3  12.8    10   193    49   264    39   273 0.79 length=704	scaffold=gi528858390	strand=-
+4557_g               -            703 32487                -            438    7e-135  450.2  33.6   2   3   4.8e-19   1.9e-15   56.6   0.1   178   283   286   391   266   427 0.70 length=704	scaffold=gi528858390	strand=-
+4557_g               -            703 32487                -            438    7e-135  450.2  33.6   3   3   4.4e-82   1.7e-78  264.3   8.5   270   438   524   703   501   703 0.88 length=704	scaffold=gi528858390	strand=-
+8572_g               -            703 32487                -            438    7e-135  450.2  33.6   1   3     3e-43   1.2e-39  136.3  12.8    10   193    49   264    39   273 0.79 length=704	scaffold=gi527313757	strand=-
+8572_g               -            703 32487                -            438    7e-135  450.2  33.6   2   3   4.8e-19   1.9e-15   56.6   0.1   178   283   286   391   266   427 0.70 length=704	scaffold=gi527313757	strand=-
+8572_g               -            703 32487                -            438    7e-135  450.2  33.6   3   3   4.4e-82   1.7e-78  264.3   8.5   270   438   524   703   501   703 0.88 length=704	scaffold=gi527313757	strand=-
+4592_g               -            785 32487                -            438     0.023   13.5   5.1   1   1     1e-05      0.04   12.7   5.1    25   125   637   741   613   751 0.81 length=786	scaffold=gi528858390	strand=+
+8607_g               -            785 32487                -            438     0.023   13.5   5.1   1   1     1e-05      0.04   12.7   5.1    25   125   637   741   613   751 0.81 length=786	scaffold=gi527313757	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32487at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/T_gondii.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/T_gondii/run_apicomplexa_odb12/hmmer_output/initial_run_results/32487at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32487at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/T_gondii.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:33:10 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1528_g               -            189 46749                -            164   3.1e-85  282.5   1.8   1   1   1.5e-88   3.6e-85  282.3   1.8     1   164     5   168     5   168 0.99 length=190	scaffold=gi56494009	strand=+	adjustedToFrame=2
+468_g                -            150 46749                -            164   0.00011   20.6   0.9   1   1   5.7e-08   0.00014   20.3   0.9    13   143    14   144     2   148 0.88 length=150	scaffold=gi56484949	strand=+
+282_g                -            223 46749                -            164     0.016   13.6   2.8   1   1   1.5e-05     0.037   12.4   2.8    34   107    91   160    57   217 0.62 length=224	scaffold=gi56492453	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/46749at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_berghei/run_apicomplexa_odb12/hmmer_output/initial_run_results/46749at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/46749at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:24 2026
+# [ok]

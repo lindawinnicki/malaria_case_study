@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3502_g               -            191 68715                -            191  2.7e-110  365.0   0.2   1   1  6.6e-113    3e-110  364.8   0.2     1   190     2   191     2   191 1.00 length=191	scaffold=chromosome5	strand=+	adjustedToFrame=3
+1419_g               -            214 68715                -            191   3.6e-29  100.3   0.1   1   1     1e-31   4.5e-29  100.0   0.1     7   151    33   177    29   204 0.95 length=214	scaffold=chromosome12	strand=+
+3770_g               -            178 68715                -            191   1.5e-28   98.3   0.0   1   1   7.3e-31   3.3e-28   97.2   0.0     8   186     7   174     2   178 0.89 length=178	scaffold=chromosome6	strand=+	adjustedToFrame=3
+2541_g               -            290 68715                -            191   8.1e-11   40.5   0.0   1   1   2.4e-13   1.1e-10   40.1   0.0    13   151    74   219    62   241 0.80 length=291	scaffold=chromosome14	strand=+
+185_g                -            319 68715                -            191   3.9e-08   31.7   0.1   1   1   1.2e-10   5.6e-08   31.2   0.1    22   135   127   244   123   288 0.82 length=320	scaffold=chromosome10	strand=+
+2074_g               -            233 68715                -            191   2.6e-07   29.1   0.1   1   2      0.54   2.4e+02   -0.2   0.0    21    41    18    38     8    45 0.82 length=234	scaffold=chromosome14	strand=+
+2074_g               -            233 68715                -            191   2.6e-07   29.1   0.1   2   2   7.1e-09   3.2e-06   25.5   0.0    67   187   100   211    84   215 0.81 length=234	scaffold=chromosome14	strand=+
+433_g                -            215 68715                -            191   2.8e-07   29.0   0.2   1   1   1.2e-08   5.4e-06   24.8   0.2    18   139    22   163    13   191 0.73 length=216	scaffold=chromosome11	strand=-
+197_g                -            267 68715                -            191   3.6e-05   22.1   0.1   1   1   1.1e-07   4.9e-05   21.6   0.1    23   136    77   193    57   234 0.71 length=269	scaffold=chromosome10	strand=-
+2117_g               -            217 68715                -            191    0.0006   18.1   0.1   1   1   1.7e-06   0.00075   17.8   0.1    24   135    17   133    13   174 0.75 length=217	scaffold=chromosome14	strand=+
+1331_g               -            757 68715                -            191    0.0012   17.1   0.1   1   3   0.00011      0.05   11.8   0.0    30   103    44   118     4   135 0.74 length=757	scaffold=chromosome12	strand=+
+1331_g               -            757 68715                -            191    0.0012   17.1   0.1   2   3       3.7   1.7e+03   -2.9   0.0   122   136   154   168   149   175 0.84 length=757	scaffold=chromosome12	strand=+
+1331_g               -            757 68715                -            191    0.0012   17.1   0.1   3   3      0.15        67    1.6   0.0   144   184   296   336   251   342 0.72 length=757	scaffold=chromosome12	strand=+
+2395_g               -            217 68715                -            191     0.005   15.1   0.0   1   1   1.4e-05    0.0062   14.8   0.0    31   141    19   133    10   176 0.68 length=221	scaffold=chromosome14	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68715at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_knowlesi/run_apicomplexa_odb12/hmmer_output/initial_run_results/68715at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68715at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:45 2026
+# [ok]

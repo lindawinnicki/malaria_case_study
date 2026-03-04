@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2230_g               -            102 68711                -            159   1.7e-54  181.8   2.3   1   2   2.7e-17     1e-14   52.5   0.2     1    33     1    33     1    34 0.97 length=103	scaffold=gi564278570	strand=+
+2230_g               -            102 68711                -            159   1.7e-54  181.8   2.3   2   2   3.9e-42   1.5e-39  133.2   0.2    89   159    32   102    31   102 0.98 length=103	scaffold=gi564278570	strand=+
+1180_g               -            165 68711                -            159   1.7e-38  129.7   0.0   1   1   6.1e-41   2.3e-38  129.3   0.0     2   152     3   145     2   150 0.94 length=166	scaffold=gi564279795	strand=+
+2325_g               -            160 68711                -            159   7.6e-31  104.9   0.1   1   1   2.6e-33   9.8e-31  104.5   0.1     2   148     3   141     2   148 0.93 length=161	scaffold=gi564278570	strand=+
+2173_g               -            163 68711                -            159   1.3e-29  100.9   0.2   1   1   6.6e-32   2.5e-29  100.0   0.2     2   152     3   160     2   163 0.89 length=164	scaffold=gi564278570	strand=+
+4106_g               -            326 68711                -            159   2.4e-29  100.0   0.0   1   1   1.5e-31   5.6e-29   98.8   0.0     4   153     2   143     1   149 0.93 length=327	scaffold=gi564275836	strand=+
+1666_g               -            202 68711                -            159   5.5e-26   89.1   0.1   1   1     2e-28   7.7e-26   88.6   0.1    34   146    34   145    23   158 0.92 length=203	scaffold=gi564279471	strand=+
+894_g                -            151 68711                -            159   1.5e-23   81.2   0.0   1   1   4.5e-26   1.7e-23   81.0   0.0     8   148     7   139     1   148 0.83 length=152	scaffold=gi564280748	strand=-
+78_g                 -            149 68711                -            159   4.7e-18   63.3   0.2   1   1   1.4e-20   5.2e-18   63.2   0.2    34   134    26   125     2   145 0.91 length=150	scaffold=gi564281844	strand=-
+3071_g               -            191 68711                -            159   1.1e-16   58.9   0.0   1   1   3.4e-19   1.3e-16   58.6   0.0    43   152    36   145     6   152 0.86 length=192	scaffold=gi564277281	strand=+
+1501_g               -            154 68711                -            159   1.6e-16   58.4   0.1   1   1   5.2e-19     2e-16   58.0   0.1    52   145    52   143    35   149 0.90 length=155	scaffold=gi564279795	strand=+
+2516_g               -            306 68711                -            159   3.1e-14   50.9   1.9   1   2       2.5   9.4e+02   -2.7   0.0   111   124    26    39     9    47 0.66 length=307	scaffold=gi564277886	strand=+
+2516_g               -            306 68711                -            159   3.1e-14   50.9   1.9   2   2   1.2e-16   4.5e-14   50.4   0.5    36   124   187   274   161   290 0.84 length=307	scaffold=gi564277886	strand=+
+236_g                -            276 68711                -            159   2.8e-13   47.8   0.2   1   1   1.3e-15   4.8e-13   47.0   0.2    32   124   155   246   132   258 0.88 length=277	scaffold=gi564281162	strand=-
+1486_g               -            412 68711                -            159     2e-07   28.8   0.5   1   1     1e-09   3.9e-07   27.8   0.5    50   152   189   294   173   299 0.79 length=413	scaffold=gi564279795	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68711at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_yoelii/run_apicomplexa_odb12/hmmer_output/initial_run_results/68711at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68711at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_yoelii.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:35 2026
+# [ok]

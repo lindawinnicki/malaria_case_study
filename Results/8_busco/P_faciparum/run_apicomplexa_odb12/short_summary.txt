@@ -1,0 +1,17 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: apicomplexa_odb12 (Creation date: 2025-07-01, number of genomes: 36, number of BUSCOs: 481)
+# Summarized benchmarking in BUSCO notation for file /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:99.0%[S:99.0%,D:0.0%],F:0.4%,M:0.6%,n:481	   
+	476	Complete BUSCOs (C)			   
+	476	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	2	Fragmented BUSCOs (F)			   
+	3	Missing BUSCOs (M)			   
+	481	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2301_g               -            558 68889                -            528  1.2e-279  926.3  17.3   1   1  2.7e-282  1.4e-279  926.0  17.3     2   526    20   550    19   552 0.98 length=559	scaffold=chromosome12	strand=+
+3896_g               -            535 68889                -            528  7.9e-108  359.3  15.1   1   1  1.9e-110  9.9e-108  358.9  15.1    11   518    20   530     9   533 0.95 length=536	scaffold=chromosome3	strand=+
+543_g                -            529 68889                -            528  5.9e-105  349.8  20.4   1   1  1.4e-107  7.2e-105  349.5  20.4    12   517    15   526     9   529 0.95 length=530	scaffold=chromosome13	strand=+
+3785_g               -            539 68889                -            528  4.7e-102  340.2   9.4   1   1  1.2e-104  6.2e-102  339.8   9.4    12   518    17   525     7   534 0.92 length=540	scaffold=chromosome3	strand=-
+2835_g               -            544 68889                -            528   6.8e-99  329.8  11.8   1   1  1.6e-101   8.5e-99  329.4  11.8    10   525     6   539     1   542 0.92 length=545	scaffold=chromosome11	strand=-
+3772_g               -            533 68889                -            528   5.9e-78  260.7  11.8   1   1   1.4e-80     7e-78  260.4  11.8    10   521    13   527     5   533 0.92 length=534	scaffold=chromosome3	strand=-
+3476_g               -            524 68889                -            528   2.6e-75  252.0  10.3   1   1     8e-78   4.2e-75  251.3  10.3    22   519     2   516     1   524 0.90 length=525	scaffold=chromosome6	strand=+
+4870_g               -            542 68889                -            528     2e-72  242.4  18.8   1   1   4.9e-75   2.6e-72  242.1  18.8    16   519    22   523    16   530 0.92 length=543	scaffold=chromosome2	strand=+
+3149_g               -            580 68889                -            528   1.5e-19   67.9   9.2   1   2     5e-13   2.6e-10   37.4   0.8    17   184    39   210    28   227 0.78 length=581	scaffold=chromosome10	strand=-
+3149_g               -            580 68889                -            528   1.5e-19   67.9   9.2   2   2   3.7e-12   1.9e-09   34.6   2.1   375   518   413   553   398   564 0.76 length=581	scaffold=chromosome10	strand=-
+2326_g               -            716 68889                -            528   1.4e-17   61.4  11.6   1   3     6e-11   3.1e-08   30.6   0.9    28   155    85   216    73   254 0.83 length=717	scaffold=chromosome12	strand=-
+2326_g               -            716 68889                -            528   1.4e-17   61.4  11.6   2   3      0.19        99   -0.8   0.0   371   428   453   511   447   529 0.68 length=717	scaffold=chromosome12	strand=-
+2326_g               -            716 68889                -            528   1.4e-17   61.4  11.6   3   3   2.4e-12   1.3e-09   35.2   2.9   419   525   527   633   520   636 0.93 length=717	scaffold=chromosome12	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68889at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/68889at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68889at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:20 2026
+# [ok]

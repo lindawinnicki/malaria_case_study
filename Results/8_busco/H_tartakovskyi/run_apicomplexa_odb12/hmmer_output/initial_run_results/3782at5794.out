@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+691_g                -            261 3782                 -            159   3.4e-34  114.2   3.3   1   2   5.5e-08     4e-05   19.8   0.3    67   142     2    74     1    81 0.71 length=262	scaffold=contig01021	strand=+	adjustedToFrame=2
+691_g                -            261 3782                 -            159   3.4e-34  114.2   3.3   2   2   3.2e-31   2.3e-28   95.3   0.2    83   159   183   260   164   260 0.90 length=262	scaffold=contig01021	strand=+	adjustedToFrame=2
+798_g                -            500 3782                 -            159   0.00014   18.0   0.5   1   1   3.9e-07   0.00028   17.0   0.4    52   122   353   423   342   467 0.77 length=501	scaffold=contig01221	strand=-	adjustedToFrame=2
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/3782at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/H_tartakovskyi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/H_tartakovskyi/run_apicomplexa_odb12/hmmer_output/initial_run_results/3782at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/3782at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/H_tartakovskyi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:06 2026
+# [ok]

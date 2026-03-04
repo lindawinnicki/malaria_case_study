@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   1   8   2.2e-65   1.1e-61  207.2  11.2     6   183    21   203    16   261 0.87 length=2280	scaffold=chromosome8	strand=+
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   2   8   4.1e-51   2.2e-47  159.9   1.2   159   306   284   429   276   438 0.88 length=2280	scaffold=chromosome8	strand=+
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   3   8         1   5.2e+03   -7.0   5.8   756   756   479   479   426   528 0.60 length=2280	scaffold=chromosome8	strand=+
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   4   8  3.9e-119    2e-115  385.1  15.3   293   525   565   797   525   949 0.82 length=2280	scaffold=chromosome8	strand=+
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   5   8   8.8e-40   4.6e-36  122.4  15.9   513   787   979  1246   966  1260 0.73 length=2280	scaffold=chromosome8	strand=+
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   6   8   6.9e-27   3.6e-23   79.7   2.8   691   787  1393  1489  1371  1507 0.89 length=2280	scaffold=chromosome8	strand=+
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   7   8   1.1e-19   5.5e-16   55.9  47.2   522   902  1547  1924  1531  1950 0.76 length=2280	scaffold=chromosome8	strand=+
+705_g                -           2279 33447                -           1014         0 1037.3 179.0   8   8   4.6e-24   2.4e-20   70.4  29.6   765  1001  1963  2194  1932  2206 0.70 length=2280	scaffold=chromosome8	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/33447at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/33447at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/33447at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:31 2026
+# [ok]

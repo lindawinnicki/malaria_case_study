@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1424_g               -            505 68980                -            499  8.6e-221  731.9  19.4   1   1  8.3e-224    1e-220  731.6  19.4     3   498     7   497     5   501 0.96 length=506	scaffold=chromosome12	strand=-
+6_g                  -            538 68980                -            499       3.9    4.0  20.9   1   1    0.0047       5.8    3.4  20.9   455   495   245   285   224   290 0.47 length=539	scaffold=chromosome10	strand=-
+2325_g               -            474 68980                -            499       4.8    3.7  11.1   1   1    0.0058       7.2    3.1  11.1   453   481   237   265   226   279 0.41 length=475	scaffold=chromosome14	strand=+
+809_g                -            159 68980                -            499       5.2    3.6  16.1   1   1    0.0053       6.5    3.3  16.1   449   497    90   138    72   142 0.56 length=159	scaffold=chromosome12	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68980at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_knowlesi/run_apicomplexa_odb12/hmmer_output/initial_run_results/68980at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68980at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:48 2026
+# [ok]

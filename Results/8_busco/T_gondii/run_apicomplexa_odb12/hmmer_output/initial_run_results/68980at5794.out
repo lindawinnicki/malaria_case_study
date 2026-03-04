@@ -1,0 +1,35 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+5758_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   1   7        10   1.6e+04  -13.4  18.9   437   481   385   428   359   443 0.40 length=2005	scaffold=gi528858388	strand=-
+5758_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   2   7        10   1.6e+04  -12.9  17.1   439   491   431   483   420   492 0.41 length=2005	scaffold=gi528858388	strand=-
+5758_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   3   7     3e-48   4.8e-45  153.8   0.1     4   121   713   830   710   834 0.97 length=2005	scaffold=gi528858388	strand=-
+5758_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   4   7  1.1e-141  1.8e-138  462.0   0.4   122   427   884  1171   881  1174 0.99 length=2005	scaffold=gi528858388	strand=-
+5758_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   5   7   1.2e-10   1.9e-07   29.8   0.0   420   470  1251  1300  1247  1318 0.83 length=2005	scaffold=gi528858388	strand=-
+5758_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   6   7      0.15   2.5e+02   -0.3  11.8   457   488  1349  1379  1334  1389 0.43 length=2005	scaffold=gi528858388	strand=-
+5758_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   7   7      0.56   8.9e+02   -2.1   3.7   467   480  1679  1692  1661  1703 0.46 length=2005	scaffold=gi528858388	strand=-
+6490_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   1   7        10   1.6e+04  -13.4  18.9   437   481   385   428   359   443 0.40 length=2005	scaffold=gi527312496	strand=+
+6490_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   2   7        10   1.6e+04  -12.9  17.1   439   491   431   483   420   492 0.41 length=2005	scaffold=gi527312496	strand=+
+6490_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   3   7     3e-48   4.8e-45  153.8   0.1     4   121   713   830   710   834 0.97 length=2005	scaffold=gi527312496	strand=+
+6490_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   4   7  1.1e-141  1.8e-138  462.0   0.4   122   427   884  1171   881  1174 0.99 length=2005	scaffold=gi527312496	strand=+
+6490_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   5   7   1.2e-10   1.9e-07   29.8   0.0   420   470  1251  1300  1247  1318 0.83 length=2005	scaffold=gi527312496	strand=+
+6490_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   6   7      0.15   2.5e+02   -0.3  11.8   457   488  1349  1379  1334  1389 0.43 length=2005	scaffold=gi527312496	strand=+
+6490_g               -           2004 68980                -            499  3.1e-188  626.2   3.8   7   7      0.56   8.9e+02   -2.1   3.7   467   480  1679  1692  1661  1703 0.46 length=2005	scaffold=gi527312496	strand=+
+10681_g              -           1559 68980                -            499      0.12   10.7  11.2   1   1   0.00012      0.18   10.1  11.2   420   496   781   852   778   857 0.56 length=1560	scaffold=gi528858383	strand=-
+11478_g              -           1559 68980                -            499      0.12   10.7  11.2   1   1   0.00012      0.18   10.1  11.2   420   496   781   852   778   857 0.56 length=1560	scaffold=gi527307902	strand=-
+5781_g               -           3159 68980                -            499      0.14   10.4   0.6   1   1   0.00015      0.25    9.6   0.6    36   108  1985  2056  1976  2059 0.90 length=3160	scaffold=gi528858388	strand=-
+11193_g              -           2095 68980                -            499       1.6    7.0   7.8   1   1     0.002       3.2    6.0   7.8   410   485   564   639   528   648 0.71 length=2096	scaffold=gi528858383	strand=+
+11990_g              -           2095 68980                -            499       1.6    7.0   7.8   1   1     0.002       3.2    6.0   7.8   410   485   564   639   528   648 0.71 length=2096	scaffold=gi527307902	strand=+
+15054_g              -            250 68980                -            499       2.3    6.4   6.3   1   1    0.0019       3.1    6.0   6.3   438   479    83   124    70   139 0.80 length=250	scaffold=gi527306401	strand=+
+4532_g               -           1130 68980                -            499         8    4.6  10.8   1   1    0.0076        12    4.1  10.8   453   486   811   843   747   850 0.69 length=1131	scaffold=gi528858390	strand=+
+8547_g               -           1130 68980                -            499         8    4.6  10.8   1   1    0.0076        12    4.1  10.8   453   486   811   843   747   850 0.69 length=1131	scaffold=gi527313757	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68980at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/T_gondii.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/T_gondii/run_apicomplexa_odb12/hmmer_output/initial_run_results/68980at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68980at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/T_gondii.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:33:40 2026
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2629_g               -           1329 69139                -            864         0 1322.2  61.7   1   4   2.4e-68   4.2e-65  218.5   3.1     2   155    28   194    27   206 0.88 length=1330	scaffold=chromosome11	strand=+
+2629_g               -           1329 69139                -            864         0 1322.2  61.7   2   4  3.7e-252  6.4e-249  826.6  30.3   152   649   348   849   330   859 0.97 length=1330	scaffold=chromosome11	strand=+
+2629_g               -           1329 69139                -            864         0 1322.2  61.7   3   4   3.3e-17   5.7e-14   49.3   0.1   639   694   931   986   927   995 0.92 length=1330	scaffold=chromosome11	strand=+
+2629_g               -           1329 69139                -            864         0 1322.2  61.7   4   4   1.6e-75   2.7e-72  242.3   8.3   637   861  1003  1229   988  1232 0.90 length=1330	scaffold=chromosome11	strand=+
+4991_g               -            780 69139                -            864   5.3e-23   79.2  21.2   1   2     1e-18   1.7e-15   54.3   9.8   467   714    81   339    65   352 0.83 length=781	scaffold=chromosome4	strand=-
+4991_g               -            780 69139                -            864   5.3e-23   79.2  21.2   2   2   9.5e-12   1.6e-08   31.2   1.8   470   660   384   579   373   615 0.78 length=781	scaffold=chromosome4	strand=-
+1324_g               -            468 69139                -            864   3.2e-11   40.2   7.0   1   2         3   5.2e+03  -11.1  10.8    73   121    28    80     6   130 0.44 length=469	scaffold=chromosome14	strand=+
+1324_g               -            468 69139                -            864   3.2e-11   40.2   7.0   2   2   1.8e-14   3.2e-11   40.2   7.0   521   713   202   398   183   415 0.86 length=469	scaffold=chromosome14	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69139at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/69139at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69139at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:22 2026
+# [ok]

@@ -1,0 +1,66 @@
+{
+    "parameters": {
+        "out_path": "/home/inf-20-2025/Malaria",
+        "cpu": "10",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/home/inf-20-2025/Malaria/busco_downloads",
+        "datasets_version": "odb12",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "plot_percentages": "False",
+        "in": "/home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa",
+        "out": "Results/8_busco/P_berghei",
+        "mode": "proteins",
+        "lineage_dataset": "/home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12",
+        "main_out": "Results/8_busco/P_berghei",
+        "lineage_results_dir": "run_apicomplexa_odb12",
+        "domain": "eukaryota",
+        "ncbi_taxid": "5794",
+        "orthodb_version": "12.0",
+        "dataset_version": "01"
+    },
+    "lineage_dataset": {
+        "name": "apicomplexa_odb12",
+        "creation_date": "2025-07-01",
+        "number_of_buscos": "481",
+        "number_of_species": "36"
+    },
+    "versions": {
+        "python": [
+            3,
+            12,
+            12,
+            "final",
+            0
+        ],
+        "busco": "6.0.0",
+        "hmmsearch": 3.4
+    },
+    "results": {
+        "one_line_summary": "C:76.3%[S:73.0%,D:3.3%],F:16.2%,M:7.5%,n:481",
+        "Complete percentage": 76.3,
+        "Complete BUSCOs": 367,
+        "Single copy percentage": 73.0,
+        "Single copy BUSCOs": 351,
+        "Multi copy percentage": 3.3,
+        "Multi copy BUSCOs": 16,
+        "Fragmented percentage": 16.2,
+        "Fragmented BUSCOs": 78,
+        "Missing percentage": 7.5,
+        "Missing BUSCOs": 36,
+        "n_markers": 481,
+        "domain": "eukaryota"
+    }
+}

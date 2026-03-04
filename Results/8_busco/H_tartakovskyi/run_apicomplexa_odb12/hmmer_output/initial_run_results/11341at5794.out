@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+211_g                -            998 11341                -            603  4.2e-149  494.2  79.0   1   4   1.2e-93   1.8e-90  300.5  30.3     4   326    76   417    72   430 0.89 length=999	scaffold=contig00323	strand=-	adjustedToFrame=3
+211_g                -            998 11341                -            603  4.2e-149  494.2  79.0   2   4   1.4e-15     2e-12   42.8   2.3   329   377   500   548   474   550 0.91 length=999	scaffold=contig00323	strand=-	adjustedToFrame=3
+211_g                -            998 11341                -            603  4.2e-149  494.2  79.0   3   4   7.1e-46     1e-42  142.8  24.2   374   574   608   838   596   844 0.84 length=999	scaffold=contig00323	strand=-	adjustedToFrame=3
+211_g                -            998 11341                -            603  4.2e-149  494.2  79.0   4   4   1.3e-08   1.8e-05   19.8   0.4   556   599   880   923   871   926 0.92 length=999	scaffold=contig00323	strand=-	adjustedToFrame=3
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/11341at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/H_tartakovskyi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/H_tartakovskyi/run_apicomplexa_odb12/hmmer_output/initial_run_results/11341at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/11341at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/H_tartakovskyi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:05 2026
+# [ok]

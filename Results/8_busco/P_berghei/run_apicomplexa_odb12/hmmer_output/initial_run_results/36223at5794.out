@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2618_g               -            201 36223                -            261   1.5e-68  229.6   5.9   1   1   2.3e-71   1.8e-68  229.3   5.9     2   158    38   201    37   201 0.94 length=201	scaffold=gi56483812	strand=-	adjustedToFrame=2
+38_g                 -            371 36223                -            261     4e-34  116.8  13.8   1   1   7.5e-37     6e-34  116.2  13.8    71   229     2   165     1   195 0.93 length=372	scaffold=gi56495382	strand=+	adjustedToFrame=3
+809_g                -            202 36223                -            261   1.1e-32  112.0  15.5   1   2     3e-34   2.4e-31  107.7   7.3    30   160     2   139     1   141 0.88 length=203	scaffold=gi56493174	strand=+	adjustedToFrame=2
+809_g                -            202 36223                -            261   1.1e-32  112.0  15.5   2   2   6.2e-05      0.05   11.6   1.4   196   257   137   192   136   196 0.80 length=203	scaffold=gi56493174	strand=+	adjustedToFrame=2
+304_g                -            363 36223                -            261   1.8e-32  111.4   6.8   1   1   5.4e-35   4.3e-32  110.1   6.8    46   235   127   329    96   356 0.83 length=364	scaffold=gi56499463	strand=-	adjustedToFrame=2
+2302_g               -            323 36223                -            261   3.3e-15   54.8   8.1   1   2   6.4e-13   5.1e-10   37.8   0.6    42   140    49   144    14   167 0.80 length=323	scaffold=gi56489698	strand=+	adjustedToFrame=2
+2302_g               -            323 36223                -            261   3.3e-15   54.8   8.1   2   2   1.1e-07   8.8e-05   20.6   1.6   148   192   203   247   185   253 0.88 length=323	scaffold=gi56489698	strand=+	adjustedToFrame=2
+4420_g               -            347 36223                -            261   5.4e-11   41.0   3.3   1   1   9.9e-14     8e-11   40.4   3.3    46   225    63   238    21   281 0.73 length=348	scaffold=gi56495943	strand=+	adjustedToFrame=2
+729_g                -            302 36223                -            261   1.2e-09   36.6   4.2   1   2   7.8e-11   6.3e-08   30.9   0.1    30   106    45   125    26   128 0.79 length=302	scaffold=gi56494181	strand=+	adjustedToFrame=2
+729_g                -            302 36223                -            261   1.2e-09   36.6   4.2   2   2    0.0026       2.1    6.3   1.5   144   224   190   274   149   292 0.72 length=302	scaffold=gi56494181	strand=+	adjustedToFrame=2
+711_g                -            193 36223                -            261   2.1e-05   22.6   6.1   1   1   4.1e-08   3.3e-05   22.0   6.1   134   245    36   144     1   157 0.80 length=194	scaffold=gi56485481	strand=-	adjustedToFrame=2
+4947_g               -            102 36223                -            261     0.033   12.2   0.2   1   1   5.2e-05     0.042   11.8   0.2    29    66    28    65    15    73 0.87 length=102	scaffold=gi56485083	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/36223at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_berghei/run_apicomplexa_odb12/hmmer_output/initial_run_results/36223at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/36223at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:22 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+161_g                -            896 32339                -            208  2.8e-207  682.1  21.4   1   2  2.4e-108  6.3e-105  347.7   7.2     1   207    49   267    49   268 0.94 length=897	scaffold=chromosome13	strand=+
+161_g                -            896 32339                -            208  2.8e-207  682.1  21.4   2   2  6.5e-106  1.7e-102  339.8   6.2     1   207   634   852   634   853 0.94 length=897	scaffold=chromosome13	strand=+
+448_g                -            573 32339                -            208   2.3e-27   94.3   7.1   1   2   4.3e-18   1.1e-14   52.9   1.0     4   167   150   304   147   337 0.75 length=574	scaffold=chromosome13	strand=+
+448_g                -            573 32339                -            208   2.3e-27   94.3   7.1   2   2   2.8e-15   7.3e-12   43.7   0.6     2   144   424   558   423   572 0.81 length=574	scaffold=chromosome13	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32339at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/32339at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32339at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:11 2026
+# [ok]

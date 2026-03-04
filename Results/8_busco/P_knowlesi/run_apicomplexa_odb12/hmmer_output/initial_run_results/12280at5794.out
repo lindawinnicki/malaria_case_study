@@ -1,0 +1,41 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1209_g               -            354 12280                -            331  1.2e-165  548.4   0.7   1   1  4.6e-168  1.4e-165  548.2   0.7     3   331     8   336     6   336 0.99 length=355	scaffold=chromosome12	strand=-
+1175_g               -            339 12280                -            331   1.1e-80  269.2   0.2   1   1   4.4e-83   1.4e-80  268.9   0.2     7   323    19   329    14   336 0.91 length=340	scaffold=chromosome12	strand=+
+2492_g               -            339 12280                -            331   1.1e-80  269.2   0.2   1   1   4.4e-83   1.4e-80  268.9   0.2     7   323    19   329    14   336 0.91 length=340	scaffold=chromosome14	strand=+
+3126_g               -            911 12280                -            331   1.3e-23   81.6   1.8   1   2   5.9e-05     0.018   12.1   0.0     5    34   360   389   356   394 0.86 length=911	scaffold=chromosome4	strand=+	adjustedToFrame=3
+3126_g               -            911 12280                -            331   1.3e-23   81.6   1.8   2   2   6.2e-22   1.9e-19   67.9   1.0    26   215   404   591   400   623 0.80 length=911	scaffold=chromosome4	strand=+	adjustedToFrame=3
+1497_g               -           1150 12280                -            331   9.4e-07   26.2   2.3   1   1   1.3e-07   4.1e-05   20.8   2.3    36   228   765   988   733  1006 0.67 length=1150	scaffold=chromosome13	strand=+
+4507_g               -            783 12280                -            331   2.8e-06   24.6   0.0   1   2     6e-07   0.00019   18.7   0.0    41   120   290   369   277   375 0.72 length=783	scaffold=chromosome8	strand=+	adjustedToFrame=3
+4507_g               -            783 12280                -            331   2.8e-06   24.6   0.0   2   2     0.034        10    3.0   0.0    36    61   566   591   552   599 0.76 length=783	scaffold=chromosome8	strand=+	adjustedToFrame=3
+620_g                -            823 12280                -            331   2.3e-05   21.6   0.2   1   3   0.00037      0.12    9.5   0.1    42    62   246   266   241   269 0.91 length=823	scaffold=chromosome11	strand=+
+620_g                -            823 12280                -            331   2.3e-05   21.6   0.2   2   3         3   9.3e+02   -3.4   0.0   118   152   282   316   280   317 0.79 length=823	scaffold=chromosome11	strand=+
+620_g                -            823 12280                -            331   2.3e-05   21.6   0.2   3   3    0.0004      0.12    9.4   0.0    42    62   519   539   502   552 0.84 length=823	scaffold=chromosome11	strand=+
+1815_g               -           1129 12280                -            331   2.4e-05   21.6   0.0   1   2   1.3e-05     0.004   14.3   0.0    42    75   364   397   351   410 0.88 length=1130	scaffold=chromosome13	strand=-
+1815_g               -           1129 12280                -            331   2.4e-05   21.6   0.0   2   2     0.013       4.1    4.4   0.0    42    64   742   764   731   774 0.88 length=1130	scaffold=chromosome13	strand=-
+782_g                -            478 12280                -            331   0.00011   19.3   0.0   1   1   6.2e-07   0.00019   18.6   0.0    15    83   223   295   215   300 0.74 length=479	scaffold=chromosome11	strand=-
+408_g                -            484 12280                -            331   0.00014   19.0   0.2   1   2   0.00036      0.11    9.5   0.0    32    65    56    91    35   109 0.80 length=484	scaffold=chromosome11	strand=+
+408_g                -            484 12280                -            331   0.00014   19.0   0.2   2   2    0.0019       0.6    7.1   0.1   165   228   360   427   350   457 0.77 length=484	scaffold=chromosome11	strand=+
+2205_g               -            532 12280                -            331    0.0011   16.2   1.3   1   4   2.8e-05    0.0087   13.2   0.0    41    67   148   174   134   197 0.83 length=532	scaffold=chromosome14	strand=+
+2205_g               -            532 12280                -            331    0.0011   16.2   1.3   2   4       1.6     5e+02   -2.5   0.0   205   243   179   216   178   220 0.85 length=532	scaffold=chromosome14	strand=+
+2205_g               -            532 12280                -            331    0.0011   16.2   1.3   3   4       3.1   9.7e+02   -3.4   0.0   203   246   310   340   297   362 0.54 length=532	scaffold=chromosome14	strand=+
+2205_g               -            532 12280                -            331    0.0011   16.2   1.3   4   4      0.21        66    0.4   0.1   167   229   444   510   430   521 0.74 length=532	scaffold=chromosome14	strand=+
+396_g                -            504 12280                -            331    0.0015   15.7   0.0   1   1   9.9e-06    0.0031   14.7   0.0    42   141   346   437   339   446 0.76 length=505	scaffold=chromosome11	strand=+
+2025_g               -            441 12280                -            331    0.0031   14.6   0.3   1   2   2.7e-05    0.0083   13.2   0.0    42    61   197   216   181   220 0.84 length=442	scaffold=chromosome14	strand=-
+2025_g               -            441 12280                -            331    0.0031   14.6   0.3   2   2       1.5   4.6e+02   -2.4   0.1   134   165   349   381   347   402 0.72 length=442	scaffold=chromosome14	strand=-
+1265_g               -            449 12280                -            331    0.0069   13.5   0.0   1   1   4.3e-05     0.013   12.6   0.0    31    62   143   176   112   214 0.77 length=449	scaffold=chromosome12	strand=+
+2479_g               -            946 12280                -            331      0.01   13.0   0.0   1   3       2.3   7.2e+02   -3.0   0.0   118   138    77    97    73   101 0.79 length=947	scaffold=chromosome14	strand=+
+2479_g               -            946 12280                -            331      0.01   13.0   0.0   2   3   0.00013     0.041   10.9   0.0    20    61   250   293   231   301 0.86 length=947	scaffold=chromosome14	strand=+
+2479_g               -            946 12280                -            331      0.01   13.0   0.0   3   3       3.2     1e+03   -3.5   0.0   128   150   416   438   410   442 0.83 length=947	scaffold=chromosome14	strand=+
+4774_g               -            519 12280                -            331     0.012   12.8   0.1   1   1   8.2e-05     0.025   11.6   0.1    42    61   304   323   289   333 0.85 length=519	scaffold=chromosome9	strand=+	adjustedToFrame=3
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/12280at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_knowlesi/run_apicomplexa_odb12/hmmer_output/initial_run_results/12280at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/12280at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:41 2026
+# [ok]

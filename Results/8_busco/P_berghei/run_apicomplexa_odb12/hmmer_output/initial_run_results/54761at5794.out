@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+698_g                -            122 54761                -            118   3.4e-47  158.1   1.9   1   1   2.1e-50   3.8e-47  158.0   1.9     1   116     1   120     1   122 0.92 length=123	scaffold=gi56493083	strand=-
+3316_g               -            139 54761                -            118   1.5e-19   68.9   0.3   1   1   2.7e-22   4.9e-19   67.3   0.3     5   111     1   125     1   132 0.77 length=140	scaffold=gi56501135	strand=-	adjustedToFrame=2
+6110_g               -            285 54761                -            118     0.003   16.3   0.5   1   1   4.9e-06    0.0089   14.8   0.5    44    96   182   234   149   250 0.82 length=286	scaffold=gi56488059	strand=+	adjustedToFrame=3
+2967_g               -            302 54761                -            118    0.0041   15.9   4.7   1   2     0.038        68    2.3   0.2    11    44    48    81    29    98 0.75 length=303	scaffold=gi56501205	strand=-
+2967_g               -            302 54761                -            118    0.0041   15.9   4.7   2   2   5.3e-06    0.0096   14.7   0.8    43    96   198   251   161   267 0.78 length=303	scaffold=gi56501205	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/54761at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_berghei/run_apicomplexa_odb12/hmmer_output/initial_run_results/54761at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/54761at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_berghei.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:26 2026
+# [ok]

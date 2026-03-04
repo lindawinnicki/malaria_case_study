@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3008_g               -            392 68729                -            389    6e-222  734.9  10.5   1   1  7.2e-225  6.9e-222  734.7  10.5     1   388     1   389     1   390 0.99 length=393	scaffold=chromosome3	strand=+
+71_g                 -            365 68729                -            389   2.9e-05   21.6   0.2   1   1   1.6e-06    0.0016   15.9   0.2    20    56    62    98    58   162 0.88 length=366	scaffold=chromosome10	strand=+
+432_g                -            374 68729                -            389     7e-05   20.3   0.0   1   2   2.8e-05     0.027   11.8   0.0    18    71    66   119    51   121 0.88 length=375	scaffold=chromosome11	strand=+
+432_g                -            374 68729                -            389     7e-05   20.3   0.0   2   2   0.00045      0.43    7.9   0.0    85   136   116   168   111   183 0.83 length=375	scaffold=chromosome11	strand=+
+1676_g               -            559 68729                -            389    0.0019   15.6   1.4   1   2       1.4   1.3e+03   -3.6   1.0   156   186    40    69    13    86 0.47 length=560	scaffold=chromosome13	strand=+
+1676_g               -            559 68729                -            389    0.0019   15.6   1.4   2   2   2.7e-06    0.0026   15.2   0.0    17    45   325   353   315   359 0.87 length=560	scaffold=chromosome13	strand=+
+663_g                -            726 68729                -            389    0.0026   15.2   0.0   1   2   2.7e-06    0.0026   15.2   0.0    23    71   174   222   163   252 0.89 length=727	scaffold=chromosome11	strand=-
+663_g                -            726 68729                -            389    0.0026   15.2   0.0   2   2       2.1   2.1e+03   -4.2   1.0   126   176   538   591   535   613 0.58 length=727	scaffold=chromosome11	strand=-
+3900_g               -            691 68729                -            389    0.0037   14.7   0.0   1   1   8.3e-06     0.008   13.6   0.0   303   344   162   204   148   220 0.86 length=692	scaffold=chromosome7	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68729at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_cynomolgi/run_apicomplexa_odb12/hmmer_output/initial_run_results/68729at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68729at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:49 2026
+# [ok]

@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3862_g               -            683 69177                -            621         0 1164.8  19.0   1   1         0         0 1164.6  19.0     4   613    57   669    54   683 0.98 length=684	scaffold=chromosome7	strand=+
+3326_g               -            690 69177                -            621  4.2e-280  928.5   6.9   1   1  5.9e-283  5.5e-280  928.0   6.9     7   611    16   629    12   633 0.97 length=691	scaffold=chromosome5	strand=-
+4699_g               -            663 69177                -            621  2.8e-225  747.4  16.9   1   1  3.8e-228  3.6e-225  747.0  16.9     3   614    38   645    36   652 0.95 length=664	scaffold=chromosome9	strand=+
+2561_g               -            887 69177                -            621     5e-47  158.5  34.6   1   4   1.1e-32   1.1e-29  101.3   2.8     7   249     2   253     1   263 0.82 length=888	scaffold=chromosome1	strand=+
+2561_g               -            887 69177                -            621     5e-47  158.5  34.6   2   4   1.2e-21   1.2e-18   64.8   0.1   255   379   288   413   275   420 0.91 length=888	scaffold=chromosome1	strand=+
+2561_g               -            887 69177                -            621     5e-47  158.5  34.6   3   4   1.2e-06    0.0012   15.3   1.5   504   607   627   729   611   740 0.83 length=888	scaffold=chromosome1	strand=+
+2561_g               -            887 69177                -            621     5e-47  158.5  34.6   4   4         6   5.7e+03   -9.6  11.4   520   587   799   867   777   881 0.65 length=888	scaffold=chromosome1	strand=+
+842_g                -            928 69177                -            621   1.9e-38  130.2  30.4   1   5   2.5e-05     0.024   10.9   0.1     7    70    25    89    21   118 0.90 length=929	scaffold=chromosome12	strand=-
+842_g                -            928 69177                -            621   1.9e-38  130.2  30.4   2   5   1.3e-35   1.3e-32  110.9   3.7    89   372   138   441   125   463 0.85 length=929	scaffold=chromosome12	strand=-
+842_g                -            928 69177                -            621   1.9e-38  130.2  30.4   3   5      0.26   2.5e+02   -2.3   0.1   466   509   541   586   533   635 0.64 length=929	scaffold=chromosome12	strand=-
+842_g                -            928 69177                -            621   1.9e-38  130.2  30.4   4   5   1.1e-08     1e-05   22.1   6.9   504   604   647   747   625   764 0.90 length=929	scaffold=chromosome12	strand=-
+842_g                -            928 69177                -            621   1.9e-38  130.2  30.4   5   5      0.15   1.5e+02   -1.6   1.0   536   583   760   807   744   830 0.72 length=929	scaffold=chromosome12	strand=-
+929_g                -            377 69177                -            621     0.011   12.1   8.6   1   1   1.9e-05     0.018   11.3   8.6   515   587    28    97    21   105 0.79 length=378	scaffold=chromosome12	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69177at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_vivax/run_apicomplexa_odb12/hmmer_output/initial_run_results/69177at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69177at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:13 2026
+# [ok]

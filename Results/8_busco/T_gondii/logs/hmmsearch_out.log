@@ -1,0 +1,588 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/33556at5794.hmm
+# target sequence database:        /home/inf-20-2025/Malaria/Results/6_nobird_annotation/T_gondii.faa
+# per-dom hits tabular output:     Results/8_busco/T_gondii/run_apicomplexa_odb12/hmmer_output/initial_run_results/33556at5794.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       33556  [M=417]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   5.3e-106  354.5   3.0    1.1e-36  126.1   0.2    7.2  6  723_g     length=2700	scaffold=gi527315607	strand=+
+   9.4e-106  353.7   2.9    1.3e-36  126.0   0.2    7.2  6  452_g     length=2944	scaffold=gi528858395	strand=-
+    2.4e-37  128.3   3.5    3.2e-26   91.7   0.0    2.4  2  3074_g    length=831	scaffold=gi528858386	strand=+
+    2.4e-37  128.3   3.5    3.2e-26   91.7   0.0    2.4  2  3755_g    length=831	scaffold=gi527310709	strand=+
+    7.4e-30  103.7   7.3    1.4e-14   53.3   0.0    3.6  3  4832_g    length=924	scaffold=gi528858389	strand=+
+    7.4e-30  103.7   7.3    1.4e-14   53.3   0.0    3.6  3  5304_g    length=924	scaffold=gi527313191	strand=+
+    4.2e-10   38.6   0.0    9.8e-06   24.2   0.0    2.2  2  2214_g    length=1271	scaffold=gi527314726	strand=+
+    4.9e-10   38.4   0.0    1.1e-05   24.1   0.0    2.2  2  2044_g    length=1362	scaffold=gi528858392	strand=-
+    1.4e-05   23.7   0.0       0.17   10.2   0.0    2.9  3  10629_g   length=1224	scaffold=gi528858383	strand=-
+    1.4e-05   23.7   0.0       0.17   10.2   0.0    2.9  3  11426_g   length=1224	scaffold=gi527307902	strand=-
+    0.00051   18.6   0.1     0.0019   16.7   0.0    1.8  2  5749_g    length=726	scaffold=gi528858388	strand=-
+    0.00051   18.6   0.1     0.0019   16.7   0.0    1.8  2  6499_g    length=726	scaffold=gi527312496	strand=+
+    0.00052   18.5   0.0     0.0011   17.5   0.0    1.5  1  6029_g    length=1227	scaffold=gi528858388	strand=+
+     0.0011   17.5   0.0      0.002   16.6   0.0    1.3  1  6223_g    length=2082	scaffold=gi527312496	strand=-
+     0.0022   16.5   0.0     0.0042   15.6   0.0    1.4  1  10356_g   length=993	scaffold=gi528858384	strand=+
+     0.0022   16.5   0.0     0.0042   15.6   0.0    1.4  1  12168_g   length=993	scaffold=gi527308984	strand=-
+     0.0048   15.3   0.0     0.0087   14.5   0.0    1.3  1  4554_g    length=1369	scaffold=gi528858390	strand=+
+     0.0048   15.3   0.0     0.0087   14.5   0.0    1.3  1  8569_g    length=1369	scaffold=gi527313757	strand=+
+     0.0054   15.2   0.1     0.0098   14.3   0.1    1.3  1  6981_g    length=739	scaffold=gi528858387	strand=-
+     0.0054   15.2   0.1     0.0098   14.3   0.1    1.3  1  7931_g    length=739	scaffold=gi527311550	strand=+
+  ------ inclusion threshold ------
+      0.012   14.1   0.0      0.025   13.0   0.0    1.4  1  13022_g   length=472	scaffold=gi527309735	strand=-
+      0.012   14.1   0.0      0.025   13.0   0.0    1.4  1  9642_g    length=472	scaffold=gi528858385	strand=+
+      0.037   12.4   0.5      0.067   11.6   0.5    1.4  1  13384_g   length=584	scaffold=gi527309735	strand=+
+      0.037   12.4   0.5      0.067   11.6   0.5    1.4  1  9284_g    length=584	scaffold=gi528858385	strand=-
+      0.061   11.7   0.0      0.099   11.0   0.0    1.2  1  6550_g    length=1088	scaffold=gi527312496	strand=-
+      0.061   11.7   0.0        0.1   11.0   0.0    1.2  1  5697_g    length=1099	scaffold=gi528858388	strand=+
+       0.19   10.1   0.0        0.4    9.0   0.0    1.4  1  6105_g    length=1469	scaffold=gi528858388	strand=+
+       0.19   10.1   0.0        0.4    9.0   0.0    1.4  1  6148_g    length=1469	scaffold=gi527312496	strand=-
+
+
+Domain annotation for each sequence (and alignments):
+>> 723_g  length=2700	scaffold=gi527315607	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.1   0.5    0.0013      0.75       2      40 ..    1626    1666 ..    1625    1737 .. 0.84
+   2 !  126.1   0.2     2e-39   1.1e-36      64     147 ..    1936    2020 ..    1927    2022 .. 0.94
+   3 !   26.6   0.0   3.2e-09   1.8e-06     145     184 ..    2084    2123 ..    2080    2144 .. 0.83
+   4 !  104.8   0.0   6.1e-33   3.4e-30     197     261 ..    2238    2302 ..    2212    2313 .. 0.85
+   5 !   15.6   0.0   7.2e-06    0.0041     282     312 ..    2385    2415 ..    2380    2421 .. 0.87
+   6 !   63.0   0.0   2.9e-20   1.7e-17     317     388 ..    2452    2523 ..    2446    2542 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.0013
+  33556    2 kekkeksvlerseldeylstslaaqesflek..eirlvkke 40  
+             ++++ +s++++seld ylst la+q++fl +  e++++ k+
+  723_g 1626 RSHNLQSLTQQSELDFYLSTVLASQDQFLINkgEAQVWLKS 1666
+             57899**********************98661134555444 PP
+
+  == domain 2  score: 126.1 bits;  conditional E-value: 2e-39
+  33556   64 eltaeeldkleleafleWRkllaevEee.gvvltPyEkNlefWrqLWRviErshlvleivdaRdplffrskdLEkyikevdkrke 147 
+             ++ta+el++le++afl+WR++la +Ee+ gv l+P+E+Nl++WrqLWRv+E+shl+l+ivd+Rd+ ffrs+dLE+++kevd+rke
+  723_g 1936 PRTAAELEALERDAFLRWRRELAFLEEKqGVSLSPFERNLDVWRQLWRVVEKSHLLLQIVDGRDIRFFRSRDLEQFVKEVDSRKE 2020
+             67899*******************98752799***************************************************97 PP
+
+  == domain 3  score: 26.6 bits;  conditional E-value: 3.2e-09
+  33556  145 rkevilvlNKaDflteelrkewaeyfkkkgvevvfelekq 184 
+             + + +lv+NKaD++++++r++wae++kk++v++vf    +
+  723_g 2084 SSQAVLVVNKADLIPPSVRQKWAEALKKENVSHVFFSALK 2123
+             5689*****************************9955444 PP
+
+  == domain 4  score: 104.8 bits;  conditional E-value: 6.1e-33
+  33556  197 kklkkasekfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkhlqtlklkkegitlCDCPgl 261 
+             + l   ++ f+vGlvGfPnvGKss+inall+skkvsvsr+PGKt+hlqtl + ++g+tlCDCPg 
+  723_g 2238 SALLASPPPFIVGLVGFPNVGKSSVINALLGSKKVSVSRTPGKTRHLQTLVVGDTGLTLCDCPGK 2302
+             556678999******************************************************96 PP
+
+  == domain 5  score: 15.6 bits;  conditional E-value: 7.2e-06
+  33556  282 dhfrGdllkavqlicdripeqllkkykikaa 312 
+             ++  Gd+++++ql+cdrip+qll+ y + aa
+  723_g 2385 ANSIGDFIPSIQLLCDRIPRQLLRLYGLPAA 2415
+             5667**********************98765 PP
+
+  == domain 6  score: 63.0 bits;  conditional E-value: 2.9e-20
+  33556  317 kvleakkfLeklaekRkfvsgGkggqldlsraaklilrdyvsGkllycklPpgsaleeseeaeeeeleelee 388 
+              +l+a +fLe+la+kR+f++gGkggq+dl+r+ak++l+d++sG++++c+ P+g++++ ++e+ e+e+++ + 
+  723_g 2452 LQLHAPAFLESLAQKRRFTAGGKGGQWDLYRVAKMVLKDHASGRVTACRGPDGRYYDGEQERRETEQTNAAS 2523
+             689*********************************************************999998887665 PP
+
+>> 452_g  length=2944	scaffold=gi528858395	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.0   0.5    0.0014       0.8       2      40 ..    1870    1910 ..    1869    1981 .. 0.84
+   2 !  126.0   0.2   2.2e-39   1.3e-36      64     147 ..    2180    2264 ..    2171    2266 .. 0.94
+   3 !   26.5   0.0   3.5e-09     2e-06     145     184 ..    2328    2367 ..    2324    2388 .. 0.83
+   4 !  104.6   0.0   6.7e-33   3.8e-30     197     261 ..    2482    2546 ..    2456    2557 .. 0.85
+   5 !   15.5   0.0   7.8e-06    0.0044     282     312 ..    2629    2659 ..    2624    2665 .. 0.87
+   6 !   62.9   0.0   3.2e-20   1.8e-17     317     388 ..    2696    2767 ..    2690    2786 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.0014
+  33556    2 kekkeksvlerseldeylstslaaqesflek..eirlvkke 40  
+             ++++ +s++++seld ylst la+q++fl +  e++++ k+
+  452_g 1870 RSHNLQSLTQQSELDFYLSTVLASQDQFLINkgEAQVWLKS 1910
+             57899**********************98661134555444 PP
+
+  == domain 2  score: 126.0 bits;  conditional E-value: 2.2e-39
+  33556   64 eltaeeldkleleafleWRkllaevEee.gvvltPyEkNlefWrqLWRviErshlvleivdaRdplffrskdLEkyikevdkrke 147 
+             ++ta+el++le++afl+WR++la +Ee+ gv l+P+E+Nl++WrqLWRv+E+shl+l+ivd+Rd+ ffrs+dLE+++kevd+rke
+  452_g 2180 PRTAAELEALERDAFLRWRRELAFLEEKqGVSLSPFERNLDVWRQLWRVVEKSHLLLQIVDGRDIRFFRSRDLEQFVKEVDSRKE 2264
+             67899*******************98752799***************************************************97 PP
+
+  == domain 3  score: 26.5 bits;  conditional E-value: 3.5e-09
+  33556  145 rkevilvlNKaDflteelrkewaeyfkkkgvevvfelekq 184 
+             + + +lv+NKaD++++++r++wae++kk++v++vf    +
+  452_g 2328 SSQAVLVVNKADLIPPSVRQKWAEALKKENVSHVFFSALK 2367
+             5689*****************************9955444 PP
+
+  == domain 4  score: 104.6 bits;  conditional E-value: 6.7e-33
+  33556  197 kklkkasekfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkhlqtlklkkegitlCDCPgl 261 
+             + l   ++ f+vGlvGfPnvGKss+inall+skkvsvsr+PGKt+hlqtl + ++g+tlCDCPg 
+  452_g 2482 SALLASPPPFIVGLVGFPNVGKSSVINALLGSKKVSVSRTPGKTRHLQTLVVGDTGLTLCDCPGK 2546
+             556678999******************************************************96 PP
+
+  == domain 5  score: 15.5 bits;  conditional E-value: 7.8e-06
+  33556  282 dhfrGdllkavqlicdripeqllkkykikaa 312 
+             ++  Gd+++++ql+cdrip+qll+ y + aa
+  452_g 2629 ANSIGDFIPSIQLLCDRIPRQLLRLYGLPAA 2659
+             5667**********************98765 PP
+
+  == domain 6  score: 62.9 bits;  conditional E-value: 3.2e-20
+  33556  317 kvleakkfLeklaekRkfvsgGkggqldlsraaklilrdyvsGkllycklPpgsaleeseeaeeeeleelee 388 
+              +l+a +fLe+la+kR+f++gGkggq+dl+r+ak++l+d++sG++++c+ P+g++++ ++e+ e+e+++ + 
+  452_g 2696 LQLHAPAFLESLAQKRRFTAGGKGGQWDLYRVAKMVLKDHASGRVTACRGPDGRYYDGEQERRETEQTNAAS 2767
+             689*********************************************************999998887665 PP
+
+>> 3074_g  length=831	scaffold=gi528858386	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   0.1   1.8e-12     1e-09     107     159 ..     355     407 ..     353     417 .. 0.89
+   2 !   91.7   0.0   5.6e-29   3.2e-26     156     386 ..     478     706 ..     475     719 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 1.8e-12
+   33556 107 qLWRviErshlvleivdaRdplffrskdLEkyikevdkrkevilvlNKaDflt 159
+              L++vi+ s++++++vdaRdpl  r+  +Eky+++  ++k++ilvlNK     
+  3074_g 355 ELYKVIDSSDVIVQVVDARDPLGTRCFRVEKYLRSHKQSKHMILVLNKVQQTL 407
+             599*********************************************86554 PP
+
+  == domain 2  score: 91.7 bits;  conditional E-value: 5.6e-29
+   33556 156 Dflteelrkewaeyfkkkgvevvfelekqekeleevl..nvllkklk..kasekfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkhlqtlklkkegit 254
+             D+++ ++ + w + f+k+  +  f+ +kqek+  +++  ++l + ++  +  +++ vG++G+PnvGKss+inal +++    +  PG t+  q + l+k  + 
+  3074_g 478 DLIPSQVARIWVRRFSKELPTLPFQAKKQEKAAGRLQlfQLLRQYVQlmSDRKHVSVGFIGYPNVGKSSIINALRSKQVCRAAPIPGETRVWQYVALTK-RLY 579
+             999*************************9998876541155555444114456789******************999999999*************986.699 PP
+
+   33556 255 lCDCPglvfPslvstKehLlingvvsidhfrGdllkavqlicdripe.qllkkykikaaeeekkvleakkfLeklaekRkfvsgGkggqldlsraaklilrdy 356
+             l DCPg+v  s+  +    +i gvv  +++     + +  + +r++e  +  +y++  a    k  ++++fL+ la+k+  +   kgg++d+s aa+++l d 
+  3074_g 580 LIDCPGIVPASASISDSLRVIRGVVRPERIACPE-EHIDEVLQRVQEeSIRARYSLPDA---CKWTDSESFLAVLAKKKGKL--LKGGEPDISTAARIVLYDL 676
+             ********99999999999*********998765.566666777765156678998765...57889*********988543..47899************** PP
+
+   33556 357 vsGkllycklPpgsaleeseeaeeeeleel 386
+               G+l y   Pp      +ee+ +e++ + 
+  3074_g 677 QRGRLPYYVPPPVDPNAPEEESGDENKGKK 706
+             ********9999988877777766665544 PP
+
+>> 3755_g  length=831	scaffold=gi527310709	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   0.1   1.8e-12     1e-09     107     159 ..     355     407 ..     353     417 .. 0.89
+   2 !   91.7   0.0   5.6e-29   3.2e-26     156     386 ..     478     706 ..     475     719 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 1.8e-12
+   33556 107 qLWRviErshlvleivdaRdplffrskdLEkyikevdkrkevilvlNKaDflt 159
+              L++vi+ s++++++vdaRdpl  r+  +Eky+++  ++k++ilvlNK     
+  3755_g 355 ELYKVIDSSDVIVQVVDARDPLGTRCFRVEKYLRSHKQSKHMILVLNKVQQTL 407
+             599*********************************************86554 PP
+
+  == domain 2  score: 91.7 bits;  conditional E-value: 5.6e-29
+   33556 156 Dflteelrkewaeyfkkkgvevvfelekqekeleevl..nvllkklk..kasekfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkhlqtlklkkegit 254
+             D+++ ++ + w + f+k+  +  f+ +kqek+  +++  ++l + ++  +  +++ vG++G+PnvGKss+inal +++    +  PG t+  q + l+k  + 
+  3755_g 478 DLIPSQVARIWVRRFSKELPTLPFQAKKQEKAAGRLQlfQLLRQYVQlmSDRKHVSVGFIGYPNVGKSSIINALRSKQVCRAAPIPGETRVWQYVALTK-RLY 579
+             999*************************9998876541155555444114456789******************999999999*************986.699 PP
+
+   33556 255 lCDCPglvfPslvstKehLlingvvsidhfrGdllkavqlicdripe.qllkkykikaaeeekkvleakkfLeklaekRkfvsgGkggqldlsraaklilrdy 356
+             l DCPg+v  s+  +    +i gvv  +++     + +  + +r++e  +  +y++  a    k  ++++fL+ la+k+  +   kgg++d+s aa+++l d 
+  3755_g 580 LIDCPGIVPASASISDSLRVIRGVVRPERIACPE-EHIDEVLQRVQEeSIRARYSLPDA---CKWTDSESFLAVLAKKKGKL--LKGGEPDISTAARIVLYDL 676
+             ********99999999999*********998765.566666777765156678998765...57889*********988543..47899************** PP
+
+   33556 357 vsGkllycklPpgsaleeseeaeeeeleel 386
+               G+l y   Pp      +ee+ +e++ + 
+  3755_g 677 QRGRLPYYVPPPVDPNAPEEESGDENKGKK 706
+             ********9999988877777766665544 PP
+
+>> 4832_g  length=924	scaffold=gi528858389	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.1   5.1e-12   2.9e-09     108     172 ..     172     234 ..     164     243 .. 0.91
+   2 !   53.3   0.0   2.5e-17   1.4e-14     201     264 ..     458     521 ..     441     533 .. 0.85
+   3 !   17.0   0.0   2.7e-06    0.0015     322     385 ..     602     663 ..     588     680 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 5.1e-12
+   33556 108 LWRviErshlvleivdaRdplffrskdLEkyikevdkrkevilvlNKaDflteelrkewaeyfkk 172
+             L Rv+  +++++e++daR p  fr+  LE+++  + + k++ilv+NK D++++e   +w + +++
+  4832_g 172 LRRVLQEADVIIEVLDARMPAAFRCLALERWV--LGEGKKLILVMNKVDLVPKEAAVAWLKTLQR 234
+             56899**************************9..67999********************998875 PP
+
+  == domain 2  score: 53.3 bits;  conditional E-value: 2.5e-17
+   33556 201 kasekfvvGlvGfPnvGKsslinalles.kkvsvsrqPGKtkhlqtlklkkegitlCDCPglvfP 264
+             +a+++++vG+vG+PnvGKssl+nal +s    +v+  PG tk lq ++++k +i l D Pg++f 
+  4832_g 458 TAKANLLVGVVGYPNVGKSSLVNALTHScSAAAVAAMPGSTKTLQYVRIDK-HIQLIDSPGVLFS 521
+             566789*******************98725678***************975.79*******9994 PP
+
+  == domain 3  score: 17.0 bits;  conditional E-value: 2.7e-06
+   33556 322 kkfLeklaekRkfvsgGkggqldlsraaklilrdyvsGkllycklPpgsaleeseeaeeeelee 385
+             +++L+ la++R  ++  kgg++dl+ aak+ l+d+ sG + y ++Pp+   +++++ +++e+ +
+  4832_g 602 QEMLALLAHRRGKLK--KGGIPDLDAAAKIFLQDWQSGVIPYYTMPPEDSEHTTTSDMKSEKVA 663
+             456777777776554..89*****************************9999988888777655 PP
+
+>> 5304_g  length=924	scaffold=gi527313191	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.1   5.1e-12   2.9e-09     108     172 ..     172     234 ..     164     243 .. 0.91
+   2 !   53.3   0.0   2.5e-17   1.4e-14     201     264 ..     458     521 ..     441     533 .. 0.85
+   3 !   17.0   0.0   2.7e-06    0.0015     322     385 ..     602     663 ..     588     680 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 5.1e-12
+   33556 108 LWRviErshlvleivdaRdplffrskdLEkyikevdkrkevilvlNKaDflteelrkewaeyfkk 172
+             L Rv+  +++++e++daR p  fr+  LE+++  + + k++ilv+NK D++++e   +w + +++
+  5304_g 172 LRRVLQEADVIIEVLDARMPAAFRCLALERWV--LGEGKKLILVMNKVDLVPKEAAVAWLKTLQR 234
+             56899**************************9..67999********************998875 PP
+
+  == domain 2  score: 53.3 bits;  conditional E-value: 2.5e-17
+   33556 201 kasekfvvGlvGfPnvGKsslinalles.kkvsvsrqPGKtkhlqtlklkkegitlCDCPglvfP 264
+             +a+++++vG+vG+PnvGKssl+nal +s    +v+  PG tk lq ++++k +i l D Pg++f 
+  5304_g 458 TAKANLLVGVVGYPNVGKSSLVNALTHScSAAAVAAMPGSTKTLQYVRIDK-HIQLIDSPGVLFS 521
+             566789*******************98725678***************975.79*******9994 PP
+
+  == domain 3  score: 17.0 bits;  conditional E-value: 2.7e-06
+   33556 322 kkfLeklaekRkfvsgGkggqldlsraaklilrdyvsGkllycklPpgsaleeseeaeeeelee 385
+             +++L+ la++R  ++  kgg++dl+ aak+ l+d+ sG + y ++Pp+   +++++ +++e+ +
+  5304_g 602 QEMLALLAHRRGKLK--KGGIPDLDAAAKIFLQDWQSGVIPYYTMPPEDSEHTTTSDMKSEKVA 663
+             456777777776554..89*****************************9999988888777655 PP
+
+>> 2214_g  length=1271	scaffold=gi527314726	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.0     9e-05     0.051     207     263 ..     685     747 ..     677     750 .. 0.71
+   2 !   24.2   0.0   1.7e-08   9.8e-06     202     242 ..     955     995 ..     939    1004 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 9e-05
+   33556 207 vvGlvGfPnvGKsslinalleskkvs....vsrqPGKtk..hlqtlklkkegitlCDCPglvf 263
+              v l+G PnvGKssl n+l +++ ++    v  + G t+  h+     + + +++ D  gl+f
+  2214_g 685 CVCLLGRPNVGKSSLFNTLKDKEDTAadaiVRDEDGTTRdrHYAFSVWRGRPFIVVDTGGLIF 747
+             58899**************98876642232556677774325555556667777777777776 PP
+
+  == domain 2  score: 24.2 bits;  conditional E-value: 1.7e-08
+   33556 202 asekfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkh 242
+             a e++ v +vG PnvGKs l+n ll+  ++ vs q G t+ 
+  2214_g 955 AREDVNVAIVGRPNVGKSQLLNRLLGVSRSLVSPQAGTTRD 995
+             5677889********************************95 PP
+
+>> 2044_g  length=1362	scaffold=gi528858392	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.9   0.0   9.7e-05     0.055     207     263 ..     685     747 ..     677     750 .. 0.71
+   2 !   24.1   0.0   1.9e-08   1.1e-05     202     242 ..     955     995 ..     939    1004 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 9.7e-05
+   33556 207 vvGlvGfPnvGKsslinalleskkvs....vsrqPGKtk..hlqtlklkkegitlCDCPglvf 263
+              v l+G PnvGKssl n+l +++ ++    v  + G t+  h+     + + +++ D  gl+f
+  2044_g 685 CVCLLGRPNVGKSSLFNTLKDKEDTAadaiVRDEDGTTRdrHYAFSVWRGRPFIVVDTGGLIF 747
+             58899**************98876642232556677774325555556667777777777776 PP
+
+  == domain 2  score: 24.1 bits;  conditional E-value: 1.9e-08
+   33556 202 asekfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkh 242
+             a e++ v +vG PnvGKs l+n ll+  ++ vs q G t+ 
+  2044_g 955 AREDVNVAIVGRPNVGKSQLLNRLLGVSRSLVSPQAGTTRD 995
+             5677889********************************95 PP
+
+>> 10629_g  length=1224	scaffold=gi528858383	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.0       0.7     4e+02     118     160 ..     672     712 ..     670     722 .. 0.64
+   2 !   10.2   0.0    0.0003      0.17     190     225 ..     872     909 ..     858     920 .. 0.67
+   3 !    9.5   0.0    0.0005      0.28     227     288 ..     938    1001 ..     930    1022 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 0.7
+    33556 118 vleivdaRdplffrskdLEkyikevdkrkevilvlNKaDflte 160
+              ++++ daR pl   ++ L + + +  +  + ++vlNKaD++++
+  10629_g 672 LFQVRDARAPLTSGNSFLTERLAS--RGVKRLVVLNKADLVHK 712
+              566666666666555555443332..22345899*****9976 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0003
+    33556 190 evlnvllkklkkasekfvvG..lvGfPnvGKsslinal 225
+              +v++  l++++ + +++ v   lvG Pn GKssl+na+
+  10629_g 872 KVVDFALEHVQPKFKTIGVWmlLVGLPNTGKSSLLNAM 909
+              444444444444444443332259************97 PP
+
+  == domain 3  score: 9.5 bits;  conditional E-value: 0.0005
+    33556  227 eskkvsvsrqPGKtkhlqtlklkkegitlC.DCPglvfPslvstKehLlingvvsidhfr.Gdl 288 
+               ++++   ++ PG tk +   +++++   +C D Pg+++P++  +  +L + ++  id+ r G++
+  10629_g  938 KRTRARAGKAPGLTKDVSAFQISNKPRLFCyDTPGIMLPKMKDAEVNLKLAALGCIDDHRaGEM 1001
+               567788899**************99988888***********9999999999999986662444 PP
+
+>> 11426_g  length=1224	scaffold=gi527307902	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.0       0.7     4e+02     118     160 ..     672     712 ..     670     722 .. 0.64
+   2 !   10.2   0.0    0.0003      0.17     190     225 ..     872     909 ..     858     920 .. 0.67
+   3 !    9.5   0.0    0.0005      0.28     227     288 ..     938    1001 ..     930    1022 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 0.7
+    33556 118 vleivdaRdplffrskdLEkyikevdkrkevilvlNKaDflte 160
+              ++++ daR pl   ++ L + + +  +  + ++vlNKaD++++
+  11426_g 672 LFQVRDARAPLTSGNSFLTERLAS--RGVKRLVVLNKADLVHK 712
+              566666666666555555443332..22345899*****9976 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0003
+    33556 190 evlnvllkklkkasekfvvG..lvGfPnvGKsslinal 225
+              +v++  l++++ + +++ v   lvG Pn GKssl+na+
+  11426_g 872 KVVDFALEHVQPKFKTIGVWmlLVGLPNTGKSSLLNAM 909
+              444444444444444443332259************97 PP
+
+  == domain 3  score: 9.5 bits;  conditional E-value: 0.0005
+    33556  227 eskkvsvsrqPGKtkhlqtlklkkegitlC.DCPglvfPslvstKehLlingvvsidhfr.Gdl 288 
+               ++++   ++ PG tk +   +++++   +C D Pg+++P++  +  +L + ++  id+ r G++
+  11426_g  938 KRTRARAGKAPGLTKDVSAFQISNKPRLFCyDTPGIMLPKMKDAEVNLKLAALGCIDDHRaGEM 1001
+               567788899**************99988888***********9999999999999986662444 PP
+
+>> 5749_g  length=726	scaffold=gi528858388	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0   3.3e-06    0.0019     182     227 ..     154     199 ..      91     214 .. 0.74
+   2 ?   -1.3   0.0      0.99   5.6e+02     144     161 ..     289     306 ..     287     364 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 3.3e-06
+   33556 182 ekqekeleevlnvllkklkkasekfvvGlvGfPnvGKsslinalle 227
+              +  + leev + + ++ + ++ + ++ l G+PnvGKss in++ +
+  5749_g 154 AQPLQYLEEVRQHMSRLPSINPVTRTLLLTGYPNVGKSSFINSVSN 199
+             555566666667776666777777788899************9865 PP
+
+  == domain 2  score: -1.3 bits;  conditional E-value: 0.99
+   33556 144 krkevilvlNKaDfltee 161
+             k+k +++vlNK+D +  +
+  5749_g 289 KNKPILVVLNKTDKVRLA 306
+             579999*******87654 PP
+
+>> 6499_g  length=726	scaffold=gi527312496	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0   3.3e-06    0.0019     182     227 ..     154     199 ..      91     214 .. 0.74
+   2 ?   -1.3   0.0      0.99   5.6e+02     144     161 ..     289     306 ..     287     364 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 3.3e-06
+   33556 182 ekqekeleevlnvllkklkkasekfvvGlvGfPnvGKsslinalle 227
+              +  + leev + + ++ + ++ + ++ l G+PnvGKss in++ +
+  6499_g 154 AQPLQYLEEVRQHMSRLPSINPVTRTLLLTGYPNVGKSSFINSVSN 199
+             555566666667776666777777788899************9865 PP
+
+  == domain 2  score: -1.3 bits;  conditional E-value: 0.99
+   33556 144 krkevilvlNKaDfltee 161
+             k+k +++vlNK+D +  +
+  6499_g 289 KNKPILVVLNKTDKVRLA 306
+             579999*******87654 PP
+
+>> 6029_g  length=1227	scaffold=gi528858388	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.5   0.0   1.9e-06    0.0011     208     266 ..     125     185 ..     118     191 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 1.9e-06
+   33556 208 vGlvGfPnvGKsslinalleskkvs.vsrqPGKtkhlqtlklkkeg.itlCDCPglvfPsl 266
+             + + G  nvGKssl+n l +++ +s v+++PG t++l   k  +   + l D Pg  f ++
+  6029_g 125 IAFAGRSNVGKSSLLNELAGRRLTSlVTSRPGTTQQLHFFKAGSPPvLCLVDLPGYGFAKA 185
+             6688999*************998765899*********99998764167889999877665 PP
+
+>> 6223_g  length=2082	scaffold=gi527312496	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.6   0.0   3.6e-06     0.002     208     266 ..     980    1040 ..     974    1046 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 3.6e-06
+   33556  208 vGlvGfPnvGKsslinalleskkvs.vsrqPGKtkhlqtlklkkeg.itlCDCPglvfPsl 266 
+              + + G  nvGKssl+n l +++ +s v+++PG t++l   k  +   + l D Pg  f ++
+  6223_g  980 IAFAGRSNVGKSSLLNELAGRRLTSlVTSRPGTTQQLHFFKAGSPPvLCLVDLPGYGFAKA 1040
+              6688999*************998765899*********99998764167889999877665 PP
+
+>> 10356_g  length=993	scaffold=gi528858384	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.6   0.0   7.3e-06    0.0042     207     226 ..     490     509 ..     476     549 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 7.3e-06
+    33556 207 vvGlvGfPnvGKsslinall 226
+               vGlvGfPn GKss++ al 
+  10356_g 490 DVGLVGFPNAGKSSILAALS 509
+              49**************9985 PP
+
+>> 12168_g  length=993	scaffold=gi527308984	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.6   0.0   7.3e-06    0.0042     207     226 ..     490     509 ..     476     549 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 7.3e-06
+    33556 207 vvGlvGfPnvGKsslinall 226
+               vGlvGfPn GKss++ al 
+  12168_g 490 DVGLVGFPNAGKSSILAALS 509
+              49**************9985 PP
+
+>> 4554_g  length=1369	scaffold=gi528858390	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   1.5e-05    0.0087     205     228 ..     527     550 ..     521     585 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 1.5e-05
+   33556 205 kfvvGlvGfPnvGKsslinalles 228
+             +  vGlvGfP vGKs l+n l ++
+  4554_g 527 DARVGLVGFPSVGKSTLLNKLTGT 550
+             5679***************99875 PP
+
+>> 8569_g  length=1369	scaffold=gi527313757	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   1.5e-05    0.0087     205     228 ..     527     550 ..     521     585 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 1.5e-05
+   33556 205 kfvvGlvGfPnvGKsslinalles 228
+             +  vGlvGfP vGKs l+n l ++
+  8569_g 527 DARVGLVGFPSVGKSTLLNKLTGT 550
+             5679***************99875 PP
+
+>> 6981_g  length=739	scaffold=gi528858387	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.3   0.1   1.7e-05    0.0098     206     229 ..     178     201 ..     172     246 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 1.7e-05
+   33556 206 fvvGlvGfPnvGKsslinallesk 229
+               v ++GfP vGKs l+n+l  + 
+  6981_g 178 ARVCMIGFPSVGKSTLLNSLTATS 201
+             5699***************98654 PP
+
+>> 7931_g  length=739	scaffold=gi527311550	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.3   0.1   1.7e-05    0.0098     206     229 ..     178     201 ..     172     246 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 1.7e-05
+   33556 206 fvvGlvGfPnvGKsslinallesk 229
+               v ++GfP vGKs l+n+l  + 
+  7931_g 178 ARVCMIGFPSVGKSTLLNSLTATS 201
+             5699***************98654 PP
+
+>> 13022_g  length=472	scaffold=gi527309735	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   4.4e-05     0.025     198     227 ..      88     118 ..      76     126 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 4.4e-05
+    33556 198 klkkas.ekfvvGlvGfPnvGKsslinalle 227
+              +l++ + +++ +GlvG PnvGKs   n l +
+  13022_g  88 SLSTLPkNTLKMGLVGLPNVGKSTTFNLLCK 118
+              555444156779**************98865 PP
+
+>> 9642_g  length=472	scaffold=gi528858385	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   4.4e-05     0.025     198     227 ..      88     118 ..      76     126 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 4.4e-05
+   33556 198 klkkas.ekfvvGlvGfPnvGKsslinalle 227
+             +l++ + +++ +GlvG PnvGKs   n l +
+  9642_g  88 SLSTLPkNTLKMGLVGLPNVGKSTTFNLLCK 118
+             555444156779**************98865 PP
+
+>> 13384_g  length=584	scaffold=gi527309735	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.5   0.00012     0.067     205     260 ..       5      56 ..       2      74 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00012
+    33556 205 kfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkhlqtlkl.kkegitlCDCPg 260
+              +f++G+vG P  GKs   na  e     v++ P       t++  +  g+ l DCP 
+  13384_g   5 DFIIGCVGKPSAGKSTFFNAATEGSNAKVGNFPF-----TTINPnEGIGFFLTDCPC 56 
+              79****************************9994.....455440455788888886 PP
+
+>> 9284_g  length=584	scaffold=gi528858385	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.5   0.00012     0.067     205     260 ..       5      56 ..       2      74 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00012
+   33556 205 kfvvGlvGfPnvGKsslinalleskkvsvsrqPGKtkhlqtlkl.kkegitlCDCPg 260
+             +f++G+vG P  GKs   na  e     v++ P       t++  +  g+ l DCP 
+  9284_g   5 DFIIGCVGKPSAGKSTFFNAATEGSNAKVGNFPF-----TTINPnEGIGFFLTDCPC 56 
+             79****************************9994.....455440455788888886 PP
+
+>> 6550_g  length=1088	scaffold=gi527312496	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00017     0.099     208     243 ..     550     596 ..     528     599 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00017
+   33556 208 vGlvGfPnvGKsslinall..eskk.........vsvsrqPGKtkhl 243
+             v ++G  nvGKssl+nal    +kk           vsr+PG t+ +
+  6550_g 550 VAFLGRSNVGKSSLLNALClyTQKKhrgrtrlemARVSRRPGSTRSI 596
+             7899************9852234442233223323588888888865 PP
+
+>> 5697_g  length=1099	scaffold=gi528858388	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00018       0.1     208     243 ..     561     607 ..     539     610 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00018
+   33556 208 vGlvGfPnvGKsslinall..eskk.........vsvsrqPGKtkhl 243
+             v ++G  nvGKssl+nal    +kk           vsr+PG t+ +
+  5697_g 561 VAFLGRSNVGKSSLLNALClyTQKKhrgrtrlemARVSRRPGSTRSI 607
+             7899************9852234442233223323588888888865 PP
+
+>> 6105_g  length=1469	scaffold=gi528858388	strand=+
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.0   0.0    0.0007       0.4     204     228 ..    1218    1242 ..    1184    1250 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 0.0007
+   33556  204 ekfvvGlvGfPnvGKsslinalles 228 
+                  + lvG+ n GKs linal ++
+  6105_g 1218 GLPCLALVGYTNAGKSRLINALTKN 1242
+              5556789**************9875 PP
+
+>> 6148_g  length=1469	scaffold=gi527312496	strand=-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.0   0.0    0.0007       0.4     204     228 ..    1218    1242 ..    1184    1250 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 0.0007
+   33556  204 ekfvvGlvGfPnvGKsslinalles 228 
+                  + lvG+ n GKs linal ++
+  6148_g 1218 GLPCLALVGYTNAGKSRLINALTKN 1242
+              5556789**************9875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (417 nodes)
+Target sequences:                      15892  (13346035 residues searched)
+Passed MSV filter:                       495  (0.0311477); expected 317.8 (0.02)
+Passed bias filter:                      327  (0.0205764); expected 317.8 (0.02)
+Passed Vit filter:                        55  (0.00346086); expected 15.9 (0.001)
+Passed Fwd filter:                        28  (0.00176189); expected 0.2 (1e-05)
+Initial search space (Z):              15892  [actual number of targets]
+Domain search space  (domZ):              28  [number of targets reported over threshold]
+# CPU time: 0.75u 0.02s 00:00:00.77 Elapsed: 00:00:00.64
+# Mc/sec: 8569.97
+//
+[ok]

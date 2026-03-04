@@ -1,0 +1,44 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+90_g                 -            582 69121                -            470  2.5e-192  637.8  26.3   1   1  1.4e-191  3.2e-189  627.5  26.3     6   466    63   567    59   570 0.88 length=584	scaffold=chromosome10	strand=-
+2708_g               -            779 69121                -            470   5.2e-84  280.6  13.1   1   2   1.2e-71   2.9e-69  232.0   1.6   123   388   226   521   212   528 0.78 length=779	scaffold=chromosome1	strand=+	adjustedToFrame=3
+2708_g               -            779 69121                -            470   5.2e-84  280.6  13.1   2   2     6e-17   1.4e-14   51.7   4.2   373   463   655   747   641   751 0.81 length=779	scaffold=chromosome1	strand=+	adjustedToFrame=3
+519_g                -            381 69121                -            470   1.5e-22   78.0   4.4   1   1     1e-24   2.4e-22   77.3   4.4   158   232    45   120    32   124 0.90 length=381	scaffold=chromosome11	strand=+
+1477_g               -            377 69121                -            470   2.6e-20   70.5   0.3   1   1   1.5e-22   3.6e-20   70.1   0.3   161   239    53   137    40   165 0.79 length=380	scaffold=chromosome12	strand=+
+1591_g               -            418 69121                -            470   1.7e-18   64.6   0.2   1   2   7.1e-21   1.7e-18   64.6   0.2   156   230    17    89    14    99 0.94 length=419	scaffold=chromosome13	strand=-
+1591_g               -            418 69121                -            470   1.7e-18   64.6   0.2   2   2       6.7   1.6e+03   -4.5   0.9   120   150   360   390   350   400 0.52 length=419	scaffold=chromosome13	strand=-
+1014_g               -            670 69121                -            470   5.9e-18   62.8   0.3   1   1     4e-20   9.5e-18   62.1   0.3   160   223   388   454   380   463 0.87 length=672	scaffold=chromosome12	strand=+
+1803_g               -            381 69121                -            470     5e-16   56.4   0.6   1   1   3.5e-18   8.3e-16   55.7   0.6   158   231    50   124    46   138 0.92 length=382	scaffold=chromosome13	strand=-
+1578_g               -            283 69121                -            470   3.2e-15   53.8   0.2   1   1   1.9e-17   4.4e-15   53.3   0.2   161   226     8    76     2   110 0.89 length=284	scaffold=chromosome13	strand=+
+2990_g               -            613 69121                -            470   3.8e-15   53.5   0.1   1   1   2.5e-17   5.8e-15   52.9   0.1   152   225    47   121    39   127 0.89 length=613	scaffold=chromosome3	strand=+	adjustedToFrame=3
+2102_g               -            694 69121                -            470   2.9e-13   47.3   0.0   1   1   2.7e-15   6.3e-13   46.2   0.0   163   225   129   193   118   201 0.91 length=695	scaffold=chromosome14	strand=-
+4152_g               -           1461 69121                -            470   4.1e-12   43.6   1.5   1   1   3.9e-14   9.1e-12   42.4   1.5   116   226   570   677   558   682 0.84 length=1461	scaffold=chromosome8	strand=+	adjustedToFrame=3
+1108_g               -            313 69121                -            470   4.7e-11   40.1  14.1   1   3   2.7e-08   6.4e-06   23.1   0.1   161   196     6    41     2    72 0.83 length=314	scaffold=chromosome12	strand=-
+1108_g               -            313 69121                -            470   4.7e-11   40.1  14.1   2   3   4.3e-07    0.0001   19.2   0.2   195   226    85   116    82   127 0.90 length=314	scaffold=chromosome12	strand=-
+1108_g               -            313 69121                -            470   4.7e-11   40.1  14.1   3   3       0.1        25    1.4   5.8   325   431   170   274   137   312 0.70 length=314	scaffold=chromosome12	strand=-
+465_g                -            175 69121                -            470   2.3e-09   34.5   4.2   1   1   1.1e-11   2.5e-09   34.4   4.2   162   221     1    63     1   103 0.86 length=177	scaffold=chromosome11	strand=-
+1984_g               -            337 69121                -            470     2e-08   31.4   2.7   1   2   8.5e-11     2e-08   31.4   2.7   129   230    78   184    42   190 0.76 length=338	scaffold=chromosome14	strand=-
+1984_g               -            337 69121                -            470     2e-08   31.4   2.7   2   2       1.3     3e+02   -2.2   1.4   110   391   267   311   255   320 0.50 length=338	scaffold=chromosome14	strand=-
+604_g                -            367 69121                -            470   2.2e-08   31.2   1.6   1   1   1.4e-10   3.3e-08   30.7   1.6   148   221    68   142    47   152 0.79 length=367	scaffold=chromosome11	strand=+
+304_g                -            172 69121                -            470   5.7e-06   23.3   0.2   1   2   2.4e-08   5.7e-06   23.3   0.2   161   199     6    44     2    51 0.89 length=173	scaffold=chromosome10	strand=-
+304_g                -            172 69121                -            470   5.7e-06   23.3   0.2   2   2      0.38        90   -0.4   0.3   191   222    79   112    67   127 0.60 length=173	scaffold=chromosome10	strand=-
+875_g                -           5351 69121                -            470   8.7e-06   22.7   0.1   1   2       4.2   9.9e+02   -3.9   0.4   112   151  3984  4023  3980  4029 0.84 length=5352	scaffold=chromosome12	strand=-
+875_g                -           5351 69121                -            470   8.7e-06   22.7   0.1   2   2   3.7e-08   8.7e-06   22.7   0.1    40    97  5111  5170  5094  5214 0.76 length=5352	scaffold=chromosome12	strand=-
+2258_g               -           1075 69121                -            470   3.7e-05   20.6   9.4   1   3   1.6e-07   3.7e-05   20.6   9.4   107   195   118   210   112   219 0.73 length=1075	scaffold=chromosome14	strand=+
+2258_g               -           1075 69121                -            470   3.7e-05   20.6   9.4   2   3    0.0003     0.071    9.8   2.0   176   222   250   297   213   299 0.76 length=1075	scaffold=chromosome14	strand=+
+2258_g               -           1075 69121                -            470   3.7e-05   20.6   9.4   3   3         7   1.7e+03   -4.6   4.7   304   395   382   476   370   494 0.54 length=1075	scaffold=chromosome14	strand=+
+4899_g               -            321 69121                -            470   5.9e-05   19.9   1.9   1   1     3e-07     7e-05   19.7   0.8   159   244    35   114    31   117 0.85 length=321	scaffold=chromosome9	strand=+	adjustedToFrame=3
+3096_g               -            160 69121                -            470   0.00024   17.9   0.0   1   1   1.3e-06   0.00029   17.6   0.0   153   216    58   119    45   130 0.84 length=160	scaffold=chromosome3	strand=+	adjustedToFrame=3
+1741_g               -            390 69121                -            470    0.0074   13.0   0.0   1   2   3.1e-05    0.0074   13.0   0.0   156   198    13    60     7    63 0.78 length=390	scaffold=chromosome13	strand=+
+1741_g               -            390 69121                -            470    0.0074   13.0   0.0   2   2    0.0015      0.34    7.5   0.1   195   223    76   104    70   111 0.90 length=390	scaffold=chromosome13	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69121at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_knowlesi/run_apicomplexa_odb12/hmmer_output/initial_run_results/69121at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69121at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_knowlesi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:50 2026
+# [ok]

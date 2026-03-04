@@ -223,7 +223,7 @@ bash Scripts/runall_gffParse.sh
 cd Results/6_nobird_annotation
 chmod -w *.faa
 ````
-#### create conda env and install proteinortho, finally run it
+#### install proteinortho and finally run it
 ````bash
 conda create -n proteinortho
 conda activate proteinortho 
@@ -239,3 +239,8 @@ done
 nohup proteinortho6.pl \\ #version 6.3.6
 ../6_nobird_annotation/*.faa -project=myproject &
 ````
+#### install busco and run 
+````bash
+conda create -n busco
+conda activate busco
+conda install bioconda::busco

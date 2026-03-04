@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+153_g                -            316 32682                -            260  2.6e-102  339.8   2.5   1   2  7.4e-102   9.6e-99  328.1   0.5     3   242     2   244     1   254 0.96 length=317	scaffold=chromosome13	strand=+
+153_g                -            316 32682                -            260  2.6e-102  339.8   2.5   2   2   2.3e-05     0.031   11.8   0.1   238   258   278   298   269   300 0.87 length=317	scaffold=chromosome13	strand=+
+2311_g               -            376 32682                -            260   0.00027   18.6   0.0   1   2     5e-07   0.00065   17.3   0.0    91   152   195   256   185   278 0.86 length=377	scaffold=chromosome12	strand=+
+2311_g               -            376 32682                -            260   0.00027   18.6   0.0   2   2         1   1.3e+03   -3.4   0.0   188   210   316   338   309   346 0.73 length=377	scaffold=chromosome12	strand=+
+1350_g               -            318 32682                -            260     0.001   16.7   0.0   1   1   1.1e-06    0.0014   16.2   0.0    93   207   161   278   158   292 0.81 length=319	scaffold=chromosome14	strand=+
+1582_g               -            240 32682                -            260     0.018   12.6   0.1   1   1   2.8e-05     0.036   11.6   0.1    84   133    82   131    11   182 0.73 length=241	scaffold=chromosome14	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32682at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/32682at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/32682at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:24 2026
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2176_g               -           4786 68910                -           1563         0 2118.9 123.5   1   5  4.4e-157  2.5e-153  510.4  14.4     3   386  2855  3261  2853  3277 0.92 length=4787	scaffold=chromosome14	strand=+
+2176_g               -           4786 68910                -           1563         0 2118.9 123.5   2   5   4.3e-45   2.4e-41  139.2   1.5   386   500  3289  3409  3284  3417 0.93 length=4787	scaffold=chromosome14	strand=+
+2176_g               -           4786 68910                -           1563         0 2118.9 123.5   3   5   3.7e-67   2.1e-63  212.3   6.7   497   685  3472  3683  3468  3688 0.88 length=4787	scaffold=chromosome14	strand=+
+2176_g               -           4786 68910                -           1563         0 2118.9 123.5   4   5  1.8e-173    1e-169  564.7  24.8   680  1057  3723  4109  3719  4121 0.95 length=4787	scaffold=chromosome14	strand=+
+2176_g               -           4786 68910                -           1563         0 2118.9 123.5   5   5  3.7e-219  2.1e-215  716.1  44.5  1036  1562  4161  4702  4155  4703 0.96 length=4787	scaffold=chromosome14	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68910at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_vivax/run_apicomplexa_odb12/hmmer_output/initial_run_results/68910at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/68910at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_vivax.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:32:14 2026
+# [ok]

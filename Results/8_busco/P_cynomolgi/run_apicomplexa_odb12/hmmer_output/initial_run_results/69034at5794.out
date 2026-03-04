@@ -1,0 +1,36 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+397_g                -            483 69034                -            454    2e-259  859.0   8.5   1   1  5.9e-262  2.4e-259  858.7   8.5     2   452     2   459     1   461 0.98 length=484	scaffold=chromosome11	strand=+
+4439_g               -            475 69034                -            454  1.8e-116  387.8   8.7   1   1  7.4e-119  3.1e-116  387.1   8.7     9   440    13   473     6   475 0.88 length=476	scaffold=chromosome9	strand=-
+2153_g               -            541 69034                -            454  1.9e-116  387.7  14.7   1   2   4.8e-05      0.02   11.9   0.1    10    60     8    55     1    73 0.72 length=542	scaffold=chromosome14	strand=+
+2153_g               -            541 69034                -            454  1.9e-116  387.7  14.7   2   2  5.5e-116  2.3e-113  377.6  11.1    33   442   126   541   118   541 0.94 length=542	scaffold=chromosome14	strand=+
+603_g                -            822 69034                -            454   8.4e-07   26.3   0.0   1   2     1e-05    0.0041   14.2   0.0    62   114   241   293   233   334 0.77 length=823	scaffold=chromosome11	strand=+
+603_g                -            822 69034                -            454   8.4e-07   26.3   0.0   2   2   0.00029      0.12    9.3   0.0    58   109   510   560   505   570 0.81 length=823	scaffold=chromosome11	strand=+
+2608_g               -           1202 69034                -            454   6.2e-06   23.5   0.1   1   3   1.6e-05    0.0067   13.5   0.1    57   115   573   631   569   662 0.77 length=1203	scaffold=chromosome1	strand=-
+2608_g               -           1202 69034                -            454   6.2e-06   23.5   0.1   2   3       1.3   5.4e+02   -2.7   0.0   380   440   878   939   862   948 0.80 length=1203	scaffold=chromosome1	strand=-
+2608_g               -           1202 69034                -            454   6.2e-06   23.5   0.1   3   3    0.0015      0.62    7.0   0.0    63   109   948   993   940  1003 0.80 length=1203	scaffold=chromosome1	strand=-
+1150_g               -            702 69034                -            454   0.00027   18.0   0.5   1   2   3.7e-06    0.0015   15.6   0.0    58   100   279   320   272   354 0.81 length=703	scaffold=chromosome12	strand=+
+1150_g               -            702 69034                -            454   0.00027   18.0   0.5   2   2      0.25   1.1e+02   -0.4   0.1   220   277   585   639   574   663 0.68 length=703	scaffold=chromosome12	strand=+
+1451_g               -           1168 69034                -            454   0.00037   17.6   0.0   1   2     0.013       5.5    3.9   0.0    64   100   787   824   771   845 0.71 length=1169	scaffold=chromosome13	strand=+
+1451_g               -           1168 69034                -            454   0.00037   17.6   0.0   2   2   7.2e-05      0.03   11.3   0.0   350   425   938  1012   934  1029 0.79 length=1169	scaffold=chromosome13	strand=+
+2424_g               -            336 69034                -            454   0.00059   16.9   1.4   1   2   0.00016     0.064   10.2   0.1    51    85    36    73    31    96 0.75 length=337	scaffold=chromosome14	strand=+
+2424_g               -            336 69034                -            454   0.00059   16.9   1.4   2   2    0.0034       1.4    5.8   0.2   340   397   161   217   127   238 0.87 length=337	scaffold=chromosome14	strand=+
+1768_g               -           1226 69034                -            454   0.00069   16.7   0.0   1   2    0.0029       1.2    6.0   0.0    63    87   408   433   400   465 0.83 length=1227	scaffold=chromosome13	strand=-
+1768_g               -           1226 69034                -            454   0.00069   16.7   0.0   2   2   0.00063      0.26    8.2   0.0    63   112   814   862   804   921 0.71 length=1227	scaffold=chromosome13	strand=-
+2899_g               -            744 69034                -            454    0.0018   15.3   0.0   1   1   7.3e-06     0.003   14.6   0.0    61   118   500   556   457   597 0.79 length=745	scaffold=chromosome3	strand=-
+2487_g               -            424 69034                -            454    0.0037   14.3   0.0   1   1   1.6e-05    0.0065   13.5   0.0    63   100   203   239   176   294 0.88 length=425	scaffold=chromosome14	strand=-
+1166_g               -            363 69034                -            454    0.0072   13.4   0.0   1   2   9.2e-05     0.038   11.0   0.0    49    89    54    93    37   113 0.81 length=364	scaffold=chromosome12	strand=-
+1166_g               -            363 69034                -            454    0.0072   13.4   0.0   2   2      0.22        92   -0.2   0.0   351   402   191   241   180   265 0.70 length=364	scaffold=chromosome12	strand=-
+2412_g               -            897 69034                -            454     0.013   12.5   0.0   1   1   5.2e-05     0.022   11.8   0.0    61   135   212   290   203   314 0.71 length=898	scaffold=chromosome14	strand=+
+4561_g               -            734 69034                -            454     0.023   11.7   0.0   1   1    0.0001     0.042   10.8   0.0    63    99   193   228   182   262 0.84 length=735	scaffold=chromosome9	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69034at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_cynomolgi/run_apicomplexa_odb12/hmmer_output/initial_run_results/69034at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/69034at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_cynomolgi.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:30:56 2026
+# [ok]

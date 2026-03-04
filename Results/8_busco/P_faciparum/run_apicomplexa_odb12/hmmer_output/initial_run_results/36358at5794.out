@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3517_g               -            703 36358                -            557  2.8e-179  595.3  66.9   1   4   1.9e-65   3.4e-62  208.8  14.8     1   199     1   206     1   216 0.92 length=704	scaffold=chromosome6	strand=-
+3517_g               -            703 36358                -            557  2.8e-179  595.3  66.9   2   4     4e-21   6.9e-18   62.5   6.4   194   271   243   321   227   328 0.81 length=704	scaffold=chromosome6	strand=-
+3517_g               -            703 36358                -            557  2.8e-179  595.3  66.9   3   4   3.3e-85   5.7e-82  274.0  22.9   242   507   330   616   323   622 0.90 length=704	scaffold=chromosome6	strand=-
+3517_g               -            703 36358                -            557  2.8e-179  595.3  66.9   4   4   1.3e-22   2.2e-19   67.5   0.4   495   557   636   698   622   698 0.93 length=704	scaffold=chromosome6	strand=-
+3323_g               -            663 36358                -            557     2e-29  100.6  38.8   1   1   1.1e-29   1.8e-26   90.8  38.8    24   556    43   655    37   656 0.72 length=664	scaffold=chromosome10	strand=-
+4894_g               -            722 36358                -            557   1.2e-27   94.8  56.2   1   5    0.0003      0.52    6.8   0.1     9    48    16    55     9    63 0.85 length=723	scaffold=chromosome2	strand=+
+4894_g               -            722 36358                -            557   1.2e-27   94.8  56.2   2   5     4e-06     0.007   13.0   6.3    57   145    87   172    82   184 0.91 length=723	scaffold=chromosome2	strand=+
+4894_g               -            722 36358                -            557   1.2e-27   94.8  56.2   3   5      0.12   2.1e+02   -1.8   1.5   446   472   182   207   176   248 0.69 length=723	scaffold=chromosome2	strand=+
+4894_g               -            722 36358                -            557   1.2e-27   94.8  56.2   4   5   3.5e-08   6.1e-05   19.8   0.7   129   206   253   333   246   344 0.79 length=723	scaffold=chromosome2	strand=+
+4894_g               -            722 36358                -            557   1.2e-27   94.8  56.2   5   5   8.9e-24   1.5e-20   71.3  23.7   182   554   357   714   347   717 0.80 length=723	scaffold=chromosome2	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/36358at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/36358at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/36358at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:12 2026
+# [ok]

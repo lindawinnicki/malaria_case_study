@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4247_g               -           1342 35825                -            791  5.8e-189  627.9 123.0   1   7   8.6e-26   4.5e-22   76.0   6.9     2   132     7   160     6   171 0.84 length=1343	scaffold=chromosome9	strand=-
+4247_g               -           1342 35825                -            791  5.8e-189  627.9 123.0   2   7   1.4e-19     7e-16   55.5   4.2   118   196   335   413   324   419 0.91 length=1343	scaffold=chromosome9	strand=-
+4247_g               -           1342 35825                -            791  5.8e-189  627.9 123.0   3   7   3.4e-16   1.8e-12   44.3   5.3   187   245   434   492   424   500 0.86 length=1343	scaffold=chromosome9	strand=-
+4247_g               -           1342 35825                -            791  5.8e-189  627.9 123.0   4   7   1.3e-29   6.9e-26   88.6   9.2   227   374   564   731   553   737 0.82 length=1343	scaffold=chromosome9	strand=-
+4247_g               -           1342 35825                -            791  5.8e-189  627.9 123.0   5   7    0.0055        29    0.6   0.4   374   410   772   812   747   824 0.64 length=1343	scaffold=chromosome9	strand=-
+4247_g               -           1342 35825                -            791  5.8e-189  627.9 123.0   6   7   7.6e-13   3.9e-09   33.2   6.8   396   462   861   928   853   949 0.86 length=1343	scaffold=chromosome9	strand=-
+4247_g               -           1342 35825                -            791  5.8e-189  627.9 123.0   7   7  8.9e-113  4.6e-109  363.7  45.2   454   784   952  1304   927  1315 0.89 length=1343	scaffold=chromosome9	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/35825at5794.hmm
+# Target file:     /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa
+# Option settings: hmmsearch --domtblout Results/8_busco/P_faciparum/run_apicomplexa_odb12/hmmer_output/initial_run_results/35825at5794.out --cpu 1 /home/inf-20-2025/Malaria/busco_downloads/lineages/apicomplexa_odb12/hmms/35825at5794.hmm /home/inf-20-2025/Malaria/Results/6_nobird_annotation/P_faciparum.faa 
+# Current dir:     /home/inf-20-2025/Malaria
+# Date:            Wed Mar  4 18:31:13 2026
+# [ok]
