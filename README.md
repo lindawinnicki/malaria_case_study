@@ -72,6 +72,7 @@ perl ../../Scripts/gffParse.pl # version 1.1
 -p # amino acid
 -g ../2_annotation/filtered_Haemoproteus_tartakovskyi.gtf 
 -i ../1_filtered/filtered_Haemoproteus_tartakovskyi.genome # fasta
+-b Haemoproteus_tartakovskyi
 ````
 
 ## BLAST to find out which of our protein sequences remain to be avian
@@ -183,7 +184,27 @@ output/blast_birds_005.txt \\ # queries
 - output: no_bird.genome
 ````bash
 grep "^>" no_bird.genome | wc -l
+chmod -w no_bird.genome # make unreadable
 ````
 - output: 
 - removed 86 sequences 
 - 924 remaining sequences
+
+#### annotate the newly filtered genome again
+````bash
+mkdir 6_nobird_annotation # new directory
+cd 6_nobird_annotation/
+
+gmes_petap.pl --ES  # eukaroyitc self training 
+--min_contig 10000 # min contig length for unsupervised learning
+--core 10 
+--sequence ../5_nobird_genome/no_bird.genome
+````
+
+````bash
+perl Scripts/gffParse.pl -c -p -g Data/PutGenomeHere/Tg.gff -i Data/Toxoplasma_gondii.genome -b Results/6_nobird_annotation/T_gondii
+
+perl Scripts/gffParse.pl -c -p -g Results/2_annotation/clean_Haemoproteus_tartakovskyi.gtf -i Results/5_nobird_genome/no_bird.genome -b Results/6_nobird_annotation/H_tartakovskyi
+
+bash Scripts/runall_gffParse.sh
+````

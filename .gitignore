@@ -8,3 +8,5 @@ Haemoproteus_tartakovskyi_blastp_results.txt
 Haemoproteus_tartakovskyi_blastx_result.txt
 filtered_copy.genome
 5_nobird_genome/
+*.fna
+*.faa
