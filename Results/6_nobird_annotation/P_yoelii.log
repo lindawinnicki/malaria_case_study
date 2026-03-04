@@ -1,0 +1,36 @@
+INFO: Program was run as gffParse.pl -c -p -g Data/PutGenomeHere/P_yoelii.gtf -i Data/Plasmodium_yoelii.genome -b Results/6_nobird_annotation/P_yoelii
+
+INFO: The gff or gtf file Data/PutGenomeHere/P_yoelii.gtf has successfully been parsed.
+      There were 116 scaffolds containing genes.
+      The scaffolds contained 4919 genes.
+      The genes contained the feature CDS 14724 times.
+
+INFO: The scaffold/genome file Data/Plasmodium_yoelii.genome was successfully parsed.
+      There were 130 scaffolds. This number may be higher than the one above.
+
+INFO: Following files were output in the directory
+      /home/inf-20-2025/Malaria:
+      Results/6_nobird_annotation/P_yoelii.fna (fasta file containing the genes)
+      Results/6_nobird_annotation/P_yoelii.log (log file)
+      Results/6_nobird_annotation/P_yoelii.faa (fasta file containing translated genes)
+
+WARNINGS:
+
+Gene 1_g (- strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 10_g (- strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 174_g (+ strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 616_g (+ strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 936_g (+ strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 948_g (- strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 1804_g (- strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 4280_g (+ strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 4495_g (+ strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 4498_g (- strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 4501_g (- strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 4631_g (- strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 4679_g (+ strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 4884_g (+ strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 4890_g (- strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 4896_g (+ strand) contains internal stop codons. Phase 3 of sequence is used instead.
+Gene 4910_g (+ strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 4915_g (+ strand) contains internal stop codons. Phase 2 of sequence is used instead.

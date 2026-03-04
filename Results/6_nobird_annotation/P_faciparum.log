@@ -1,0 +1,20 @@
+INFO: Program was run as gffParse.pl -c -p -g Data/PutGenomeHere/P_faciparum.gtf -i Data/Plasmodium_faciparum.genome -b Results/6_nobird_annotation/P_faciparum
+
+INFO: The gff or gtf file Data/PutGenomeHere/P_faciparum.gtf has successfully been parsed.
+      There were 15 scaffolds containing genes.
+      The scaffolds contained 5207 genes.
+      The genes contained the feature CDS 15658 times.
+
+INFO: The scaffold/genome file Data/Plasmodium_faciparum.genome was successfully parsed.
+      There were 15 scaffolds. This number may be higher than the one above.
+
+INFO: Following files were output in the directory
+      /home/inf-20-2025/Malaria:
+      Results/6_nobird_annotation/P_faciparum.fna (fasta file containing the genes)
+      Results/6_nobird_annotation/P_faciparum.log (log file)
+      Results/6_nobird_annotation/P_faciparum.faa (fasta file containing translated genes)
+
+WARNINGS:
+
+Gene 1288_g (+ strand) contains internal stop codons. Phase 2 of sequence is used instead.
+Gene 5207_g (- strand) contains internal stop codons. Phase 2 of sequence is used instead.

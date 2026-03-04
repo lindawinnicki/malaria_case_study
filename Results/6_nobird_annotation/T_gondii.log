@@ -1,0 +1,15 @@
+INFO: Program was run as gffParse.pl -c -p -g Data/PutGenomeHere/Tg.gff -i Data/Toxoplasma_gondii.genome -b T_gondii
+
+INFO: The gff or gtf file Data/PutGenomeHere/Tg.gff has successfully been parsed.
+      There were 2238 scaffolds containing genes.
+      The scaffolds contained 15892 genes.
+      The genes contained the feature CDS 103760 times.
+
+INFO: The scaffold/genome file Data/Toxoplasma_gondii.genome was successfully parsed.
+      There were 2290 scaffolds. This number may be higher than the one above.
+
+INFO: Following files were output in the directory
+      /home/inf-20-2025/Malaria:
+      T_gondii.fna (fasta file containing the genes)
+      T_gondii.log (log file)
+      T_gondii.faa (fasta file containing translated genes)
