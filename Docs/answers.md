@@ -17,3 +17,4 @@ There are a lot of different examples of genome evolution that may cause AT/GC m
 Other more technical reasons the GC content could vary may be explained by collapsing of repetitive elements like  and T rich regions, or sometimes an overrepresentation of them. Another thing to keep in mind is that some generea are taxinomically broad (this is a protist - i.e. flaskhals). There are also reports of repetitive G and C rich sequences being underrepresentated in the data (Tilak, M. K. et al. (2018). Illumina Library Preparation for Sequencing the GC-Rich Fraction of Heterogeneous Genomic DNA. Genome biology and evolution, https://doi.org/10.1093/gbe/evy022
 )
 6. What does the curly braces notation stand for?
+"braces expansion", where each input expands to its suffix + .faa

@@ -4,6 +4,7 @@
  - GeneMark-ES Suite version 4.* (2021)
  - gffParse.pl version 1.1
  - Proteinortho with PoFF version 6.3.6 - An orthology detection tool
+ - BUSCO 6.0.0
 
 
 # Workflow
@@ -16,7 +17,7 @@ gmes_petap.pl --ES # eukaroyitc self training
 ````
 - copy the rest annotated from server
 
-## filtering the avian malaria (Haemoproteus tartakovskyi)
+## 1. filtering the avian malaria (Haemoproteus tartakovskyi)
 ````bash
 cat Haemoproteus_tartakovskyi.raw.genome | grep -c "^>"
 ````
@@ -36,15 +37,16 @@ cat filtered_Haemoproteus_tartakovskyi.genome | grep -c "^>"
 - output: 1010
 -- we filtered away 14038 sequences
 
-### annotating the filtered data (hopefully most of them are the avian malaria protist)
+## 2. annotating the filtered data (hopefully most of them are the avian malaria protist)
 ````bash
+:~Malaria/Results$ mkdir 2_annotation # new dir
+cd 2_annotation
+
 gmes_petap.pl --ES  # eukaroyitc self training 
 --min_contig 10000 # min contig length for unsupervised learning
 --core 10 
---sequence ../1_filtered/
+--sequence ../1_filtered/filtered_Haemoproteus_tartakovskyi.genome
 ````
-- output: filtered_Haemoproteus_tartakovskyi.genome
-
 ### clean up the gtf file for avian malaria
 we want to clean the gtf file, so it fits in this template:
 ````bash
@@ -66,7 +68,7 @@ cat Haemoproteus_tartakovskyi.gtf \\
 > filtered_Haemoproteus_tartakovskyi.gtf
 ````
 
-### .fna and .faa files from gtf (fasta)
+## 3. get protein files (.fna and .faa)
 ````bash
 perl ../../Scripts/gffParse.pl # version 1.1
 -c # find the most probable reading frame
@@ -76,7 +78,7 @@ perl ../../Scripts/gffParse.pl # version 1.1
 -b Haemoproteus_tartakovskyi
 ````
 
-## BLAST to find out which of our protein sequences remain to be avian
+## 4. BLAST to find out which of our protein sequences remain to be avian
 ````bash
 # Protein-Protein BLAST 2.11.0+
 blastp -query 3_fasta/gffParse.faa 
@@ -106,7 +108,7 @@ output:
 - blastp_table.txt
 - blastx_table.txt
 
-### python script that outputs out all bird matches
+## !!! 5. python script that outputs out all bird matches
 when browsing through the blast results ([https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt]), a very broad phylogenetic range could be matched. this could propose very conserved regions. therefor, the sequences were instead browsed for our specific host (siskin bird). no matches were found here neither, so i stepped down the tree to 'birds (Aves)' and found out those matches:
 ````bash
 python swissProtUniProt.py # input should be changed in script (blastp/blastx_table.txt)
@@ -115,7 +117,7 @@ filtered for e-value<0.05
 ````bash
 awk '$4 < 0.05' blast_birds.txt > blast_birds_005.txt
 ````
-#### making important files unwritable
+### making important files unwritable
 ````bash
 chmod -w blast_birds_005.txt \\ # make unwritable
     ../Results/3_fasta/gffParse.faa \\
@@ -124,18 +126,18 @@ chmod -w blast_birds_005.txt \\ # make unwritable
     ../Results/4_blastp/Haemoproteus_tartakovskyi_blastp_results.txt \\
     ../Results/4_blastp/Haemoproteus_tartakovskyi_blastx_result.txt
 ````
-
+# --- stop and jump to actual 5 from here. 
 ### run python script to remove bird matches
 , though i am not sure if really needed. Creates faa and fna.
 
-\# contigs removed = 173
-
-\# contigs remaining = 1263
 ````bash
  python3 remove_birds.py blast_birds_005.txt ../Results/3_fasta/gffParse.faa ../Results/3_fasta/no_bird.faa # amino acid
  
  python3 remove_birds.py blast_birds_005.txt ../Results/3_fasta/gffParse.fna ../Results/3_fasta/no_bird.fna # DNA
  ````
+ - \# contigs removed = 173
+
+ - \# contigs remaining = 1263
 
  ### add output directory within "Scripts" to tidy up
  ````bash
@@ -143,38 +145,11 @@ chmod -w blast_birds_005.txt \\ # make unwritable
  mv blast* output/
  ````
 
-## filling out the table
-````bash
-cat P_berghei.gtf | grep -v "^#"| cut -f3 | sort | uniq -c # genes
-
-
-# calculate GC:
-cat Plasmodium_berghei.genome | grep -v "^>" | tr -d "\n" | wc -c # genome size
-cat Plasmodium_berghei.genome | grep -v "^>" | tr -d "\nATN" | wc -c # gc basepairs
-awk ' BEGIN {print 4257744/17954629} '
-0.237139
-
-````
-
-
-| Species    | Host | Genome size | Genes | Genomic GC |
-| -------- | ------- | -------- | ------- | -------- |
-|Plasmodium berghei|rodents|17954629|7235|23.7%
-|Plasmodium cynomolgi|macaques|26181343|5787|39.1%
-|Plasmodium falciparum|humans|23270305|5207|19.4%
-|Plasmodium knowlesi|lemures|23462346|4953|37.5%
-|Plasmodium vivax|humans|27007701|5682|42.2%
-|Plasmodium yoelii|rodents|22222369|4919|20.8%
-|Haemoproteus tartakovskyi|birds|6265874|1437|23.6%
-|Toxoplasma gondii|humans|128105889bp||52.5%
-
-
-#### run gene prediction again (done to be used for creating a phylogenetic tree)
-------stop
+# ------continue 
 ### at this time point i realise that i have accidently screwed up my blast searches, where ive used fna with blastp and faa with blastx. so i am rerunning things, and i have corrected this readmefile. 
-### and now I realise that the xscript removing bird contigs should have been doing that on the filtered genome file....
+### and I realise that the script removing bird contigs should have been doing that on the filtered genome file....
 
-#### filter the genome from bird-matching contigs
+## actual 5. filter the genome from bird-matching contigs
 ````bash
 python new_removebirds.py \\
 output/blast_birds_005.txt \\ # queries
@@ -202,6 +177,28 @@ gmes_petap.pl --ES  # eukaroyitc self training
 --sequence ../5_nobird_genome/no_bird.genome
 ````
 
+# filling out the table
+````bash
+cat P_berghei.gtf | grep -v "^#"| cut -f3 | sort | uniq -c # genes
+
+# calculate GC:
+cat Plasmodium_berghei.genome | grep -v "^>" | tr -d "\n" | wc -c # genome size
+cat Plasmodium_berghei.genome | grep -v "^>" | tr -d "\nATN" | wc -c # gc basepairs
+awk ' BEGIN {print 4257744/17954629} '
+0.237139
+````
+
+| Species    | Host | Genome size | Genes | Genomic GC |
+| -------- | ------- | -------- | ------- | -------- |
+|Plasmodium berghei|rodents|17954629|7235|23.7%
+|Plasmodium cynomolgi|macaques|26181343|5787|39.1%
+|Plasmodium falciparum|humans|23270305|5207|19.4%
+|Plasmodium knowlesi|lemures|23462346|4953|37.5%
+|Plasmodium vivax|humans|27007701|5682|42.2%
+|Plasmodium yoelii|rodents|22222369|4919|20.8%
+|Haemoproteus tartakovskyi|birds|6265874|1437|23.6%
+|Toxoplasma gondii|humans|128105889bp||52.5%
+## 6. run gene prediction again (to be used for creating a phylogenetic tree)
 ### protein and nuclear files
 ````bash
 perl Scripts/gffParse.pl \\
@@ -223,24 +220,30 @@ bash Scripts/runall_gffParse.sh
 cd Results/6_nobird_annotation
 chmod -w *.faa
 ````
-#### install proteinortho and finally run it
+## proteinortho
 ````bash
-conda create -n proteinortho
-conda activate proteinortho 
+conda create -n proteinortho # env
+conda activate proteinortho #version 6.3.6
 conda install bioconda::proteinortho
 
 :~/Malaria/Results$ mkdir 7_proteinortho
 cd 7_proteinortho
 
+# proteinortho requested to run the following:
 for f in *.faa; do
     sed -i -E '/^>/! s/[^XOUBZACDEFGHIKLMNPQRSTVWYxoubzacdefghiklmnpqrstvwy]//g; /^$/d' "$f"
 done
-
-nohup proteinortho6.pl \\ #version 6.3.6
+# then run this:
+nohup proteinortho6.pl \\ # version 6.3.6
 ../6_nobird_annotation/*.faa -project=myproject &
 ````
-#### install busco and run 
+## 7.  busco all 
 ````bash
 conda create -n busco
 conda activate busco
-conda install bioconda::busco
+conda install bioconda::busco # BUSCO 6.0.0
+
+:~/Malaria/Results$ mkdir 8_busco # new dir
+
+bash Scripts/runall_busco.sh
+````
