@@ -5,6 +5,8 @@
  - gffParse.pl version 1.1
  - Proteinortho with PoFF version 6.3.6 - An orthology detection tool
  - BUSCO 6.0.0
+ - clustalo Clustal Omega - 1.2.4
+ - RAxML version 8.2.12 May 2018.
 
 
 # Workflow
@@ -246,4 +248,23 @@ conda install bioconda::busco # BUSCO 6.0.0
 :~/Malaria/Results$ mkdir 8_busco # new dir
 
 bash Scripts/runall_busco.sh
+````
+
+
+## 8. gather all orthologs
+````bash
+chmod -R a-w Results/8_busco/ # protect the files
+````
+
+## 9. cluster
+````bash
+:~/Malaria/Results$ mkdir 10_clustal
+
+nohup bash Scripts/runall_clustalo.sh &
+````
+
+````bash
+:~/Malaria/Results$ mkdir 11_raxml
+
+
 ````
