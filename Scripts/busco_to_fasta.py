@@ -46,6 +46,11 @@ SPECIES = {
         "faa":        "Results/6_nobird_annotation/P_yoelii.faa",
         "hmmer_dir":  "Results/8_busco/P_yoelii/run_apicomplexa_odb12/hmmer_output/initial_run_results",
     },
+    "T_gondii": {
+        "full_table": "Results/8_busco/T_gondii/run_apicomplexa_odb12/full_table.tsv",
+        "faa":        "Results/6_nobird_annotation/T_gondii.faa",
+        "hmmer_dir":  "Results/8_busco/T_gondii/run_apicomplexa_odb12/hmmer_output/initial_run_results",
+    }
 }
 
 
@@ -57,17 +62,34 @@ def parse_full_table(path_table):
     only "Complete" - single-copy orthologs
     """
     dir_busco_seq = {}
+    best_scores = {}
     with open(path_table) as fip:
         for line in fip:
             if not line.startswith("#"):
                 id_row = line.rstrip().split("\t")
                 if len(id_row)<3:
                     continue
-                else:
-                    busco_id, status, seq_id = id_row[0], id_row[1], id_row[2]
-                    print(busco_id, status, seq_id)
-                    if status == "Complete":
+                busco_id, status, seq_id = id_row[0], id_row[1], id_row[2]
+                if status == "Complete":
+                    dir_busco_seq[busco_id] = seq_id
+                elif status == "Duplicated":
+                    if len(id_row) > 3:
+                        score = float(id_row[3]) # busco score
+                    else:
+                        score = 0.0
+                    if len(id_row) > 4:
+                        length = int(id_row[4]) # sequence length
+                    else:
+                        length = 0
+                    if busco_id not in dir_busco_seq:
                         dir_busco_seq[busco_id] = seq_id
+                        best_scores[busco_id] = (score, length)
+                    else:
+                        prev_score, prev_length = best_scores.get(busco_id, (0, 0))
+                        if (score, length) > (prev_score, prev_length):
+                            dir_busco_seq[busco_id] = seq_id
+                            best_scores[busco_id] = (score, length)
+                        
     return(dir_busco_seq)
 
 def parse_faa(faa_path):
