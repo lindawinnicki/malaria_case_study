@@ -258,7 +258,7 @@ bash Scripts/runall_busco.sh
 ````bash
 chmod -R a-w Results/8_busco/ # protect the files
 
-
+python Scripts/busco_to_fasta.py 
 ````
 
 ## 9. cluster
@@ -285,14 +285,12 @@ cat RAxML_bestTree.* > all_best.tre
 
 :~/Malaria/Results$ mkdir 12_consensus
 cd 12_consensus
-
 consense # version 3.697
-Please enter a new file name> ../11_raxml/all_best.tre
-
+# Please enter a new file name> ../11_raxml/all_best.tre
 ````
 
 
-# cleaning up the working directory
+# cleaning up the working directory and redoing 8-10 for complete AND duplicates (modified python script - "busco_to_fasta")
 ````bash
 :~/Malaria/Results/9_busco_fastas$ mkdir complete_only complete_duplicated
 mv *.faa complete_only/ #from 8_busco_fastas
@@ -300,11 +298,27 @@ mv *.faa complete_only/ #from 8_busco_fastas
 :~/Malaria/Results/10_clustal$ mkdir complete_only complete_duplicated
 mv * complete_only/ # from 10_clustal
 
-
 :~/Malaria/Results/11_raxml$ mkdir complete_only complete_duplicated
 mv *.tre complete_only/ # from 11_raxml
 
 :~/Malaria/Results/12_consensus$ mkdir complete_only complete_duplicated # from 12_consensus
-
 mv *e complete_only/
+
+
+# busco to fasta (both complete and 1 of each duplicate)
+python Scripts/busco_to_fasta.py 
+
+# clustalo
+conda activate alignment # activate env
+chmod -w *.faa
+nohup bash Scripts/runall_clustalo.sh &
+
+# raxml
+nohup bash Scripts/runall_raxml.sh %
+cat RAxML_bestTree.* > all_best.tre
+chmod -w *.tre
+
+# consense
+consense
+# Please enter a new file name> Results/11_raxml/complete_duplicated/all_best.tre
 ````
