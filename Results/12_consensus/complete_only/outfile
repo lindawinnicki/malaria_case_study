@@ -1,0 +1,70 @@
+
+Consensus tree program, version 3.697
+
+Species in order: 
+
+  1. P yoelii
+  2. P berghei
+  3. P faciparum
+  4. P knowlesi
+  5. P cynomolgi
+  6. P vivax
+  7. H tartakovskyi
+
+
+Sets included in the consensus tree
+
+Set (species in order)     How many times out of   54.00
+
+**.....                    51.00
+...***.                    44.00
+....**.                    36.00
+**.***.                    23.00
+
+
+Sets NOT included in consensus tree:
+
+Set (species in order)     How many times out of   54.00
+
+..****.                    15.00
+***....                    10.00
+...**..                     9.00
+...*.*.                     6.00
+***.**.                     5.00
+..*.**.                     4.00
+*.****.                     2.00
+****...                     2.00
+..*.*..                     1.00
+..***..                     1.00
+****.*.                     1.00
+**.*...                     1.00
+**.**..                     1.00
+*..***.                     1.00
+**..**.                     1.00
+**..*..                     1.00
+*.*.**.                     1.00
+
+
+Extended majority rule consensus tree
+
+CONSENSUS TREE:
+the numbers forks indicate the number
+of times the group consisting of the species
+which are to the right of that fork occurred
+among the trees, out of  54.00 trees
+
+                          +-------P yoelii
+          +----------51.0-|
+          |               +-------P berghei
+  +--23.0-|
+  |       |               +-------P vivax
+  |       |       +--36.0-|
+  |       +--44.0-|       +-------P cynomolgi
+  |               |
+  |               +---------------P knowlesi
+  |
+  +-------------------------------H tartakovskyi
+  |
+  +-------------------------------P faciparum
+
+

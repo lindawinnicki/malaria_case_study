@@ -183,6 +183,8 @@ gmes_petap.pl --ES  # eukaroyitc self training
 ````bash
 cat P_berghei.gtf | grep -v "^#"| cut -f3 | sort | uniq -c # genes
 
+cat Tg.gff | cut -f9 | tail # toxoplasma genes are sorted numerically by "gene_id"
+
 # calculate GC:
 cat Plasmodium_berghei.genome | grep -v "^>" | tr -d "\n" | wc -c # genome size
 cat Plasmodium_berghei.genome | grep -v "^>" | tr -d "\nATN" | wc -c # gc basepairs
@@ -199,8 +201,9 @@ awk ' BEGIN {print 4257744/17954629} '
 |Plasmodium vivax|humans|27007701|5682|42.2%
 |Plasmodium yoelii|rodents|22222369|4919|20.8%
 |Haemoproteus tartakovskyi|birds|6265874|1437|23.6%
-|Toxoplasma gondii|humans|128105889bp||52.5%
+|Toxoplasma gondii|humans|128105889bp|15892|52.5%
 ## 6. run gene prediction again (to be used for creating a phylogenetic tree)
+#### this is done because the genemark is training on what feed into it. if we have bird + malaria scaffold, the predicition will be somewhere in between. 
 ### protein and nuclear files
 ````bash
 perl Scripts/gffParse.pl \\
@@ -254,6 +257,8 @@ bash Scripts/runall_busco.sh
 ## 8. gather all orthologs
 ````bash
 chmod -R a-w Results/8_busco/ # protect the files
+
+
 ````
 
 ## 9. cluster
@@ -266,5 +271,40 @@ nohup bash Scripts/runall_clustalo.sh &
 ````bash
 :~/Malaria/Results$ mkdir 11_raxml
 
+nohup bash Scripts/runall_raxml.sh
+````
 
+## 10. consensus tree
+````bash
+conda create -n phylip
+conda activate phylip
+conda install bioconda::phylip
+
+cd Results/11_raxml
+cat RAxML_bestTree.* > all_best.tre
+
+:~/Malaria/Results$ mkdir 12_consensus
+cd 12_consensus
+
+consense # version 3.697
+Please enter a new file name> ../11_raxml/all_best.tre
+
+````
+
+
+# cleaning up the working directory
+````bash
+:~/Malaria/Results/9_busco_fastas$ mkdir complete_only complete_duplicated
+mv *.faa complete_only/ #from 8_busco_fastas
+
+:~/Malaria/Results/10_clustal$ mkdir complete_only complete_duplicated
+mv * complete_only/ # from 10_clustal
+
+
+:~/Malaria/Results/11_raxml$ mkdir complete_only complete_duplicated
+mv *.tre complete_only/ # from 11_raxml
+
+:~/Malaria/Results/12_consensus$ mkdir complete_only complete_duplicated # from 12_consensus
+
+mv *e complete_only/
 ````

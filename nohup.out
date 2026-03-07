@@ -1,0 +1,4067 @@
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 784 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 17.43%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 784
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/10954at5794_aligned.faa -n 10954at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 23.859046 GAMMA-based likelihood -9841.927870, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -9841.854490 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.10954at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -9841.854490 .... 
+
+Final GAMMA-based Score of best tree -9841.854490
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.10954at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.10954at5794.tre
+
+Overall execution time: 31.409449 secs or 0.008725 hours or 0.000364 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 796 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 18.97%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 796
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/11330at5794_aligned.faa -n 11330at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 24.649112 GAMMA-based likelihood -10189.246021, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -10189.245705 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.11330at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -10189.245705 .... 
+
+Final GAMMA-based Score of best tree -10189.245705
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.11330at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.11330at5794.tre
+
+Overall execution time: 29.616210 secs or 0.008227 hours or 0.000343 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 147 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.13%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 147
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/11466at5794_aligned.faa -n 11466at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 2.509823 GAMMA-based likelihood -1546.170615, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1546.170546 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.11466at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1546.170546 .... 
+
+Final GAMMA-based Score of best tree -1546.170546
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.11466at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.11466at5794.tre
+
+Overall execution time: 3.256519 secs or 0.000905 hours or 0.000038 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 599 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 21.19%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 599
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/11552at5794_aligned.faa -n 11552at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 18.212591 GAMMA-based likelihood -6538.415231, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -6538.210549 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.11552at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6538.210549 .... 
+
+Final GAMMA-based Score of best tree -6538.210549
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.11552at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.11552at5794.tre
+
+Overall execution time: 24.551699 secs or 0.006820 hours or 0.000284 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 470 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 18.15%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 470
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/12327at5794_aligned.faa -n 12327at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 10.935395 GAMMA-based likelihood -6357.220411, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -6357.220220 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.12327at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6357.220220 .... 
+
+Final GAMMA-based Score of best tree -6357.220220
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.12327at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.12327at5794.tre
+
+Overall execution time: 14.298399 secs or 0.003972 hours or 0.000165 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 279 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 9.75%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 279
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/13279at5794_aligned.faa -n 13279at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 6.409223 GAMMA-based likelihood -3436.370867, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3436.370832 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.13279at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3436.370832 .... 
+
+Final GAMMA-based Score of best tree -3436.370832
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.13279at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.13279at5794.tre
+
+Overall execution time: 8.399557 secs or 0.002333 hours or 0.000097 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 136 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 16.67%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 136
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/14555at5794_aligned.faa -n 14555at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition No Name Provided number 0 has a problem, the number of expected states is 20 the number of states that are present is 19.
+Please go and fix your data!
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 2.918138 GAMMA-based likelihood -1474.638124, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1474.637981 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.14555at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1474.637981 .... 
+
+Final GAMMA-based Score of best tree -1474.637981
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.14555at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.14555at5794.tre
+
+Overall execution time: 3.762637 secs or 0.001045 hours or 0.000044 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 809 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 26.23%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 809
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/15169at5794_aligned.faa -n 15169at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 21.217200 GAMMA-based likelihood -9241.001073, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -9240.772715 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.15169at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -9240.772715 .... 
+
+Final GAMMA-based Score of best tree -9240.772715
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.15169at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.15169at5794.tre
+
+Overall execution time: 27.683595 secs or 0.007690 hours or 0.000320 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 105 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 7.47%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 105
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/19609at5794_aligned.faa -n 19609at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 1.794001 GAMMA-based likelihood -1622.342795, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1622.342795 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.19609at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1622.342795 .... 
+
+Final GAMMA-based Score of best tree -1622.342795
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.19609at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.19609at5794.tre
+
+Overall execution time: 2.326963 secs or 0.000646 hours or 0.000027 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 132 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 7.85%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 132
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/31099at5794_aligned.faa -n 31099at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 2.864033 GAMMA-based likelihood -1359.233131, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1359.233130 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.31099at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1359.233130 .... 
+
+Final GAMMA-based Score of best tree -1359.233130
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.31099at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.31099at5794.tre
+
+Overall execution time: 3.659871 secs or 0.001017 hours or 0.000042 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 75 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 1.46%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 75
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/31253at5794_aligned.faa -n 31253at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition No Name Provided number 0 has a problem, the number of expected states is 20 the number of states that are present is 19.
+Please go and fix your data!
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 1.571296 GAMMA-based likelihood -984.058303, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -984.058303 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.31253at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -984.058303 .... 
+
+Final GAMMA-based Score of best tree -984.058303
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.31253at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.31253at5794.tre
+
+Overall execution time: 1.996809 secs or 0.000555 hours or 0.000023 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 382 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 33.79%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 382
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/31354at5794_aligned.faa -n 31354at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 9.211938 GAMMA-based likelihood -5372.057450, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5371.862816 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.31354at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5371.862816 .... 
+
+Final GAMMA-based Score of best tree -5371.862816
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.31354at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.31354at5794.tre
+
+Overall execution time: 12.411639 secs or 0.003448 hours or 0.000144 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 332 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 29.82%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 332
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/31487at5794_aligned.faa -n 31487at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 8.723537 GAMMA-based likelihood -4150.970874, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -4150.930044 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.31487at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -4150.930044 .... 
+
+Final GAMMA-based Score of best tree -4150.930044
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.31487at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.31487at5794.tre
+
+Overall execution time: 11.179801 secs or 0.003106 hours or 0.000129 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 75 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.76%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 75
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/31496at5794_aligned.faa -n 31496at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition No Name Provided number 0 has a problem, the number of expected states is 20 the number of states that are present is 19.
+Please go and fix your data!
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 1.946389 GAMMA-based likelihood -865.171148, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -865.151085 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.31496at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -865.151085 .... 
+
+Final GAMMA-based Score of best tree -865.151085
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.31496at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.31496at5794.tre
+
+Overall execution time: 2.312270 secs or 0.000642 hours or 0.000027 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 317 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 27.21%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 317
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/31573at5794_aligned.faa -n 31573at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition No Name Provided number 0 has a problem, the number of expected states is 20 the number of states that are present is 19.
+Please go and fix your data!
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 9.444307 GAMMA-based likelihood -3414.347558, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3414.347461 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.31573at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3414.347461 .... 
+
+Final GAMMA-based Score of best tree -3414.347461
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.31573at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.31573at5794.tre
+
+Overall execution time: 11.394407 secs or 0.003165 hours or 0.000132 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 283 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 24.39%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 283
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/31916at5794_aligned.faa -n 31916at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 6.710953 GAMMA-based likelihood -3946.575554, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3946.575554 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.31916at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3946.575554 .... 
+
+Final GAMMA-based Score of best tree -3946.575554
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.31916at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.31916at5794.tre
+
+Overall execution time: 8.459483 secs or 0.002350 hours or 0.000098 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 508 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 13.74%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 508
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/32028at5794_aligned.faa -n 32028at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 11.544028 GAMMA-based likelihood -7477.671637, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -7477.671637 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.32028at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7477.671637 .... 
+
+Final GAMMA-based Score of best tree -7477.671637
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.32028at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.32028at5794.tre
+
+Overall execution time: 14.633941 secs or 0.004065 hours or 0.000169 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 474 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 7.98%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 474
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/32308at5794_aligned.faa -n 32308at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 13.418205 GAMMA-based likelihood -7591.244705, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -7591.244702 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.32308at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7591.244702 .... 
+
+Final GAMMA-based Score of best tree -7591.244702
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.32308at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.32308at5794.tre
+
+Overall execution time: 15.997040 secs or 0.004444 hours or 0.000185 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 228 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.85%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 228
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/32393at5794_aligned.faa -n 32393at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 5.984495 GAMMA-based likelihood -3221.365849, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3221.365849 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.32393at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3221.365849 .... 
+
+Final GAMMA-based Score of best tree -3221.365849
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.32393at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.32393at5794.tre
+
+Overall execution time: 7.226445 secs or 0.002007 hours or 0.000084 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 253 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.02%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 253
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/3250at5794_aligned.faa -n 3250at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 5.893855 GAMMA-based likelihood -3116.647689, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3116.647377 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.3250at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3116.647377 .... 
+
+Final GAMMA-based Score of best tree -3116.647377
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.3250at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.3250at5794.tre
+
+Overall execution time: 7.580946 secs or 0.002106 hours or 0.000088 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 809 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 20.45%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 809
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/32662at5794_aligned.faa -n 32662at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 32.022533 GAMMA-based likelihood -11360.541566, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -11360.292842 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.32662at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -11360.292842 .... 
+
+Final GAMMA-based Score of best tree -11360.292842
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.32662at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.32662at5794.tre
+
+Overall execution time: 39.065189 secs or 0.010851 hours or 0.000452 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 203 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 48.29%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 203
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/32782at5794_aligned.faa -n 32782at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 3.997333 GAMMA-based likelihood -4220.282095, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -4220.282095 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.32782at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -4220.282095 .... 
+
+Final GAMMA-based Score of best tree -4220.282095
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.32782at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.32782at5794.tre
+
+Overall execution time: 5.016449 secs or 0.001393 hours or 0.000058 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 419 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 18.61%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 419
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/32975at5794_aligned.faa -n 32975at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 10.176594 GAMMA-based likelihood -5054.578019, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5054.577675 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.32975at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5054.577675 .... 
+
+Final GAMMA-based Score of best tree -5054.577675
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.32975at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.32975at5794.tre
+
+Overall execution time: 13.177672 secs or 0.003660 hours or 0.000153 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 140 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 4.55%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 140
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/33206at5794_aligned.faa -n 33206at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 3.088360 GAMMA-based likelihood -1932.772918, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1932.772918 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.33206at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1932.772918 .... 
+
+Final GAMMA-based Score of best tree -1932.772918
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.33206at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.33206at5794.tre
+
+Overall execution time: 3.998432 secs or 0.001111 hours or 0.000046 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 291 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 7.94%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 291
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/33286at5794_aligned.faa -n 33286at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 5.706825 GAMMA-based likelihood -3881.780057, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3881.780057 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.33286at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3881.780057 .... 
+
+Final GAMMA-based Score of best tree -3881.780057
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.33286at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.33286at5794.tre
+
+Overall execution time: 7.331836 secs or 0.002037 hours or 0.000085 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 264 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 10.58%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 264
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/35840at5794_aligned.faa -n 35840at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 6.915341 GAMMA-based likelihood -2936.163609, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2935.973314 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.35840at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2935.973314 .... 
+
+Final GAMMA-based Score of best tree -2935.973314
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.35840at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.35840at5794.tre
+
+Overall execution time: 8.797975 secs or 0.002444 hours or 0.000102 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 565 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 33.02%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 565
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/38318at5794_aligned.faa -n 38318at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 12.636850 GAMMA-based likelihood -6273.547808, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -6273.547742 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.38318at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6273.547742 .... 
+
+Final GAMMA-based Score of best tree -6273.547742
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.38318at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.38318at5794.tre
+
+Overall execution time: 16.191683 secs or 0.004498 hours or 0.000187 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 447 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 52.67%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 447
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/4131at5794_aligned.faa -n 4131at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 10.602995 GAMMA-based likelihood -6736.362933, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -6736.360113 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.4131at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6736.360113 .... 
+
+Final GAMMA-based Score of best tree -6736.360113
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.4131at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.4131at5794.tre
+
+Overall execution time: 13.792620 secs or 0.003831 hours or 0.000160 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 748 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 41.78%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 748
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/49646at5794_aligned.faa -n 49646at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 19.361583 GAMMA-based likelihood -10868.915177, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -10868.907965 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.49646at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -10868.907965 .... 
+
+Final GAMMA-based Score of best tree -10868.907965
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.49646at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.49646at5794.tre
+
+Overall execution time: 25.418190 secs or 0.007061 hours or 0.000294 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 416 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 67.48%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 416
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/51324at5794_aligned.faa -n 51324at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 12.092317 GAMMA-based likelihood -6028.278601, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -6027.085228 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.51324at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6027.085228 .... 
+
+Final GAMMA-based Score of best tree -6027.085228
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.51324at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.51324at5794.tre
+
+Overall execution time: 15.482034 secs or 0.004301 hours or 0.000179 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 362 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 16.87%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 362
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/54116at5794_aligned.faa -n 54116at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 12.314202 GAMMA-based likelihood -6033.494325, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -6033.494325 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.54116at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -6033.494325 .... 
+
+Final GAMMA-based Score of best tree -6033.494325
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.54116at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.54116at5794.tre
+
+Overall execution time: 14.870937 secs or 0.004131 hours or 0.000172 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 418 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 24.98%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 418
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/56734at5794_aligned.faa -n 56734at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 9.773471 GAMMA-based likelihood -5159.711778, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5159.711778 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.56734at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5159.711778 .... 
+
+Final GAMMA-based Score of best tree -5159.711778
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.56734at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.56734at5794.tre
+
+Overall execution time: 12.429687 secs or 0.003453 hours or 0.000144 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 439 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 38.06%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 439
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68726at5794_aligned.faa -n 68726at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 8.424771 GAMMA-based likelihood -5884.468154, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5884.468144 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68726at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5884.468144 .... 
+
+Final GAMMA-based Score of best tree -5884.468144
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68726at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68726at5794.tre
+
+Overall execution time: 10.837553 secs or 0.003010 hours or 0.000125 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 213 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 11.11%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 213
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68759at5794_aligned.faa -n 68759at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 5.994343 GAMMA-based likelihood -2709.450079, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2709.450074 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68759at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2709.450074 .... 
+
+Final GAMMA-based Score of best tree -2709.450074
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68759at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68759at5794.tre
+
+Overall execution time: 7.151772 secs or 0.001987 hours or 0.000083 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 410 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 24.15%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 410
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68790at5794_aligned.faa -n 68790at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 9.415455 GAMMA-based likelihood -5137.825008, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5137.821902 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68790at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5137.821902 .... 
+
+Final GAMMA-based Score of best tree -5137.821902
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68790at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68790at5794.tre
+
+Overall execution time: 11.899130 secs or 0.003305 hours or 0.000138 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 148 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.50%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 148
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68797at5794_aligned.faa -n 68797at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 3.142369 GAMMA-based likelihood -2171.132111, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2171.132111 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68797at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2171.132111 .... 
+
+Final GAMMA-based Score of best tree -2171.132111
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68797at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68797at5794.tre
+
+Overall execution time: 3.919929 secs or 0.001089 hours or 0.000045 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences P_cynomolgi and P_vivax are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file Results/10_clustal/68804at5794_aligned.faa.reduced
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 101 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 45.58%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 101
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68804at5794_aligned.faa -n 68804at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 1.756875 GAMMA-based likelihood -1505.869963, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1505.869963 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68804at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1505.869963 .... 
+
+Final GAMMA-based Score of best tree -1505.869963
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68804at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68804at5794.tre
+
+Overall execution time: 2.208031 secs or 0.000613 hours or 0.000026 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 116 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.50%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 116
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68858at5794_aligned.faa -n 68858at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition No Name Provided number 0 has a problem, the number of expected states is 20 the number of states that are present is 19.
+Please go and fix your data!
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 2.279209 GAMMA-based likelihood -1790.824195, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1790.824195 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68858at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1790.824195 .... 
+
+Final GAMMA-based Score of best tree -1790.824195
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68858at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68858at5794.tre
+
+Overall execution time: 2.866158 secs or 0.000796 hours or 0.000033 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 575 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 17.36%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 575
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68879at5794_aligned.faa -n 68879at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 20.129588 GAMMA-based likelihood -7664.289779, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -7664.289772 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68879at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7664.289772 .... 
+
+Final GAMMA-based Score of best tree -7664.289772
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68879at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68879at5794.tre
+
+Overall execution time: 24.572256 secs or 0.006826 hours or 0.000284 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences P_cynomolgi and P_vivax are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file Results/10_clustal/68884at5794_aligned.faa.reduced
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 210 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 9.54%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 210
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68884at5794_aligned.faa -n 68884at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 3.288878 GAMMA-based likelihood -1781.555261, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1780.763751 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68884at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1780.763751 .... 
+
+Final GAMMA-based Score of best tree -1780.763749
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68884at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68884at5794.tre
+
+Overall execution time: 4.845099 secs or 0.001346 hours or 0.000056 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 88 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 31.95%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 88
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68894at5794_aligned.faa -n 68894at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 1.544355 GAMMA-based likelihood -2255.904633, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2255.904633 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68894at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2255.904633 .... 
+
+Final GAMMA-based Score of best tree -2255.904616
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68894at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68894at5794.tre
+
+Overall execution time: 1.992730 secs or 0.000554 hours or 0.000023 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences P_cynomolgi and P_vivax are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file Results/10_clustal/68924at5794_aligned.faa.reduced
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 85 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.02%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 85
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68924at5794_aligned.faa -n 68924at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 2.393366 GAMMA-based likelihood -1217.329680, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1217.329680 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68924at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1217.329680 .... 
+
+Final GAMMA-based Score of best tree -1217.329680
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68924at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68924at5794.tre
+
+Overall execution time: 2.858973 secs or 0.000794 hours or 0.000033 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences P_berghei and P_yoelii are exactly identical
+
+
+IMPORTANT WARNING: Sequences P_cynomolgi and P_vivax are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file Results/10_clustal/68972at5794_aligned.faa.reduced
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 62 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.26%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 62
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68972at5794_aligned.faa -n 68972at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 0.975355 GAMMA-based likelihood -636.009931, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -635.991566 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68972at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -635.991566 .... 
+
+Final GAMMA-based Score of best tree -635.991566
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68972at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68972at5794.tre
+
+Overall execution time: 1.275725 secs or 0.000354 hours or 0.000015 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 228 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.74%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 228
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68980at5794_aligned.faa -n 68980at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 4.269882 GAMMA-based likelihood -3201.656064, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3201.656064 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68980at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3201.656064 .... 
+
+Final GAMMA-based Score of best tree -3201.656064
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68980at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68980at5794.tre
+
+Overall execution time: 5.496938 secs or 0.001527 hours or 0.000064 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 101 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 20.41%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 101
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/68992at5794_aligned.faa -n 68992at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 1.752965 GAMMA-based likelihood -1386.135009, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1386.135009 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.68992at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1386.135009 .... 
+
+Final GAMMA-based Score of best tree -1386.135009
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.68992at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.68992at5794.tre
+
+Overall execution time: 2.249412 secs or 0.000625 hours or 0.000026 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 247 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 8.66%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 247
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/69047at5794_aligned.faa -n 69047at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 7.126604 GAMMA-based likelihood -3217.739713, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3217.739696 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.69047at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3217.739696 .... 
+
+Final GAMMA-based Score of best tree -3217.739696
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.69047at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.69047at5794.tre
+
+Overall execution time: 8.542959 secs or 0.002373 hours or 0.000099 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 603 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 19.19%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 603
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/69137at5794_aligned.faa -n 69137at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 19.791011 GAMMA-based likelihood -7267.768195, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -7267.767147 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.69137at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7267.767147 .... 
+
+Final GAMMA-based Score of best tree -7267.767147
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.69137at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.69137at5794.tre
+
+Overall execution time: 27.216087 secs or 0.007560 hours or 0.000315 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 111 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 69.51%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 111
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/69160at5794_aligned.faa -n 69160at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 2.033497 GAMMA-based likelihood -4083.113698, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -4083.113698 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.69160at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -4083.113698 .... 
+
+Final GAMMA-based Score of best tree -4083.113698
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.69160at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.69160at5794.tre
+
+Overall execution time: 2.559062 secs or 0.000711 hours or 0.000030 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences P_cynomolgi and P_vivax are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file Results/10_clustal/69189at5794_aligned.faa.reduced
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 81 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.51%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 81
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/69189at5794_aligned.faa -n 69189at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 1.227430 GAMMA-based likelihood -859.810863, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -859.810863 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.69189at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -859.810863 .... 
+
+Final GAMMA-based Score of best tree -859.810834
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.69189at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.69189at5794.tre
+
+Overall execution time: 1.576405 secs or 0.000438 hours or 0.000018 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 200 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.84%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 200
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/7803at5794_aligned.faa -n 7803at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 4.000042 GAMMA-based likelihood -2618.026655, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2618.026655 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.7803at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2618.026655 .... 
+
+Final GAMMA-based Score of best tree -2618.026655
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.7803at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.7803at5794.tre
+
+Overall execution time: 5.102145 secs or 0.001417 hours or 0.000059 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 239 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 19.04%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 239
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/8399at5794_aligned.faa -n 8399at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 5.338303 GAMMA-based likelihood -3041.339047, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3041.339047 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.8399at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3041.339047 .... 
+
+Final GAMMA-based Score of best tree -3041.339047
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.8399at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.8399at5794.tre
+
+Overall execution time: 6.813009 secs or 0.001893 hours or 0.000079 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 400 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 21.43%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 400
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/9112at5794_aligned.faa -n 9112at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition No Name Provided number 0 has a problem, the number of expected states is 20 the number of states that are present is 19.
+Please go and fix your data!
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 10.132576 GAMMA-based likelihood -5592.096228, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5592.096228 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.9112at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5592.096228 .... 
+
+Final GAMMA-based Score of best tree -5592.096228
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.9112at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.9112at5794.tre
+
+Overall execution time: 13.052981 secs or 0.003626 hours or 0.000151 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 453 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 17.69%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 453
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/9716at5794_aligned.faa -n 9716at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 10.571034 GAMMA-based likelihood -5425.842203, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5425.841439 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.9716at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -5425.841439 .... 
+
+Final GAMMA-based Score of best tree -5425.841439
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.9716at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.9716at5794.tre
+
+Overall execution time: 13.805792 secs or 0.003835 hours or 0.000160 days
+
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 217 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 15.88%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 217
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s Results/10_clustal/9722at5794_aligned.faa -n 9722at5794.tre -m PROTGAMMABLOSUM62 -p 54321 -w /home/inf-20-2025/Malaria/Results/11_raxml 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.074 0.052 0.045 0.054 0.025 0.034 0.054 0.074 0.026 0.068 0.099 0.058 0.025 0.047 0.039 0.057 0.051 0.013 0.032 0.073 
+
+Inference[0]: Time 4.318275 GAMMA-based likelihood -3008.145893, best rearrangement setting 4
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3008.145893 tree written to file /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_result.9722at5794.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3008.145893 .... 
+
+Final GAMMA-based Score of best tree -3008.145893
+
+Program execution info written to /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_info.9722at5794.tre
+Best-scoring ML tree written to: /home/inf-20-2025/Malaria/Results/11_raxml/RAxML_bestTree.9722at5794.tre
+
+Overall execution time: 5.597080 secs or 0.001555 hours or 0.000065 days
+
