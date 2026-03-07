@@ -8,7 +8,7 @@ extract fasta file of each complete ??
 import os
 import glob
 
-OUTPUT_DIR = "Results/9_busco_fastas"
+OUTPUT_DIR = "Results/9_busco_fastas/complete_duplicated"
 
 SPECIES = {
     "H_tartakovskyi": {
